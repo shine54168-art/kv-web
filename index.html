@@ -3,80 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KINGS VALUE | 全方位企業顧問與 IT 諮詢</title>
+    <title>KV Hire | 全方位企業顧問與 IT 諮詢</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
-        body { font-family: 'Noto Sans TC', sans-serif; background-color: #050505; color: #ffffff; scroll-behavior: smooth; }
+        body { font-family: 'Noto Sans TC', sans-serif; background-color: #030712; color: #ffffff; scroll-behavior: smooth; overflow-x: hidden; }
         .hero-bg { 
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('hero-bg.jpg'); /* 之後上傳照片請命名為 hero-bg.jpg */
-            background-size: cover; background-position: center;
+            background: linear-gradient(rgba(3,7,18,0.8), rgba(3,7,18,0.9)), url('hero-bg.jpg'); 
+            background-size: cover; background-position: center; background-attachment: fixed;
         }
-        .kv-gradient { background: linear-gradient(90deg, #3b82f6, #60a5fa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .card-glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .kv-gradient { background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        /* 高級毛玻璃特效 */
+        .glass-card { 
+            background: rgba(255, 255, 255, 0.02); 
+            backdrop-filter: blur(16px); 
+            -webkit-backdrop-filter: blur(16px); 
+            border: 1px solid rgba(255, 255, 255, 0.05); 
+            transition: all 0.4s ease;
+        }
+        .glass-card:hover { 
+            transform: translateY(-5px); 
+            border-color: rgba(96, 165, 250, 0.3); 
+            box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.2);
+            background: rgba(255, 255, 255, 0.04);
+        }
     </style>
 </head>
 <body>
 
-    <nav class="fixed w-full z-50 px-6 py-4 flex justify-between items-center bg-black/80 backdrop-blur-lg border-b border-white/10">
-        <div class="text-2xl font-bold tracking-tighter text-white">KINGS <span class="text-blue-500">VALUE</span></div>
+    <nav class="fixed w-full z-50 px-6 py-4 flex justify-between items-center bg-gray-950/70 backdrop-blur-xl border-b border-white/10 transition-all">
+        <div class="text-2xl font-bold tracking-tighter text-white">KV <span class="text-blue-500">HIRE</span></div>
         <div class="hidden md:flex space-x-10 text-xs tracking-[0.2em] uppercase">
-            <a href="#about" class="hover:text-blue-400 transition">關於品牌</a>
-            <a href="#services" class="hover:text-blue-400 transition">顧問方案</a>
-            <a href="#contact" class="bg-blue-600 px-5 py-2 rounded-sm hover:bg-blue-700 transition">聯絡諮詢</a>
+            <a href="#products" class="hover:text-blue-400 transition">解決方案</a>
+            <a href="#industries" class="hover:text-blue-400 transition">專注產業</a>
+            <a href="#contact" class="bg-blue-600/20 text-blue-400 border border-blue-500/30 px-5 py-2 rounded-full hover:bg-blue-600 hover:text-white transition duration-300">聯絡諮詢</a>
         </div>
     </nav>
 
-    <section class="hero-bg h-screen flex flex-col justify-center items-center text-center px-4">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-tight">補齊人才缺口<br><span class="kv-gradient">驅動全方位企業成長</span></h1>
-        <p class="text-gray-400 text-lg max-w-2xl mb-10 leading-relaxed font-light">KINGS VALUE：結合 IT 諮詢、專業招募與高價值顧問，為您的企業打造無懈可擊的未來路徑。</p>
-        <a href="#services" class="border border-white/20 px-10 py-3 hover:bg-white hover:text-black transition duration-500 tracking-widest text-sm">EXPLORE SERVICES</a>
-    </section>
-
-    <section id="about" class="py-24 px-6 max-w-5xl mx-auto text-center">
-        <h2 class="text-sm tracking-[0.3em] text-blue-500 mb-4 uppercase">About KV</h2>
-        <h3 class="text-3xl font-bold mb-8">從招募出發，轉化為全方位諮詢夥伴</h3>
-        <p class="text-gray-400 leading-loose text-lg font-light">
-            延續 KINGS VALUE 一貫的專業與誠信，我們深知在數位轉型的浪潮中，企業需要的不再只是單點的仲介服務，而是整合了技術洞察（IT Consulting）與人力戰略（Talent Strategy）的全局方案。
+    <section class="hero-bg min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20">
+        <div data-aos="fade-down" data-aos-duration="1000">
+            <span class="text-blue-500 text-sm tracking-[0.3em] uppercase mb-6 block font-light">Global Talent Connector</span>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+            精準連結全球頂尖人才<br><span class="kv-gradient">驅動企業科技創新</span>
+        </h1>
+        <p class="text-gray-400 text-lg max-w-2xl mb-12 leading-relaxed font-light" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+            我們不僅是獵頭，更是您技術團隊的擴展引擎。專注於 AI、Web3 與前沿科技領域，為您打造無懈可擊的未來路徑。
         </p>
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+            <a href="#products" class="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-medium tracking-widest text-white bg-blue-600 rounded-full hover:bg-blue-700 group transition">
+                <span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
+                <span class="relative text-sm">探索我們的服務</span>
+            </a>
+        </div>
     </section>
 
-    <section id="services" class="py-24 bg-zinc-900/50 px-6">
-        <div class="max-w-6xl mx-auto">
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="card-glass p-10 rounded-xl hover:border-blue-500/50 transition">
-                    <i class="fa-solid fa-chess-knight text-3xl text-blue-500 mb-8"></i>
-                    <h4 class="text-xl font-bold mb-4">高價值顧問服務</h4>
-                    <p class="text-gray-500 text-sm leading-relaxed">針對組織架構、營運策略提供深度諮詢，優化管理流程並提升核心競爭力。</p>
+    <section id="products" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-20" data-aos="fade-up">
+            <h2 class="text-sm tracking-[0.3em] text-blue-500 mb-4 uppercase">Our Products</h2>
+            <h3 class="text-3xl md:text-4xl font-bold">重新定義招募的深度與廣度</h3>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass-card p-10 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-microchip text-4xl text-blue-400 mb-6"></i>
+                <h4 class="text-xl font-bold mb-4 text-white">科技技術崗位精準顧問</h4>
+                <p class="text-gray-400 text-sm leading-relaxed font-light">運用專業技術評估系統與深厚行業網絡，精準匹配企業所需的技術人才。為您量身定制招聘解決方案，確保候選人技術實力與企業文化完美契合。</p>
+            </div>
+            <div class="glass-card p-10 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-solid fa-users-gear text-4xl text-purple-400 mb-6"></i>
+                <h4 class="text-xl font-bold mb-4 text-white">職能崗位大量媒合</h4>
+                <p class="text-gray-400 text-sm leading-relaxed font-light">針對產業特殊需求，提供從企劃、美術到程式開發的全方位服務。憑藉對軟體行業的深入理解，快速組建高效能開發團隊，滿足訂製需求。</p>
+            </div>
+            <div class="glass-card p-10 rounded-2xl" data-aos="fade-up" data-aos-delay="500">
+                <i class="fa-solid fa-chart-line text-4xl text-emerald-400 mb-6"></i>
+                <h4 class="text-xl font-bold mb-4 text-white">品牌流量曝光</h4>
+                <p class="text-gray-400 text-sm leading-relaxed font-light">不僅是顧問服務，更幫助企業提升雇主品牌影響力。透過多平台精準投放與職缺推廣，為企業贏得更多優質科技人才的關注與青睞。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="py-24 bg-gradient-to-b from-gray-950 to-black px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16" data-aos="fade-right">
+                <div class="max-w-2xl">
+                    <h2 class="text-sm tracking-[0.3em] text-blue-500 mb-4 uppercase">Focused Industries</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold">我們深耕的未來科技領域</h3>
                 </div>
-                <div class="card-glass p-10 rounded-xl hover:border-blue-500/50 transition">
-                    <i class="fa-solid fa-user-plus text-3xl text-blue-500 mb-8"></i>
-                    <h4 class="text-xl font-bold mb-4">精準人才補齊</h4>
-                    <p class="text-gray-500 text-sm leading-relaxed">從技術專家到決策層級，我們為您獵聘最契合企業基因的頂尖人才，填補關鍵缺口。</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="glass-card p-10 rounded-2xl flex gap-6 items-start" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-blue-500/10 p-4 rounded-xl text-blue-500"><i class="fa-solid fa-brain text-3xl"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-3">AI 人工智能</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">專注於運算技術、雲端架構、大數據分析等頂尖人才。協助企業找到推動 AI 創新的關鍵大腦，涵蓋資深工程師到研究科學家。</p>
+                    </div>
                 </div>
-                <div class="card-glass p-10 rounded-xl hover:border-blue-500/50 transition">
-                    <i class="fa-solid fa-terminal text-3xl text-blue-500 mb-8"></i>
-                    <h4 class="text-xl font-bold mb-4">IT 數位諮詢</h4>
-                    <p class="text-gray-500 text-sm leading-relaxed">協助企業導入自動化流程與技術架構優化，將數位工具轉化為實質的生產力。</p>
+                <div class="glass-card p-10 rounded-2xl flex gap-6 items-start" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-purple-500/10 p-4 rounded-xl text-purple-500"><i class="fa-solid fa-code text-3xl"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-3">IT 科技開發</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">匹配最優秀的軟體前後端開發、資料庫工程師與技術專家。深入評估各技術棧，確保技術力與企業 DNA 完美結合。</p>
+                    </div>
+                </div>
+                <div class="glass-card p-10 rounded-2xl flex gap-6 items-start" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-pink-500/10 p-4 rounded-xl text-pink-500"><i class="fa-solid fa-gamepad text-3xl"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-3">數位娛樂與遊戲產業</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">專業招募遊戲設計師、企劃、美術及開發團隊。幫助企業組建創意與技術並重的團隊，推動遊戲項目的成功上線。</p>
+                    </div>
+                </div>
+                <div class="glass-card p-10 rounded-2xl flex gap-6 items-start" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-orange-500/10 p-4 rounded-xl text-orange-500"><i class="fa-brands fa-ethereum text-3xl"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-3">區塊鏈 / Web3</h4>
+                        <p class="text-gray-400 text-sm leading-relaxed">專注 DeFi、NFT、Web3 社群、錢包與開發者等關鍵領域。提供具備前瞻思維的區塊鏈專業人才，走在技術演進最前線。</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-32 px-6 text-center">
-        <h2 class="text-3xl font-bold mb-6">開始您的企業轉型之旅</h2>
-        <p class="text-gray-500 mb-12">讓我們一起定義 KINGS VALUE 的真正價值</p>
-        <div class="flex flex-col items-center space-y-4">
-            <a href="mailto:contact@kings-value.com" class="text-2xl font-light hover:text-blue-400 transition">contact@kings-value.com</a>
-            <div class="w-12 h-[1px] bg-blue-500 my-4"></div>
-            <p class="text-xs text-gray-600 tracking-widest uppercase">Taichung, Taiwan</p>
+    <section id="contact" class="py-32 px-6 text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-blue-900/10 blur-[100px] rounded-full w-[600px] h-[600px] mx-auto opacity-50"></div>
+        <div class="relative z-10" data-aos="zoom-in" data-aos-duration="1000">
+            <h2 class="text-4xl font-bold mb-6">準備好擴張您的科技團隊了嗎？</h2>
+            <p class="text-gray-400 mb-12 max-w-xl mx-auto">讓 KV Hire 成為您的戰略夥伴，為您精準網羅推動改變的關鍵少數。</p>
+            <a href="mailto:contact@kvhire.me" class="text-2xl md:text-4xl font-light hover:text-blue-400 transition kv-gradient">contact@kvhire.me</a>
         </div>
     </section>
 
-    <footer class="py-10 border-t border-white/5 text-center text-[10px] text-gray-600 tracking-[0.2em]">
-        © 2026 KINGS VALUE. POWERED BY SHINE54168-ART.
+    <footer class="py-8 border-t border-white/5 text-center text-xs text-gray-600 tracking-[0.2em] bg-black">
+        © 2026 KINGS VALUE. ALL RIGHTS RESERVED.
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, // 動畫只播放一次
+            offset: 100, // 提早觸發動畫的距離
+        });
+    </script>
 </body>
 </html>

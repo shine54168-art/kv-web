@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGS VALUE | 全方位企業顧問與 IT 諮詢</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; background-color: #050505; color: #ffffff; scroll-behavior: smooth; }
+        .hero-bg { 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('hero-bg.jpg'); /* 之後上傳照片請命名為 hero-bg.jpg */
+            background-size: cover; background-position: center;
+        }
+        .kv-gradient { background: linear-gradient(90deg, #3b82f6, #60a5fa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 px-6 py-4 flex justify-between items-center bg-black/80 backdrop-blur-lg border-b border-white/10">
+        <div class="text-2xl font-bold tracking-tighter text-white">KINGS <span class="text-blue-500">VALUE</span></div>
+        <div class="hidden md:flex space-x-10 text-xs tracking-[0.2em] uppercase">
+            <a href="#about" class="hover:text-blue-400 transition">關於品牌</a>
+            <a href="#services" class="hover:text-blue-400 transition">顧問方案</a>
+            <a href="#contact" class="bg-blue-600 px-5 py-2 rounded-sm hover:bg-blue-700 transition">聯絡諮詢</a>
+        </div>
+    </nav>
+
+    <section class="hero-bg h-screen flex flex-col justify-center items-center text-center px-4">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-tight">補齊人才缺口<br><span class="kv-gradient">驅動全方位企業成長</span></h1>
+        <p class="text-gray-400 text-lg max-w-2xl mb-10 leading-relaxed font-light">KINGS VALUE：結合 IT 諮詢、專業招募與高價值顧問，為您的企業打造無懈可擊的未來路徑。</p>
+        <a href="#services" class="border border-white/20 px-10 py-3 hover:bg-white hover:text-black transition duration-500 tracking-widest text-sm">EXPLORE SERVICES</a>
+    </section>
+
+    <section id="about" class="py-24 px-6 max-w-5xl mx-auto text-center">
+        <h2 class="text-sm tracking-[0.3em] text-blue-500 mb-4 uppercase">About KV</h2>
+        <h3 class="text-3xl font-bold mb-8">從招募出發，轉化為全方位諮詢夥伴</h3>
+        <p class="text-gray-400 leading-loose text-lg font-light">
+            延續 KINGS VALUE 一貫的專業與誠信，我們深知在數位轉型的浪潮中，企業需要的不再只是單點的仲介服務，而是整合了技術洞察（IT Consulting）與人力戰略（Talent Strategy）的全局方案。
+        </p>
+    </section>
+
+    <section id="services" class="py-24 bg-zinc-900/50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-glass p-10 rounded-xl hover:border-blue-500/50 transition">
+                    <i class="fa-solid fa-chess-knight text-3xl text-blue-500 mb-8"></i>
+                    <h4 class="text-xl font-bold mb-4">高價值顧問服務</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">針對組織架構、營運策略提供深度諮詢，優化管理流程並提升核心競爭力。</p>
+                </div>
+                <div class="card-glass p-10 rounded-xl hover:border-blue-500/50 transition">
+                    <i class="fa-solid fa-user-plus text-3xl text-blue-500 mb-8"></i>
+                    <h4 class="text-xl font-bold mb-4">精準人才補齊</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">從技術專家到決策層級，我們為您獵聘最契合企業基因的頂尖人才，填補關鍵缺口。</p>
+                </div>
+                <div class="card-glass p-10 rounded-xl hover:border-blue-500/50 transition">
+                    <i class="fa-solid fa-terminal text-3xl text-blue-500 mb-8"></i>
+                    <h4 class="text-xl font-bold mb-4">IT 數位諮詢</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">協助企業導入自動化流程與技術架構優化，將數位工具轉化為實質的生產力。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-32 px-6 text-center">
+        <h2 class="text-3xl font-bold mb-6">開始您的企業轉型之旅</h2>
+        <p class="text-gray-500 mb-12">讓我們一起定義 KINGS VALUE 的真正價值</p>
+        <div class="flex flex-col items-center space-y-4">
+            <a href="mailto:contact@kings-value.com" class="text-2xl font-light hover:text-blue-400 transition">contact@kings-value.com</a>
+            <div class="w-12 h-[1px] bg-blue-500 my-4"></div>
+            <p class="text-xs text-gray-600 tracking-widest uppercase">Taichung, Taiwan</p>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t border-white/5 text-center text-[10px] text-gray-600 tracking-[0.2em]">
+        © 2026 KINGS VALUE. POWERED BY SHINE54168-ART.
+    </footer>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KV Hire | Connecting Global Talents</title>
+    <title>KV | Connecting Global Talents</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -11,7 +11,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
         
-        body { font-family: 'Noto Sans TC', 'Inter', sans-serif; background-color: #030712; color: #ffffff; scroll-behavior: smooth; overflow-x: hidden; }
+        body { 
+            font-family: 'Noto Sans TC', 'Inter', sans-serif; 
+            background-color: #030712; 
+            color: #ffffff; 
+            scroll-behavior: smooth; 
+            overflow-x: hidden;
+            line-height: 1.8; /* 修正 1：全面拉開行距，提升高級感與閱讀舒適度 */
+        }
         
         /* 雙語切換顯示控制 */
         .lang-en { display: none; }
@@ -19,7 +26,7 @@
         body.show-en .lang-en { display: block; }
 
         .hero-bg { 
-            background: linear-gradient(rgba(3,7,18,0.85), rgba(3,7,18,0.95)), url('hero-bg.jpg'); 
+            background: linear-gradient(rgba(3,7,18,0.85), rgba(3,7,18,0.95)), url('hero-bg.png'); 
             background-size: cover; background-position: center; background-attachment: fixed;
         }
         .kv-gradient { background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
@@ -41,13 +48,19 @@
         .blog-img-wrapper { overflow: hidden; }
         .blog-img { transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
         .glass-card:hover .blog-img { transform: scale(1.08); }
+
+        /* 修正 3：防止 AOS 載入延遲導致文字不顯示的安全機制 */
+        html:not(.aos-init) [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+        }
     </style>
 </head>
 <body>
 
     <nav class="fixed w-full z-50 px-6 py-4 flex justify-between items-center bg-gray-950/80 backdrop-blur-xl border-b border-white/10">
         <div class="flex items-center gap-3">
-            <img src="logo.jpg" alt="KV Hire Logo" class="h-8 rounded-sm object-contain" onerror="this.style.display='none'">
+            <img src="正式公司Logo 綠底金字.jpg" alt="KV Logo" class="h-8 rounded-sm object-contain" onerror="this.style.display='none'">
             <div class="text-2xl font-bold tracking-tighter text-white">KV <span class="text-blue-500">HIRE</span></div>
         </div>
         
@@ -55,11 +68,13 @@
             <div class="lang-tw space-x-8">
                 <a href="#advantages" class="hover:text-blue-400 transition">核心優勢</a>
                 <a href="#industries" class="hover:text-blue-400 transition">專注產業</a>
+                <a href="#products" class="hover:text-blue-400 transition">服務方案</a>
                 <a href="#blog" class="hover:text-blue-400 transition">商業洞察</a>
             </div>
             <div class="lang-en space-x-8">
                 <a href="#advantages" class="hover:text-blue-400 transition">Advantages</a>
                 <a href="#industries" class="hover:text-blue-400 transition">Industries</a>
+                <a href="#products" class="hover:text-blue-400 transition">Solutions</a>
                 <a href="#blog" class="hover:text-blue-400 transition">Insights</a>
             </div>
 
@@ -77,7 +92,7 @@
     <section class="hero-bg min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20">
         <div data-aos="fade-down" data-aos-duration="1000">
             <span class="text-blue-500 text-sm tracking-[0.3em] uppercase mb-6 block font-light lang-tw">重新定義全球招募服務</span>
-            <span class="text-blue-500 text-sm tracking-[0.3em] uppercase mb-6 block font-light lang-en">Redefining Global Recruitment</span>
+            <span class="text-blue-500 text-sm tracking-[0.3em] uppercase mb-6 block font-light lang-en">Connecting Global Talents for Tech, Fintech, Martech, and Web3</span>
         </div>
         
         <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
@@ -85,8 +100,8 @@
             <span class="lang-en">Connecting Global Talents<br><span class="kv-gradient">for the Tech Frontier</span></span>
         </h1>
         
-        <p class="text-gray-400 text-lg md:text-xl max-w-3xl mb-12 leading-relaxed font-light" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
-            <span class="lang-tw">KV Hire 是專注於 AI 人工智能、數位金融、行銷科技與 Web3 領域的高階獵頭顧問，為您的企業打造無懈可擊的創新團隊。</span>
+        <p class="text-gray-300 text-lg md:text-xl max-w-3xl mb-12 font-light leading-loose" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+            <span class="lang-tw">KV是專注於 AI 人工智能、數位金融、行銷科技與 Web3 領域的高階顧問團隊，為您的企業打造無懈可擊的創新團隊。</span>
             <span class="lang-en">KV Hire is an executive search consultancy specializing in AI, Fintech, Martech, and Web3. We build invincible innovation teams for your enterprise.</span>
         </p>
     </section>
@@ -104,24 +119,24 @@
                     <i class="fa-solid fa-microchip text-4xl text-blue-400 mb-6"></i>
                     <h4 class="text-xl font-bold mb-4 text-white lang-tw">前沿技術的深度洞察</h4>
                     <h4 class="text-xl font-bold mb-4 text-white lang-en">Deep Industry Insight</h4>
-                    <p class="text-gray-400 text-sm leading-relaxed font-light lang-tw">我們是精通技術語言的產業顧問。從 AI 演算法底層到 Web3 智能合約架構，我們能精準剖析您的技術痛點，聽懂您真正的商業需求。</p>
-                    <p class="text-gray-400 text-sm leading-relaxed font-light lang-en">We speak your technical language. From AI algorithms to Web3 infrastructure, we analyze your pain points and truly understand your business needs.</p>
+                    <p class="text-gray-400 text-sm font-light lang-tw">我們是精通技術語言的產業顧問。從 AI 演算法底層到 Web3 智能合約架構，我們能精準剖析您的技術痛點，聽懂您真正的商業需求。</p>
+                    <p class="text-gray-400 text-sm font-light lang-en">We speak your technical language. From AI algorithms to Web3 infrastructure, we analyze your pain points and truly understand your business needs.</p>
                 </div>
                 
                 <div class="glass-card p-10 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
                     <i class="fa-solid fa-globe text-4xl text-purple-400 mb-6"></i>
                     <h4 class="text-xl font-bold mb-4 text-white lang-tw">隱形頂尖人才智庫</h4>
                     <h4 class="text-xl font-bold mb-4 text-white lang-en">Exclusive Global Network</h4>
-                    <p class="text-gray-400 text-sm leading-relaxed font-light lang-tw">改變世界的關鍵少數，通常不會出現在公開的人力市場。我們透過深耕多年的封閉式社群與專業人脈網，為您觸及全球最具潛力的前 5% 頂尖戰力。</p>
-                    <p class="text-gray-400 text-sm leading-relaxed font-light lang-en">The top 5% of game-changers are rarely on public job boards. We leverage private networks to connect you with hidden, top-tier professionals.</p>
+                    <p class="text-gray-400 text-sm font-light lang-tw">改變世界的關鍵少數，通常不會出現在公開的人力市場。我們透過深耕多年的封閉式社群與專業人脈網，為您觸及全球最具潛力的前 5% 頂尖戰力。</p>
+                    <p class="text-gray-400 text-sm font-light lang-en">The top 5% of game-changers are rarely on public job boards. We leverage private networks to connect you with hidden, top-tier professionals.</p>
                 </div>
 
                 <div class="glass-card p-10 rounded-2xl" data-aos="fade-up" data-aos-delay="500">
                     <i class="fa-solid fa-dna text-4xl text-emerald-400 mb-6"></i>
                     <h4 class="text-xl font-bold mb-4 text-white lang-tw">企業基因與技術雙重鑑定</h4>
                     <h4 class="text-xl font-bold mb-4 text-white lang-en">Multi-dimensional DNA Evaluation</h4>
-                    <p class="text-gray-400 text-sm leading-relaxed font-light lang-tw">打破僅看履歷的盲點。我們導入多維度評估機制，不僅審查技術硬實力，更深入探討其決策思維與企業文化契合度，確保發揮最大綜效。</p>
-                    <p class="text-gray-400 text-sm leading-relaxed font-light lang-en">Beyond standard resumes, we evaluate both technical prowess and cultural alignment, ensuring every talent integrated drives maximum synergy.</p>
+                    <p class="text-gray-400 text-sm font-light lang-tw">打破僅看履歷的盲點。我們導入多維度評估機制，不僅審查技術硬實力，更深入探討其決策思維與企業文化契合度，確保發揮最大綜效。</p>
+                    <p class="text-gray-400 text-sm font-light lang-en">Beyond standard resumes, we evaluate both technical prowess and cultural alignment, ensuring every talent integrated drives maximum synergy.</p>
                 </div>
             </div>
         </div>
@@ -137,44 +152,78 @@
 
             <div class="grid md:grid-cols-2 gap-6">
                 <div class="glass-card p-10 rounded-2xl flex gap-6 items-start" data-aos="fade-up">
-                    <div class="bg-blue-500/10 p-4 rounded-xl text-blue-500"><i class="fa-solid fa-brain text-3xl"></i></div>
+                    <div class="bg-blue-500/10 p-4 rounded-xl text-blue-500 flex-shrink-0"><i class="fa-solid fa-brain text-3xl"></i></div>
                     <div>
                         <h4 class="text-xl font-bold mb-3">AI 人工智能</h4>
-                        <p class="text-gray-400 text-sm leading-relaxed lang-tw">專注於運算技術、雲端架構、大數據分析等領域。協助企業找到推動 AI 創新的關鍵人才，從資深工程師到研究科學家，全方位滿足招聘需求。</p>
-                        <p class="text-gray-400 text-sm leading-relaxed lang-en">Focusing on computing, cloud, and big data. We help find key talents to drive AI innovation, from senior engineers to research scientists.</p>
+                        <p class="text-gray-400 text-sm lang-tw">專注於運算技術、雲端架構、大數據分析等領域的頂尖人才招募。我們協助企業找到能夠推動AI創新的關鍵人才，從資深工程師到研究科學家，全方位滿足AI領域的招聘需求。</p>
+                        <p class="text-gray-400 text-sm lang-en">Focusing on computing, cloud, and big data. We help find key talents to drive AI innovation, from senior engineers to research scientists.</p>
                     </div>
                 </div>
                 <div class="glass-card p-10 rounded-2xl flex gap-6 items-start" data-aos="fade-up" data-aos-delay="100">
-                    <div class="bg-purple-500/10 p-4 rounded-xl text-purple-500"><i class="fa-solid fa-code text-3xl"></i></div>
+                    <div class="bg-purple-500/10 p-4 rounded-xl text-purple-500 flex-shrink-0"><i class="fa-solid fa-code text-3xl"></i></div>
                     <div>
                         <h4 class="text-xl font-bold mb-3 lang-tw">IT 科技開發</h4>
                         <h4 class="text-xl font-bold mb-3 lang-en">IT & Software Dev</h4>
-                        <p class="text-gray-400 text-sm leading-relaxed lang-tw">匹配優秀的軟體前後端開發、資料庫工程師與 AI 專家。深入評估各技術棧特點，確保技術人才與企業文化完美契合。</p>
-                        <p class="text-gray-400 text-sm leading-relaxed lang-en">Matching top full-stack developers and DB engineers. We deeply evaluate technical stacks to ensure a perfect cultural and technical fit.</p>
+                        <p class="text-gray-400 text-sm lang-tw">為企業匹配最優秀的軟體前後端開發人才、資料庫工程師以及AI專家。我們深入了解各技術棧的特點，能夠準確評估候選人的技術能力，確保技術人才與企業文化的完美契合。</p>
+                        <p class="text-gray-400 text-sm lang-en">Matching top full-stack developers and DB engineers. We deeply evaluate technical stacks to ensure a perfect cultural and technical fit.</p>
                     </div>
                 </div>
                 <div class="glass-card p-10 rounded-2xl flex gap-6 items-start" data-aos="fade-up" data-aos-delay="200">
-                    <div class="bg-pink-500/10 p-4 rounded-xl text-pink-500"><i class="fa-solid fa-gamepad text-3xl"></i></div>
+                    <div class="bg-pink-500/10 p-4 rounded-xl text-pink-500 flex-shrink-0"><i class="fa-solid fa-gamepad text-3xl"></i></div>
                     <div>
-                        <h4 class="text-xl font-bold mb-3 lang-tw">數位金融與遊戲產業</h4>
+                        <h4 class="text-xl font-bold mb-3 lang-tw">數位金融 / 行銷與遊戲產業</h4>
                         <h4 class="text-xl font-bold mb-3 lang-en">Fintech & Gaming</h4>
-                        <p class="text-gray-400 text-sm leading-relaxed lang-tw">專業招募遊戲設計師、企劃、美術及開發團隊。幫助企業組建創意與技術並重的團隊，推動數位項目成功上線。</p>
-                        <p class="text-gray-400 text-sm leading-relaxed lang-en">Recruiting game designers, artists, and dev teams. We help build teams that balance creativity and technology for successful launches.</p>
+                        <p class="text-gray-400 text-sm lang-tw">專業招募遊戲設計師、企劃、美術人員及開發團隊。我們了解遊戲行業的獨特需求，能夠幫助企業組建創意與技術並重的遊戲開發團隊，推動遊戲項目的成功開發與上線。</p>
+                        <p class="text-gray-400 text-sm lang-en">Recruiting game designers, artists, and dev teams. We help build teams that balance creativity and technology for successful launches.</p>
                     </div>
                 </div>
                 <div class="glass-card p-10 rounded-2xl flex gap-6 items-start" data-aos="fade-up" data-aos-delay="300">
-                    <div class="bg-orange-500/10 p-4 rounded-xl text-orange-500"><i class="fa-brands fa-ethereum text-3xl"></i></div>
+                    <div class="bg-orange-500/10 p-4 rounded-xl text-orange-500 flex-shrink-0"><i class="fa-brands fa-ethereum text-3xl"></i></div>
                     <div>
                         <h4 class="text-xl font-bold mb-3">區塊鏈 / Web3</h4>
-                        <p class="text-gray-400 text-sm leading-relaxed lang-tw">專注 DeFi、NFT、Web3 社群、錢包與開發者領域。密切關注技術最新發展，為企業提供具前瞻性思維的區塊鏈人才。</p>
-                        <p class="text-gray-400 text-sm leading-relaxed lang-en">Focusing on DeFi, NFT, and Web3 developers. Providing blockchain talents with forward-thinking mindsets to keep you at the frontier.</p>
+                        <p class="text-gray-400 text-sm lang-tw">專注於DeFi、NFT、Web3社群、錢包與開發者等關鍵領域的人才招募。我們密切關注區塊鏈技術的最新發展，為企業提供具有前瞻性思維和專業技能的區塊鏈人才。</p>
+                        <p class="text-gray-400 text-sm lang-en">Focusing on DeFi, NFT, and Web3 developers. Providing blockchain talents with forward-thinking mindsets to keep you at the frontier.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="blog" class="py-24 bg-black px-6">
+    <section id="products" class="py-24 bg-black px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20" data-aos="fade-up">
+                <h2 class="text-sm tracking-[0.3em] text-blue-500 mb-4 uppercase">Our Solutions</h2>
+                <h3 class="text-3xl md:text-4xl font-bold lang-tw">全方位顧問產品線</h3>
+                <h3 class="text-3xl md:text-4xl font-bold lang-en">Tailored Professional Solutions</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card p-10 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-user-shield text-4xl text-blue-400 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4 lang-tw">科技技術崗位精準顧問</h4>
+                    <h4 class="text-xl font-bold mb-4 lang-en">Tech Position Advisory</h4>
+                    <p class="text-gray-400 text-sm font-light lang-tw">我們運用專業的技術評估系統和行業網絡，精準匹配企業所需的技術人才。從初創公司到大型科技企業，我們都能提供量身定制的解決方案，確保每一位候選人不僅具備技術實力，還能與公司文化相契合。</p>
+                    <p class="text-gray-400 text-sm font-light lang-en">We utilize professional technical evaluation systems to precisely match the tech talents your enterprise needs, ensuring a cultural fit.</p>
+                </div>
+                <div class="glass-card p-10 rounded-2xl" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-solid fa-layer-group text-4xl text-purple-400 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4 lang-tw">職能崗位大量媒合</h4>
+                    <h4 class="text-xl font-bold mb-4 lang-en">High-Volume Matching</h4>
+                    <p class="text-gray-400 text-sm font-light lang-tw">針對產業的特殊需求，提供從企劃、美術到程式開發的全方位服務。憑藉對軟體行業的深入理解，我們能夠快速組建高效能的團隊，滿足不同規模項目的訂製需求。</p>
+                    <p class="text-gray-400 text-sm font-light lang-en">Providing comprehensive matching services from planning and art to programming, rapidly building high-performance operational teams.</p>
+                </div>
+                <div class="glass-card p-10 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-solid fa-eye text-4xl text-emerald-400 mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4 lang-tw">品牌流量曝光</h4>
+                    <h4 class="text-xl font-bold mb-4 lang-en">Employer Branding</h4>
+                    <p class="text-gray-400 text-sm font-light lang-tw">除了傳統顧問服務，我們還提供品牌建設與職缺推廣服務，幫助企業提升效率的同時，增強品牌在科技人才圈的影響力。透過多平台的精準投放，為企業贏得更多優質人才的關注。</p>
+                    <p class="text-gray-400 text-sm font-light lang-en">Enhancing your brand's presence within top-tier tech talent circles through multi-platform positioning and strategic job promotion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="py-24 bg-gray-950 px-6">
         <div class="max-w-7xl mx-auto">
             <div class="flex justify-between items-end mb-16" data-aos="fade-up">
                 <div>
@@ -182,13 +231,9 @@
                     <h3 class="text-3xl md:text-4xl font-bold lang-tw">商業洞察與產業觀點</h3>
                     <h3 class="text-3xl md:text-4xl font-bold lang-en">Business Perspectives</h3>
                 </div>
-                <a href="#" class="hidden md:block text-sm text-gray-400 hover:text-blue-400 transition pb-2 border-b border-gray-800 hover:border-blue-400">
-                    <span class="lang-tw">查看全部文章 &rarr;</span><span class="lang-en">View All Articles &rarr;</span>
-                </a>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                
                 <div class="glass-card rounded-2xl overflow-hidden group cursor-pointer flex flex-col h-full" data-aos="fade-up" data-aos-delay="100">
                     <div class="blog-img-wrapper h-56 w-full bg-gray-900 relative">
                         <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=800" alt="Blog Image" class="blog-img w-full h-full object-cover opacity-80 group-hover:opacity-100">
@@ -196,12 +241,10 @@
                     <div class="p-8 flex-grow flex flex-col">
                         <div class="text-blue-500 text-xs font-bold tracking-wider mb-3 uppercase lang-tw">產業趨勢</div>
                         <div class="text-blue-500 text-xs font-bold tracking-wider mb-3 uppercase lang-en">Industry Trend</div>
-                        
                         <h4 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition leading-tight lang-tw">AI 時代下的技術招募：科技如何改變人才遊戲規則</h4>
-                        <h4 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition leading-tight lang-en">Tech Recruitment in the AI Era: Changing the Rules</h4>
-                        
-                        <p class="text-gray-400 text-sm leading-relaxed mt-auto lang-tw">AI 技術的導入，將徹底改變傳統招募模式。從履歷篩選到人才匹配，了解 AI 將扮演的重要角色與企業應對策略。</p>
-                        <p class="text-gray-400 text-sm leading-relaxed mt-auto lang-en">The introduction of AI will revolutionize recruitment. Discover how AI transforms talent matching and strategy.</p>
+                        <h4 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition leading-tight lang-en">Tech Advisory in the AI Era: Changing the Rules</h4>
+                        <p class="text-gray-400 text-sm mt-auto lang-tw">AI 技術的導入，將徹底改變傳統招募模式。從組織架構再造到高階人才匹配，了解 AI 將扮演的重要角色與企業應對策略。</p>
+                        <p class="text-gray-400 text-sm mt-auto lang-en">The introduction of AI will revolutionize matching models. Discover how AI transforms corporate talent strategies.</p>
                     </div>
                 </div>
 
@@ -212,12 +255,10 @@
                     <div class="p-8 flex-grow flex flex-col">
                         <div class="text-purple-400 text-xs font-bold tracking-wider mb-3 uppercase lang-tw">個人發展</div>
                         <div class="text-purple-400 text-xs font-bold tracking-wider mb-3 uppercase lang-en">Career Growth</div>
-                        
                         <h4 class="text-xl font-bold mb-4 group-hover:text-purple-400 transition leading-tight lang-tw">專業招募的終身學習：如何保持產業競爭力</h4>
                         <h4 class="text-xl font-bold mb-4 group-hover:text-purple-400 transition leading-tight lang-en">Lifelong Learning for Tech Professionals</h4>
-                        
-                        <p class="text-gray-400 text-sm leading-relaxed mt-auto lang-tw">專業招募行業瞬息萬變，終身學習是保持競爭力的關鍵。本文將分享專業獵頭如何不斷更新知識體系，提升尋才效能。</p>
-                        <p class="text-gray-400 text-sm leading-relaxed mt-auto lang-en">The tech landscape evolves rapidly. Learn how top professionals continuously update their knowledge base to stay competitive.</p>
+                        <p class="text-gray-400 text-sm mt-auto lang-tw">前沿科技行業瞬息萬變，終身學習是保持競爭力的關鍵。本文將分享頂尖專家如何不斷更新知識體系，提升自我架構。</p>
+                        <p class="text-gray-400 text-sm mt-auto lang-en">The tech landscape evolves rapidly. Learn how top professionals continuously update their knowledge base to stay competitive.</p>
                     </div>
                 </div>
 
@@ -228,33 +269,28 @@
                     <div class="p-8 flex-grow flex flex-col">
                         <div class="text-orange-400 text-xs font-bold tracking-wider mb-3 uppercase lang-tw">Web3 視野</div>
                         <div class="text-orange-400 text-xs font-bold tracking-wider mb-3 uppercase lang-en">Web3 Vision</div>
-                        
                         <h4 class="text-xl font-bold mb-4 group-hover:text-orange-400 transition leading-tight lang-tw">Web3 與區塊鏈：新時代的人才板塊遷移</h4>
                         <h4 class="text-xl font-bold mb-4 group-hover:text-orange-400 transition leading-tight lang-en">Web3 & Blockchain: The New Talent Migration</h4>
-                        
-                        <p class="text-gray-400 text-sm leading-relaxed mt-auto lang-tw">去中心化技術正在重塑金融與網路邊界。探索企業如何在這個新興領域中，精準捕捉具有前瞻思維的開發者與架構師。</p>
-                        <p class="text-gray-400 text-sm leading-relaxed mt-auto lang-en">Decentralized tech is reshaping borders. Explore how enterprises capture forward-thinking developers in this emerging field.</p>
+                        <p class="text-gray-400 text-sm mt-auto lang-tw">去中心化技術正在重塑金融與網路邊界。探索企業如何在這個新興領域中，精準捕捉具有前瞻思維的開發者與架構師。</p>
+                        <p class="text-gray-400 text-sm mt-auto lang-en">Decentralized tech is reshaping borders. Explore how enterprises capture forward-thinking developers in this emerging field.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-32 px-6 text-center relative overflow-hidden bg-gray-950">
+    <section id="contact" class="py-32 px-6 text-center relative overflow-hidden bg-black">
         <div class="absolute inset-0 bg-blue-900/10 blur-[100px] rounded-full w-[600px] h-[600px] mx-auto opacity-50"></div>
         <div class="relative z-10" data-aos="zoom-in" data-aos-duration="1000">
-            <h2 class="text-4xl font-bold mb-6 lang-tw">準備好擴張您的科技團隊了嗎？</h2>
-            <h2 class="text-4xl font-bold mb-6 lang-en">Ready to scale your tech team?</h2>
-            
+            <h2 class="text-4xl font-bold mb-6 lang-tw">準備好佈局您的全球科技團隊了嗎？</h2>
+            <h2 class="text-4xl font-bold mb-6 lang-en">Ready to scale your tech team globally?</h2>
             <p class="text-gray-400 mb-12 max-w-xl mx-auto lang-tw">讓 KV Hire 成為您的戰略夥伴，為您精準網羅推動改變的關鍵少數。</p>
             <p class="text-gray-400 mb-12 max-w-xl mx-auto lang-en">Let KV Hire be your strategic partner in acquiring the key talents that drive change.</p>
-            
             <a href="mailto:contact@kvhire.me" class="text-2xl md:text-4xl font-light hover:text-blue-400 transition kv-gradient">contact@kvhire.me</a>
         </div>
     </section>
 
-    <footer class="py-8 border-t border-white/5 text-center text-xs text-gray-600 tracking-[0.2em] bg-black">
+    <footer class="py-8 border-t border-white/5 text-center text-xs text-gray-600 tracking-[0.2em] bg-gray-950">
         © 2026 KINGS VALUE. ALL RIGHTS RESERVED.
     </footer>
 
@@ -262,7 +298,6 @@
     <script>
         AOS.init({ once: true, offset: 100 });
 
-        // 雙語切換功能
         let isEnglish = false;
         function toggleLanguage() {
             isEnglish = !isEnglish;

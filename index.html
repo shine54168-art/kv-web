@@ -143,15 +143,16 @@ section{padding:7rem 3rem;position:relative}
 .at{font-family:var(--serif);font-size:1.28rem;font-weight:400;margin-bottom:.85rem;color:var(--cream);position:relative;z-index:2}
 .ap{font-size:.83rem;color:var(--cream-60);line-height:1.82;position:relative;z-index:2}
 
-/* ════ #2 WHY US (5 items in 3+2 layout) ════ */
-.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3.5rem}
+/* ════ #2 WHY US (5 items in 3+2 layout, no icons, larger type) ════ */
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:4rem}
 .why-grid .gcard:nth-child(4){grid-column:1/2}
 .why-grid .gcard:nth-child(5){grid-column:2/4}
-.wcard{padding:2.4rem 2rem;display:flex;gap:1.5rem;align-items:flex-start}
-.wico{flex-shrink:0;width:46px;height:46px;border:1px solid rgba(184,149,130,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--bronze);font-family:var(--serif);font-size:1rem;font-weight:500;background:rgba(184,149,130,.06);position:relative;z-index:2}
-.wcard > div{flex:1;position:relative;z-index:2}
-.wt{font-family:var(--serif);font-size:1.15rem;font-weight:400;margin-bottom:.55rem;color:var(--cream)}
-.wp{font-size:.8rem;color:var(--cream-60);line-height:1.78}
+.wcard{padding:3rem 2.5rem;position:relative}
+.wnum{font-family:var(--serif);font-size:.75rem;color:var(--bronze);letter-spacing:.35em;margin-bottom:1.25rem;display:block;opacity:.7;position:relative;z-index:2}
+.wt{font-family:var(--serif);font-size:1.55rem;font-weight:400;margin-bottom:1.1rem;color:var(--cream);line-height:1.3;position:relative;z-index:2}
+.wp{font-size:.92rem;color:var(--cream-60);line-height:1.85;position:relative;z-index:2}
+/* Wider card (#5) gets two-column layout for body text */
+.why-grid .gcard:nth-child(5) .wp{column-count:2;column-gap:2.5rem}
 
 /* ════ #3 INDUSTRIES (4 cards) ════ */
 .igrid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:4rem}
@@ -296,6 +297,10 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   .advcards,.sgrid,.bgrid{grid-template-columns:1fr;gap:1rem}
   .why-grid{grid-template-columns:1fr;gap:1rem}
   .why-grid .gcard:nth-child(4),.why-grid .gcard:nth-child(5){grid-column:auto}
+  .why-grid .gcard:nth-child(5) .wp{column-count:1}
+  .wcard{padding:2.5rem 1.75rem}
+  .wt{font-size:1.35rem}
+  .wp{font-size:.86rem}
   .igrid{grid-template-columns:1fr;gap:1rem}
   .mgrid{grid-template-columns:1fr 1fr;gap:1rem}
   .ccard{padding:2rem 1.5rem}
@@ -448,49 +453,39 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     </div>
     <div class="why-grid">
       <div class="gcard wcard" data-r data-d="1">
-        <div class="wico">◆</div>
-        <div>
-          <h4 class="wt zh">數據驅動的媒合效率</h4>
-          <h4 class="wt en">Data-Driven Matching</h4>
-          <p class="wp zh">KV 善用先進的 AI 工具進行人才分析與精準匹配，協助企業在最短時間內克服尋訪挑戰，鎖定真正契合的候選人。</p>
-          <p class="wp en">KV leverages advanced AI tools for talent analysis and precise matching, helping enterprises overcome sourcing challenges and lock in genuinely aligned candidates.</p>
-        </div>
+        <span class="wnum">— 01 —</span>
+        <h4 class="wt zh">數據驅動的媒合效率</h4>
+        <h4 class="wt en">Data-Driven Matching</h4>
+        <p class="wp zh">KV 善用先進的 AI 工具進行人才分析與精準匹配，協助企業在最短時間內克服尋訪挑戰，鎖定真正契合的候選人。</p>
+        <p class="wp en">KV leverages advanced AI tools for talent analysis and precise matching, helping enterprises overcome sourcing challenges and lock in genuinely aligned candidates.</p>
       </div>
       <div class="gcard wcard" data-r data-d="2">
-        <div class="wico">◇</div>
-        <div>
-          <h4 class="wt zh">深厚產業人脈與國際人才庫</h4>
-          <h4 class="wt en">Global Talent Database</h4>
-          <p class="wp zh">憑藉深耕多年的全球人才庫與資深產業人脈，KV 顧問能於一至兩週內為企業推薦多位資深或中高階契合人選。</p>
-          <p class="wp en">Backed by our extensive global talent database and deep industry network, KV consultants typically present multiple senior-level candidates within one to two weeks.</p>
-        </div>
+        <span class="wnum">— 02 —</span>
+        <h4 class="wt zh">深厚產業人脈與國際人才庫</h4>
+        <h4 class="wt en">Global Talent Database</h4>
+        <p class="wp zh">憑藉深耕多年的全球人才庫與資深產業人脈，KV 顧問能於一至兩週內為企業推薦多位資深或中高階契合人選。</p>
+        <p class="wp en">Backed by our extensive global talent database and deep industry network, KV consultants typically present multiple senior-level candidates within one to two weeks.</p>
       </div>
       <div class="gcard wcard" data-r data-d="3">
-        <div class="wico">◈</div>
-        <div>
-          <h4 class="wt zh">保證期內遞補機制</h4>
-          <h4 class="wt en">Guarantee Period Replacement</h4>
-          <p class="wp zh">若候選人於保證期內離職或不適任，KV 承諾依合約條款提供替補人選，全程守護每一次合作的成果與品質。</p>
-          <p class="wp en">If a placement leaves or proves unsuitable within the guarantee period, KV provides a replacement candidate — protecting the quality of every engagement.</p>
-        </div>
+        <span class="wnum">— 03 —</span>
+        <h4 class="wt zh">保證期內遞補機制</h4>
+        <h4 class="wt en">Guarantee Period Replacement</h4>
+        <p class="wp zh">若候選人於保證期內離職或不適任，KV 承諾依合約條款提供替補人選，全程守護每一次合作的成果與品質。</p>
+        <p class="wp en">If a placement leaves or proves unsuitable within the guarantee period, KV provides a replacement candidate — protecting the quality of every engagement.</p>
       </div>
       <div class="gcard wcard" data-r data-d="4">
-        <div class="wico">⊛</div>
-        <div>
-          <h4 class="wt zh">涵蓋多元產業與職能</h4>
-          <h4 class="wt en">Broad Industry Coverage</h4>
-          <p class="wp zh">尋訪服務廣泛涵蓋 IT、半導體、電子、金融、能源、電商、消費品、零售、醫藥及後勤等產業，支援從中階到高階的人才布局。</p>
-          <p class="wp en">Our coverage spans IT, semiconductors, electronics, finance, energy, e-commerce, retail, pharma, and operations — supporting mid to executive-level placements.</p>
-        </div>
+        <span class="wnum">— 04 —</span>
+        <h4 class="wt zh">涵蓋多元產業與職能</h4>
+        <h4 class="wt en">Broad Industry Coverage</h4>
+        <p class="wp zh">尋訪服務廣泛涵蓋 IT、半導體、電子、金融、能源、電商、消費品、零售、醫藥及後勤等產業，支援從中階到高階的人才布局。</p>
+        <p class="wp en">Our coverage spans IT, semiconductors, electronics, finance, energy, e-commerce, retail, pharma, and operations — supporting mid to executive-level placements.</p>
       </div>
       <div class="gcard wcard" data-r data-d="5">
-        <div class="wico">✦</div>
-        <div>
-          <h4 class="wt zh">一站式雇主品牌優化</h4>
-          <h4 class="wt en">Employer Brand Optimization</h4>
-          <p class="wp zh">除了尋訪頂尖人才之外，KV 也為企業提供一站式雇主品牌建立與行銷規劃，從內到外提升企業的人才磁吸效應。</p>
-          <p class="wp en">Beyond talent search, KV offers end-to-end employer branding and marketing strategy — enhancing your company's magnetic pull on top talent.</p>
-        </div>
+        <span class="wnum">— 05 —</span>
+        <h4 class="wt zh">一站式雇主品牌優化</h4>
+        <h4 class="wt en">Employer Brand Optimization</h4>
+        <p class="wp zh">除了尋訪頂尖人才之外，KV 也為企業提供一站式雇主品牌建立與行銷規劃，從內到外提升企業的人才磁吸效應。透過多平台的精準投放、社群互動策略，以及顧問端的延伸推薦，全面強化貴企業在頂尖科技人才圈內的辨識度與磁吸效應。</p>
+        <p class="wp en">Beyond talent search, KV offers end-to-end employer branding and marketing strategy — enhancing your company's magnetic pull on top talent. Through multi-platform precision campaigns, community engagement strategies, and consultant-driven referrals, we comprehensively strengthen your identity within elite tech talent circles.</p>
       </div>
     </div>
   </div>
@@ -781,7 +776,12 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 
 <footer>
   <span class="fl">© 2026 Kings Value Consulting. All Rights Reserved.</span>
-  <div class="fkv"><div class="fm">K</div><span class="fn">Kings Value</span></div>
+  <div style="display:flex;align-items:center;gap:1.5rem">
+    <button onclick="openPrivacy()" style="background:none;border:none;color:var(--cream-35);font-family:var(--sans);font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;padding:0;transition:color .3s" onmouseover="this.style.color='var(--bronze)'" onmouseout="this.style.color='var(--cream-35)'">
+      <span class="zhi">隱私權政策</span><span class="eni">Privacy Policy</span>
+    </button>
+    <div class="fkv"><div class="fm">K</div><span class="fn">Kings Value</span></div>
+  </div>
 </footer>
 
 <!-- ═══ ARTICLE MODAL ═══ -->
@@ -1022,8 +1022,127 @@ document.getElementById('aov').addEventListener('click',e=>{if(e.target===e.curr
 
 /* ESC closes modals */
 document.addEventListener('keydown',e=>{
-  if(e.key==='Escape'){cA();closeProcess();closeMobMenu()}
+  if(e.key==='Escape'){cA();closeProcess();closeMobMenu();closePrivacy()}
 });
 </script>
+<!-- ═══ PRIVACY POLICY MODAL ═══ -->
+<div class="ov" id="prov">
+  <div class="mbox">
+    <button class="mx" onclick="closePrivacy()">✕</button>
+    <div class="mbd">
+      <div class="mtag2 zhi">法律聲明</div>
+      <div class="mtag2 eni">LEGAL NOTICE</div>
+      <h2 class="mtit zh">隱私權政策</h2>
+      <h2 class="mtit en">Privacy Policy</h2>
+      <div class="mdiv"></div>
+      <div class="mbody">
+        <!-- 中文版 -->
+        <div class="zh">
+          <p>歡迎訪問由 <strong>Kings Value Consulting</strong>（以下簡稱「KV」或「我們」）營運的網站。我們非常重視您的隱私權，並承諾保護您的個人資料。本政策旨在說明我們如何收集、使用、揭露及保護您的個人資訊。當您使用本網站時，即表示您同意本政策所述之個人資料收集與處理方式。</p>
+
+          <h3>1. 我們收集的資訊</h3>
+          <ul>
+            <li><strong>您主動提供的個人資料：</strong>當您填寫聯絡表單、訂閱電子報或與我們聯繫時，可能提供姓名、電子郵件、電話及公司名稱。</li>
+            <li><strong>自動收集的技術數據：</strong>瀏覽本網站時，我們自動記錄 IP 位址、瀏覽器類型、作業系統、伺服器紀錄、造訪時間以及瀏覽行為。</li>
+          </ul>
+
+          <h3>2. 資訊的使用方式</h3>
+          <ul>
+            <li>回應您的詢問或提供您所請求的服務</li>
+            <li>優化與改善本網站的內容、功能與使用者體驗</li>
+            <li>發送與我們業務相關的重要通知、行銷訊息或電子報（您可隨時取消訂閱）</li>
+            <li>維護網站系統安全並防止詐欺行為</li>
+          </ul>
+
+          <h3>3. Cookie 與追蹤技術</h3>
+          <p>我們使用 Cookie 和類似的追蹤技術來提升您的瀏覽體驗、分析網站流量。您可以在瀏覽器設定中拒絕 Cookie，但這可能導致部分功能無法正常運作。</p>
+
+          <h3>4. 資訊的分享與揭露</h3>
+          <p>我們不會將您的個人資料出售、出租或交換給第三方。僅在下列情況可能分享：獲得您的明確同意、提供給受信賴第三方服務商（如雲端託管、郵件群發服務）並要求其遵守保密義務、或基於法律要求與政府機關執法調查。</p>
+
+          <h3>5. 資料安全與儲存</h3>
+          <p>我們採取適當的技術與組織安全措施保護您的個人資料。然而，網際網路上的傳輸或電子儲存方式並非 100% 絕對安全，我們無法保證其絕對的安全。</p>
+
+          <h3>6. 您的權利</h3>
+          <ul>
+            <li>查詢、閱覽或請求製給個人資料複本</li>
+            <li>請求更正或補充不正確的資訊</li>
+            <li>請求刪除您的個人資料（在法律允許範圍內）</li>
+            <li>拒絕或限制我們處理您的個人資料</li>
+          </ul>
+          <p>如欲行使上述權利，請透過下方聯絡方式與我們聯繫。</p>
+
+          <h3>7. 本政策的修訂</h3>
+          <p>我們可能不時更新本隱私權政策，修訂後將公告於本頁面並更新「最後更新日期」。建議您定期查閱。</p>
+
+          <h3>8. 聯絡我們</h3>
+          <p>如對本政策或您的個人資料有任何疑問，請與我們聯繫：</p>
+          <ul>
+            <li><strong>公司名稱：</strong>Kings Value Consulting</li>
+            <li><strong>電子郵件：</strong>service@kings-value.com</li>
+            <li><strong>網站：</strong>https://kvhire.me</li>
+          </ul>
+          <p style="margin-top:1.5rem;font-size:.78rem;color:var(--cream-35);font-style:italic">最後更新日期：2026 年 5 月 17 日</p>
+        </div>
+
+        <!-- English -->
+        <div class="en">
+          <p>Welcome to the website operated by <strong>Kings Value Consulting</strong> ("KV", "we", "us", or "our"). We hold your privacy in high regard and are committed to protecting your personal data. This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information. By using this Website, you consent to the data practices described herein.</p>
+
+          <h3>1. Information We Collect</h3>
+          <ul>
+            <li><strong>Personal Data You Provide Voluntarily:</strong> When filling out contact forms, subscribing to newsletters, or reaching out, you may provide your name, email, phone, and company name.</li>
+            <li><strong>Automatically Collected Technical Data:</strong> We log your IP address, browser type, operating system, server logs, access times, and browsing behavior.</li>
+          </ul>
+
+          <h3>2. How We Use Your Information</h3>
+          <ul>
+            <li>To respond to your inquiries or deliver requested services</li>
+            <li>To optimize and enhance the Website's content, functionality, and user experience</li>
+            <li>To send important notices, marketing communications, or newsletters (opt-out available)</li>
+            <li>To maintain system security and prevent fraudulent activities</li>
+          </ul>
+
+          <h3>3. Cookies and Tracking Technologies</h3>
+          <p>We employ cookies and similar tracking technologies to enhance your browsing experience and analyze traffic. You may refuse cookies via browser settings, though some features may not function properly as a result.</p>
+
+          <h3>4. Information Sharing and Disclosure</h3>
+          <p>We do not sell, rent, or trade your personal data. We may share information only: with your explicit consent; with trusted third-party providers (e.g., cloud hosting, email platforms) under strict confidentiality; or as required by law or government investigation.</p>
+
+          <h3>5. Data Security and Storage</h3>
+          <p>We implement appropriate technical and organizational security measures to protect your personal data. However, no method of Internet transmission or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+          <h3>6. Your Rights</h3>
+          <ul>
+            <li>Right to access and request a copy of your personal data</li>
+            <li>Right to request rectification or completion of inaccurate information</li>
+            <li>Right to request erasure of personal data (where legally permissible)</li>
+            <li>Right to object to or restrict processing of your data</li>
+          </ul>
+          <p>To exercise any of these rights, please contact us via the information below.</p>
+
+          <h3>7. Changes to This Privacy Policy</h3>
+          <p>We reserve the right to update this Privacy Policy. The revised version will be posted on this page with an updated "Last Updated" date. We encourage periodic review.</p>
+
+          <h3>8. Contact Us</h3>
+          <p>If you have questions about this Privacy Policy or your personal data, please contact us at:</p>
+          <ul>
+            <li><strong>Company:</strong> Kings Value Consulting</li>
+            <li><strong>Email:</strong> service@kings-value.com</li>
+            <li><strong>Website:</strong> https://kvhire.me</li>
+          </ul>
+          <p style="margin-top:1.5rem;font-size:.78rem;color:var(--cream-35);font-style:italic">Last Updated: May 17, 2026</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function openPrivacy(){document.getElementById('prov').classList.add('op');document.body.style.overflow='hidden'}
+function closePrivacy(){document.getElementById('prov').classList.remove('op');document.body.style.overflow=''}
+document.getElementById('prov').addEventListener('click',e=>{if(e.target===e.currentTarget)closePrivacy()});
+</script>
+
 </body>
 </html>

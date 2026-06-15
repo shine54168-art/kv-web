@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kings Value | Connecting Global Talents</title>
-<meta name="description" content="KV Hire — Professional, Passionate, Exquisite. 深耕 AI、數位金融、行銷科技與 Web3 領域的高階尋訪顧問。">
+<title>Kings Value | 軟體開發與專案承攬</title>
+<meta name="description" content="Kings Value — Professional, Passionate, Exquisite. 專注 AI、數位金融、行銷科技與 Web3 的軟體開發與專案承攬團隊，提供客製化開發與技術人才派遣。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -143,16 +143,15 @@ section{padding:7rem 3rem;position:relative}
 .at{font-family:var(--serif);font-size:1.28rem;font-weight:400;margin-bottom:.85rem;color:var(--cream);position:relative;z-index:2}
 .ap{font-size:.83rem;color:var(--cream-60);line-height:1.82;position:relative;z-index:2}
 
-/* ════ #2 WHY US (5 items in 3+2 layout, no icons, larger type) ════ */
-.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:4rem}
+/* ════ #2 WHY US (5 items in 3+2 layout) ════ */
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3.5rem}
 .why-grid .gcard:nth-child(4){grid-column:1/2}
 .why-grid .gcard:nth-child(5){grid-column:2/4}
-.wcard{padding:3rem 2.5rem;position:relative}
-.wnum{font-family:var(--serif);font-size:.75rem;color:var(--bronze);letter-spacing:.35em;margin-bottom:1.25rem;display:block;opacity:.7;position:relative;z-index:2}
-.wt{font-family:var(--serif);font-size:1.55rem;font-weight:400;margin-bottom:1.1rem;color:var(--cream);line-height:1.3;position:relative;z-index:2}
-.wp{font-size:.92rem;color:var(--cream-60);line-height:1.85;position:relative;z-index:2}
-/* Wider card (#5) gets two-column layout for body text */
-.why-grid .gcard:nth-child(5) .wp{column-count:2;column-gap:2.5rem}
+.wcard{padding:2.4rem 2rem;display:flex;gap:1.5rem;align-items:flex-start}
+.wico{flex-shrink:0;width:46px;height:46px;border:1px solid rgba(184,149,130,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--bronze);font-family:var(--serif);font-size:1rem;font-weight:500;background:rgba(184,149,130,.06);position:relative;z-index:2}
+.wcard > div{flex:1;position:relative;z-index:2}
+.wt{font-family:var(--serif);font-size:1.15rem;font-weight:400;margin-bottom:.55rem;color:var(--cream)}
+.wp{font-size:.8rem;color:var(--cream-60);line-height:1.78}
 
 /* ════ #3 INDUSTRIES (4 cards) ════ */
 .igrid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:4rem}
@@ -297,10 +296,6 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   .advcards,.sgrid,.bgrid{grid-template-columns:1fr;gap:1rem}
   .why-grid{grid-template-columns:1fr;gap:1rem}
   .why-grid .gcard:nth-child(4),.why-grid .gcard:nth-child(5){grid-column:auto}
-  .why-grid .gcard:nth-child(5) .wp{column-count:1}
-  .wcard{padding:2.5rem 1.75rem}
-  .wt{font-size:1.35rem}
-  .wp{font-size:.86rem}
   .igrid{grid-template-columns:1fr;gap:1rem}
   .mgrid{grid-template-columns:1fr 1fr;gap:1rem}
   .ccard{padding:2rem 1.5rem}
@@ -344,7 +339,7 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <a href="#adv" class="zh">核心優勢</a><a href="#adv" class="en">Advantages</a>
     <a href="#ind" class="zh">專注產業</a><a href="#ind" class="en">Industries</a>
     <a href="#sol" class="zh">服務方案</a><a href="#sol" class="en">Solutions</a>
-    <a href="#blg" class="zh">商業洞察</a><a href="#blg" class="en">Insights</a>
+    <a href="#blg" class="zh">技術洞察</a><a href="#blg" class="en">Insights</a>
     <button onclick="openProcess()" class="zh">合作流程</button>
     <button onclick="openProcess()" class="en">Process</button>
   </div>
@@ -361,7 +356,7 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <a href="#sol" onclick="closeMobMenu()" class="zh">服務方案</a><a href="#sol" onclick="closeMobMenu()" class="en">Solutions</a>
     <a href="#meth" onclick="closeMobMenu()" class="zh">顧問方法論</a><a href="#meth" onclick="closeMobMenu()" class="en">Methodology</a>
     <a href="#cases" onclick="closeMobMenu()" class="zh">成功故事</a><a href="#cases" onclick="closeMobMenu()" class="en">Success Stories</a>
-    <a href="#blg" onclick="closeMobMenu()" class="zh">商業洞察</a><a href="#blg" onclick="closeMobMenu()" class="en">Insights</a>
+    <a href="#blg" onclick="closeMobMenu()" class="zh">技術洞察</a><a href="#blg" onclick="closeMobMenu()" class="en">Insights</a>
     <a href="#faq" onclick="closeMobMenu()" class="zh">常見問題</a><a href="#faq" onclick="closeMobMenu()" class="en">FAQ</a>
     <button onclick="closeMobMenu();openProcess()" class="zh">合作流程</button>
     <button onclick="closeMobMenu();openProcess()" class="en">Process</button>
@@ -378,12 +373,12 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <svg class="mtn mtn3" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 320L0 268 L110 252 L240 260 L360 238 L480 248 L600 225 L730 240 L860 215 L990 232 L1120 210 L1250 225 L1380 205 L1440 215 L1440 320Z" fill="rgba(7,13,24,0.92)"/></svg>
   </div>
   <div class="hero-inner">
-    <div class="hbadge"><span class="zhi">全球頂尖科技尋訪顧問</span><span class="eni">Global Executive Search</span></div>
-    <h1 class="hh1 zh">專注前沿科技<br><em>連結全球頂尖人才</em></h1>
-    <h1 class="hh1 en">Where Elite Talent<br><em>Meets Strategic Vision</em></h1>
+    <div class="hbadge"><span class="zhi">前沿科技軟體開發團隊</span><span class="eni">Software Development & Delivery</span></div>
+    <h1 class="hh1 zh">打造前沿科技<br><em>專案開發與技術交付</em></h1>
+    <h1 class="hh1 en">Engineering Tomorrow<br><em>From Concept to Delivery</em></h1>
     <div class="hpax">Professional<span>·</span>Passionate<span>·</span>Exquisite</div>
-    <p class="hp zh">KV 是深耕 AI、數位金融、行銷科技與 Web3 的高階尋訪顧問團隊，為您的企業打造無懈可擊的創新陣容。</p>
-    <p class="hp en">KV Hire is an executive search consultancy specializing in AI, Fintech, Martech, and Web3 — building invincible innovation teams for tomorrow's enterprises.</p>
+    <p class="hp zh">Kings Value 是專注 AI、數位金融、行銷科技與 Web3 的軟體開發團隊，從專案承攬、系統開發到技術人才派遣，為您交付穩定可靠的技術成果。</p>
+    <p class="hp en">Kings Value is a software development team specializing in AI, Fintech, Martech, and Web3 — delivering reliable technical outcomes from project contracting and system builds to technical staffing.</p>
     <div class="hbtns">
       <a href="#sol" class="ba zh">探索服務方案</a><a href="#sol" class="ba en">Explore Solutions</a>
       <button class="bb zh" onclick="openProcess()">合作流程</button>
@@ -396,16 +391,16 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 <!-- ═══ MARQUEE ═══ -->
 <div class="mqstrip">
   <div class="mqin">
-    <span>AI 人工智能</span><span>Web3 & Blockchain</span><span>Fintech</span><span>Executive Search</span><span>Martech</span><span>Talent Advisory</span><span>IT Consulting</span><span>Employer Branding</span><span>Digital Transformation</span>
-    <span>AI 人工智能</span><span>Web3 & Blockchain</span><span>Fintech</span><span>Executive Search</span><span>Martech</span><span>Talent Advisory</span><span>IT Consulting</span><span>Employer Branding</span><span>Digital Transformation</span>
+    <span>AI 人工智能</span><span>Web3 & Blockchain</span><span>Fintech</span><span>Software Development</span><span>Martech</span><span>System Integration</span><span>IT Consulting</span><span>Cloud Architecture</span><span>Digital Transformation</span>
+    <span>AI 人工智能</span><span>Web3 & Blockchain</span><span>Fintech</span><span>Software Development</span><span>Martech</span><span>System Integration</span><span>IT Consulting</span><span>Cloud Architecture</span><span>Digital Transformation</span>
   </div>
 </div>
 
 <!-- ═══ STATS ═══ -->
 <div class="stats">
-  <div class="stat"><span class="stn" data-n="500" data-s="+">0</span><span class="stl zh">成功媒合人才</span><span class="stl en">Talents Placed</span></div>
+  <div class="stat"><span class="stn" data-n="200" data-s="+">0</span><span class="stl zh">交付專案</span><span class="stl en">Projects Delivered</span></div>
   <div class="stat"><span class="stn" data-n="12" data-s="">0</span><span class="stl zh">深耕年資</span><span class="stl en">Years of Expertise</span></div>
-  <div class="stat"><span class="stn" data-n="4" data-s="">0</span><span class="stl zh">核心產業</span><span class="stl en">Core Industries</span></div>
+  <div class="stat"><span class="stn" data-n="4" data-s="">0</span><span class="stl zh">核心領域</span><span class="stl en">Core Domains</span></div>
   <div class="stat"><span class="stn" data-n="98" data-s="%">0</span><span class="stl zh">客戶滿意度</span><span class="stl en">Client Satisfaction</span></div>
 </div>
 
@@ -414,30 +409,30 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   <div class="si">
     <div class="adv-hdr" data-r>
       <span class="stag">Core Advantages</span>
-      <h2 class="sh2 zh">快速 · 精準 · <em>高品質顧問服務</em></h2>
-      <h2 class="sh2 en">Beyond Matching —<br><em>Strategic Value Delivered</em></h2>
+      <h2 class="sh2 zh">快速 · 精準 · <em>高品質技術交付</em></h2>
+      <h2 class="sh2 en">Beyond Code —<br><em>Strategic Value Delivered</em></h2>
     </div>
     <div class="advcards">
       <div class="gcard acard" data-r data-d="1">
         <div class="anum">01</div>
-        <h3 class="at zh">前沿技術的深度洞察</h3>
-        <h3 class="at en">Deep Industry Insight</h3>
-        <p class="ap zh">我們是精通技術語言的產業顧問。從 AI 演算法到 Web3 智能合約架構，精準剖析您的技術痛點，聽懂您真正的商業需求。</p>
-        <p class="ap en">We speak your technical language. From AI algorithms to Web3 smart contracts, we diagnose pain points and understand your business objectives.</p>
+        <h3 class="at zh">前沿技術的深度掌握</h3>
+        <h3 class="at en">Deep Technical Mastery</h3>
+        <p class="ap zh">我們是精通技術語言的開發團隊。從 AI 演算法到 Web3 智能合約架構，精準剖析您的技術痛點，將商業需求轉化為可落地的系統設計。</p>
+        <p class="ap en">We speak your technical language. From AI algorithms to Web3 smart contracts, we diagnose pain points and translate business needs into deployable system designs.</p>
       </div>
       <div class="gcard acard" data-r data-d="2">
         <div class="anum">02</div>
-        <h3 class="at zh">隱形頂尖人才智庫</h3>
-        <h3 class="at en">Exclusive Global Network</h3>
-        <p class="ap zh">改變世界的關鍵少數，通常不會出現在公開市場。我們透過深耕多年的封閉式社群，觸及全球最具潛力的前 5% 頂尖戰力。</p>
-        <p class="ap en">The top 5% of game-changers are rarely on public job boards. We leverage private networks to surface hidden, elite professionals.</p>
+        <h3 class="at zh">資深工程團隊即戰力</h3>
+        <h3 class="at en">Senior Engineering Force</h3>
+        <p class="ap zh">由具備多年實戰經驗的資深工程師組成，無需漫長磨合即可進駐專案。從架構設計到上線維運，全程穩定交付。</p>
+        <p class="ap en">A team of seasoned engineers with years of hands-on experience, ready to embed in your project without lengthy ramp-up — from architecture to deployment and operations.</p>
       </div>
       <div class="gcard acard" data-r data-d="3">
         <div class="anum">03</div>
-        <h3 class="at zh">企業基因雙重鑑定</h3>
-        <h3 class="at en">Multi-dimensional Evaluation</h3>
-        <p class="ap zh">打破僅看履歷的盲點。多維度評估機制，審查技術硬實力之外，更深入探討決策思維與文化契合度，確保最大綜效。</p>
-        <p class="ap en">Beyond résumés — we evaluate technical prowess and cultural alignment, ensuring every placement drives maximum synergy.</p>
+        <h3 class="at zh">交付品質雙重把關</h3>
+        <h3 class="at en">Dual-Layer Quality Control</h3>
+        <p class="ap zh">每個專案皆經過程式碼審查與多輪測試。不僅追求功能完整，更重視可維護性、效能與長期穩定性，確保交付成果經得起考驗。</p>
+        <p class="ap en">Every project goes through code review and multiple test cycles — we prioritize not just functionality but maintainability, performance, and long-term stability.</p>
       </div>
     </div>
   </div>
@@ -449,43 +444,53 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <div style="text-align:center;margin-bottom:1rem" data-r>
       <span class="stag">Why Choose Us</span>
       <h2 class="sh2 zh">為何選擇<em>我們</em></h2>
-      <h2 class="sh2 en">Why <em>KV Hire</em></h2>
+      <h2 class="sh2 en">Why <em>Kings Value</em></h2>
     </div>
     <div class="why-grid">
       <div class="gcard wcard" data-r data-d="1">
-        <span class="wnum">— 01 —</span>
-        <h4 class="wt zh">數據驅動的媒合效率</h4>
-        <h4 class="wt en">Data-Driven Matching</h4>
-        <p class="wp zh">KV 善用先進的 AI 工具進行人才分析與精準匹配，協助企業在最短時間內克服尋訪挑戰，鎖定真正契合的候選人。</p>
-        <p class="wp en">KV leverages advanced AI tools for talent analysis and precise matching, helping enterprises overcome sourcing challenges and lock in genuinely aligned candidates.</p>
+        <div class="wico">◆</div>
+        <div>
+          <h4 class="wt zh">AI 驅動的開發效率</h4>
+          <h4 class="wt en">AI-Driven Development</h4>
+          <p class="wp zh">Kings Value 善用先進 AI 工具加速開發流程，從需求分析、程式撰寫到測試自動化，協助客戶在最短時間內完成高品質的系統交付。</p>
+          <p class="wp en">Kings Value leverages advanced AI tools to accelerate development — from requirement analysis and coding to test automation — delivering high-quality systems faster.</p>
+        </div>
       </div>
       <div class="gcard wcard" data-r data-d="2">
-        <span class="wnum">— 02 —</span>
-        <h4 class="wt zh">深厚產業人脈與國際人才庫</h4>
-        <h4 class="wt en">Global Talent Database</h4>
-        <p class="wp zh">憑藉深耕多年的全球人才庫與資深產業人脈，KV 顧問能於一至兩週內為企業推薦多位資深或中高階契合人選。</p>
-        <p class="wp en">Backed by our extensive global talent database and deep industry network, KV consultants typically present multiple senior-level candidates within one to two weeks.</p>
+        <div class="wico">◇</div>
+        <div>
+          <h4 class="wt zh">資深工程團隊與全棧能力</h4>
+          <h4 class="wt en">Senior Full-Stack Team</h4>
+          <p class="wp zh">憑藉橫跨前後端、雲端與資料工程的全棧團隊，Kings Value 能依專案規模彈性配置人力，通常於一至兩週內啟動開發。</p>
+          <p class="wp en">With a full-stack team spanning frontend, backend, cloud, and data engineering, Kings Value flexibly scales resources by project size — typically kicking off within one to two weeks.</p>
+        </div>
       </div>
       <div class="gcard wcard" data-r data-d="3">
-        <span class="wnum">— 03 —</span>
-        <h4 class="wt zh">保證期內遞補機制</h4>
-        <h4 class="wt en">Guarantee Period Replacement</h4>
-        <p class="wp zh">若候選人於保證期內離職或不適任，KV 承諾依合約條款提供替補人選，全程守護每一次合作的成果與品質。</p>
-        <p class="wp en">If a placement leaves or proves unsuitable within the guarantee period, KV provides a replacement candidate — protecting the quality of every engagement.</p>
+        <div class="wico">◈</div>
+        <div>
+          <h4 class="wt zh">交付後維護保固</h4>
+          <h4 class="wt en">Post-Delivery Warranty</h4>
+          <p class="wp zh">專案上線後，Kings Value 依合約條款提供保固期內的缺陷修復與技術支援，全程守護每一次交付的成果與品質。</p>
+          <p class="wp en">After launch, Kings Value provides defect fixes and technical support within the warranty period per contract — protecting the quality of every delivery.</p>
+        </div>
       </div>
       <div class="gcard wcard" data-r data-d="4">
-        <span class="wnum">— 04 —</span>
-        <h4 class="wt zh">涵蓋多元產業與職能</h4>
-        <h4 class="wt en">Broad Industry Coverage</h4>
-        <p class="wp zh">尋訪服務廣泛涵蓋 IT、半導體、電子、金融、能源、電商、消費品、零售、醫藥及後勤等產業，支援從中階到高階的人才布局。</p>
-        <p class="wp en">Our coverage spans IT, semiconductors, electronics, finance, energy, e-commerce, retail, pharma, and operations — supporting mid to executive-level placements.</p>
+        <div class="wico">⊛</div>
+        <div>
+          <h4 class="wt zh">涵蓋多元技術領域</h4>
+          <h4 class="wt en">Broad Technical Coverage</h4>
+          <p class="wp zh">開發服務廣泛涵蓋 Web 與 App、雲端架構、資料工程、AI 整合、區塊鏈與企業系統，支援從 MVP 到大型專案的各階段需求。</p>
+          <p class="wp en">Our development covers Web & App, cloud architecture, data engineering, AI integration, blockchain, and enterprise systems — supporting everything from MVP to large-scale projects.</p>
+        </div>
       </div>
       <div class="gcard wcard" data-r data-d="5">
-        <span class="wnum">— 05 —</span>
-        <h4 class="wt zh">一站式雇主品牌優化</h4>
-        <h4 class="wt en">Employer Brand Optimization</h4>
-        <p class="wp zh">除了尋訪頂尖人才之外，KV 也為企業提供一站式雇主品牌建立與行銷規劃，從內到外提升企業的人才磁吸效應。透過多平台的精準投放、社群互動策略，以及顧問端的延伸推薦，全面強化貴企業在頂尖科技人才圈內的辨識度與磁吸效應。</p>
-        <p class="wp en">Beyond talent search, KV offers end-to-end employer branding and marketing strategy — enhancing your company's magnetic pull on top talent. Through multi-platform precision campaigns, community engagement strategies, and consultant-driven referrals, we comprehensively strengthen your identity within elite tech talent circles.</p>
+        <div class="wico">✦</div>
+        <div>
+          <h4 class="wt zh">彈性人才派遣</h4>
+          <h4 class="wt en">Flexible Staffing</h4>
+          <p class="wp zh">除了專案承攬，Kings Value 也提供技術人才派遣服務，由本公司派遣正式僱用的資深工程師進駐客戶端，補強研發量能、彈性調度，工程師的勞健保與雇主責任皆由本公司承擔。</p>
+          <p class="wp en">Beyond project contracting, Kings Value dispatches its own full-time senior engineers on-site to reinforce your R&D capacity with flexible scaling — we bear their insurance and all employer responsibilities.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -495,42 +500,42 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 <section id="ind">
   <div class="si">
     <div data-r style="text-align:center;margin-bottom:1rem">
-      <span class="stag">Focused Industries</span>
-      <h2 class="sh2 zh">我們深耕的<em>未來科技</em>領域</h2>
-      <h2 class="sh2 en">The <em>Technology Frontier</em> We Call Home</h2>
+      <span class="stag">Focused Domains</span>
+      <h2 class="sh2 zh">我們深耕的<em>技術開發</em>領域</h2>
+      <h2 class="sh2 en">The <em>Technology Frontier</em> We Build In</h2>
     </div>
     <div class="igrid">
       <div class="gcard icard" data-r data-d="1">
         <div class="iicon">AI</div>
         <div>
           <h3 class="it">AI 人工智能</h3>
-          <p class="ip zh">運算技術、雲端架構、大數據分析的頂尖人才。協助企業找到推動 AI 創新的關鍵大腦，從資深工程師到研究科學家。</p>
-          <p class="ip en">Computing, cloud architecture, and big data specialists. We find the key brains driving AI innovation — from senior engineers to research scientists.</p>
+          <p class="ip zh">運算技術、雲端架構、大數據與機器學習整合。協助企業打造推動 AI 創新的核心系統，從模型部署到資料管線一手包辦。</p>
+          <p class="ip en">Computing, cloud architecture, big data, and ML integration. We build the core systems driving AI innovation — from model deployment to data pipelines.</p>
         </div>
       </div>
       <div class="gcard icard" data-r data-d="2">
         <div class="iicon">&lt;/&gt;</div>
         <div>
-          <h3 class="it zh">IT 科技開發</h3>
-          <h3 class="it en">IT & Software Dev</h3>
-          <p class="ip zh">匹配卓越的全棧開發與系統架構師。精準評估各技術棧，確保技術人才與企業文化完美契合。</p>
-          <p class="ip en">Top full-stack developers and system architects. Deep technical evaluation ensures perfect cultural and technical fit.</p>
+          <h3 class="it zh">Web 與 App 開發</h3>
+          <h3 class="it en">Web & App Development</h3>
+          <p class="ip zh">提供全棧開發與系統架構設計。從前端體驗、後端服務到雲端維運，確保系統穩定、可擴展且易於維護。</p>
+          <p class="ip en">Full-stack development and system architecture. From frontend experience to backend services and cloud operations, we ensure stable, scalable, maintainable systems.</p>
         </div>
       </div>
       <div class="gcard icard" data-r data-d="3">
         <div class="iicon">FT</div>
         <div>
           <h3 class="it">Fintech / Martech</h3>
-          <p class="ip zh">數位金融產品經理、行銷科技架構師與量化分析師。掌握支付科技、DeFi 與高流量行銷技術的複合型頂尖人才。</p>
-          <p class="ip en">Fintech product leads, Martech architects, and quantitative analysts mastering the intersection of finance, marketing, and technology.</p>
+          <p class="ip zh">數位金融產品、行銷科技平台與量化分析系統開發。掌握支付科技、DeFi 與高流量行銷技術的複合型開發能力。</p>
+          <p class="ip en">Fintech products, Martech platforms, and quantitative analytics systems — mastering the intersection of payment tech, DeFi, and high-volume marketing technology.</p>
         </div>
       </div>
       <div class="gcard icard" data-r data-d="4">
         <div class="iicon">W3</div>
         <div>
           <h3 class="it">區塊鏈 / Web3</h3>
-          <p class="ip zh">深耕 DeFi、NFT、智能合約與去中心化社群。在全球範圍內捕捉具備前瞻思維的 Web3 開發者與架構師。</p>
-          <p class="ip en">DeFi, NFT, smart contracts, and decentralized communities. We capture forward-thinking Web3 builders globally.</p>
+          <p class="ip zh">深耕 DeFi、NFT、智能合約與去中心化應用開發。為客戶打造具備前瞻架構的 Web3 系統與鏈上服務。</p>
+          <p class="ip en">DeFi, NFT, smart contracts, and decentralized application development. We build forward-thinking Web3 systems and on-chain services for our clients.</p>
         </div>
       </div>
     </div>
@@ -542,32 +547,32 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   <div class="si">
     <div data-r>
       <span class="stag">Our Solutions</span>
-      <h2 class="sh2 zh">全方位<em>顧問產品線</em></h2>
-      <h2 class="sh2 en">Tailored <em>Professional Solutions</em></h2>
-      <p class="slead zh">KV 不僅是媒合，更是您的戰略夥伴。我們的服務體系涵蓋精準尋訪、規模招募與品牌擴散三大核心。</p>
-      <p class="slead en">KV goes beyond placement — our ecosystem covers precision search, volume hiring, and employer brand amplification.</p>
+      <h2 class="sh2 zh">全方位<em>技術服務產品線</em></h2>
+      <h2 class="sh2 en">Tailored <em>Technical Solutions</em></h2>
+      <p class="slead zh">Kings Value 不只是寫程式，更是您的技術夥伴。我們的服務體系涵蓋專案承攬、人才派遣與技術顧問三大核心。</p>
+      <p class="slead en">Kings Value goes beyond coding — our ecosystem covers project contracting, technical staffing, and technical advisory.</p>
     </div>
     <div class="sgrid">
       <div class="gcard scard" data-r data-d="1">
         <div class="sico">◈</div>
-        <h3 class="sti zh">科技技術崗位精準顧問</h3>
-        <h3 class="sti en">Tech Position Advisory</h3>
-        <p class="sp zh">運用專業的技術評估系統和行業網絡，精準尋訪高階技術領袖。從初創到大型科技企業，量身定制的解決方案，確保技術實力與文化的完美契合。</p>
-        <p class="sp en">Leveraging technical evaluation systems and industry networks to identify elite technical leaders — bespoke solutions ensuring perfect alignment.</p>
+        <h3 class="sti zh">軟體專案承攬開發</h3>
+        <h3 class="sti en">Project-Based Development</h3>
+        <p class="sp zh">從需求訪談、系統設計、開發實作到測試上線，提供端到端的客製化軟體開發。固定範疇、固定報價，為客戶交付完整可用的系統成果。</p>
+        <p class="sp en">End-to-end custom software development — from requirements and design to implementation, testing, and launch. Fixed scope, fixed quote, complete deliverable systems.</p>
       </div>
       <div class="gcard scard" data-r data-d="2">
         <div class="sico">⊞</div>
-        <h3 class="sti zh">職能崗位大量媒合</h3>
-        <h3 class="sti en">High-Volume Matching</h3>
-        <p class="sp zh">針對企業擴張期與大型專案，提供從企劃、設計到工程開發的快速規模化人才匹配服務，迅速組建高效能跨職能團隊。</p>
-        <p class="sp en">Rapid, scalable matching across planning, design, and engineering — quickly building high-performance cross-functional teams.</p>
+        <h3 class="sti zh">技術人才派遣</h3>
+        <h3 class="sti en">Technical Staffing</h3>
+        <p class="sp zh">針對企業擴張期與大型專案，由本公司派遣正式僱用的資深工程師進駐客戶端協同開發。依人月計費，彈性補強您的研發量能，工程師的勞健保與雇主責任皆由本公司負擔。</p>
+        <p class="sp en">For expansion phases and large projects, Kings Value dispatches its own full-time senior engineers to work on-site alongside your team. Billed monthly per engineer — we bear their insurance and all employer responsibilities.</p>
       </div>
       <div class="gcard scard" data-r data-d="3">
         <div class="sico">◎</div>
-        <h3 class="sti zh">品牌流量曝光</h3>
-        <h3 class="sti en">Employer Branding</h3>
-        <p class="sp zh">量身打造雇主品牌，透過多平台精準投放與顧問社群推廣，大幅提升企業在頂尖科技人才圈的磁吸效應與市場辨識度。</p>
-        <p class="sp en">Precision multi-platform campaigns and consultant community outreach that dramatically increase your magnetic pull on top-tier tech talent.</p>
+        <h3 class="sti zh">技術顧問與系統優化</h3>
+        <h3 class="sti en">Technical Advisory</h3>
+        <p class="sp zh">為既有系統提供架構審查、效能優化、技術選型與雲端遷移建議，協助企業降低技術債、提升系統穩定性與長期可維護性。</p>
+        <p class="sp en">Architecture review, performance tuning, tech-stack selection, and cloud migration advisory — reducing technical debt and improving system stability and maintainability.</p>
       </div>
     </div>
   </div>
@@ -578,33 +583,33 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   <div class="si">
     <div data-r style="text-align:center">
       <span class="stag">Our Methodology</span>
-      <h2 class="sh2 zh"><em>高階人才整合</em>佈局方法論</h2>
-      <h2 class="sh2 en">The <em>KV Integration</em> Methodology</h2>
+      <h2 class="sh2 zh"><em>專案開發</em>交付方法論</h2>
+      <h2 class="sh2 en">The <em>Kings Value</em> Delivery Method</h2>
     </div>
     <div class="mgrid">
       <div class="gcard mstep" data-r data-d="1">
         <div class="msn">01</div>
-        <h4 class="mst zh">戰略定錨</h4><h4 class="mst en">Strategic Alignment</h4>
-        <p class="msp zh">深度對焦企業組織架構與發展藍圖，重新定義成功所需的關鍵能力畫像。</p>
-        <p class="msp en">Aligning with your organizational structure to define the competency profile needed for success.</p>
+        <h4 class="mst zh">需求定錨</h4><h4 class="mst en">Requirement Alignment</h4>
+        <p class="msp zh">深度釐清業務目標與技術範疇，定義系統規格、里程碑與驗收標準。</p>
+        <p class="msp en">Clarifying business goals and technical scope to define specs, milestones, and acceptance criteria.</p>
       </div>
       <div class="gcard mstep" data-r data-d="2">
         <div class="msn">02</div>
-        <h4 class="mst zh">全景尋訪</h4><h4 class="mst en">Panoramic Sourcing</h4>
-        <p class="msp zh">啟動全球資源網絡，針對目標產業鏈地毯式掃描，鎖定潛力領袖。</p>
-        <p class="msp en">Activating global networks to map the industry landscape and lock in potential leaders.</p>
+        <h4 class="mst zh">架構設計</h4><h4 class="mst en">Architecture Design</h4>
+        <p class="msp zh">規劃系統架構、技術選型與資料模型，確保可擴展性與長期可維護性。</p>
+        <p class="msp en">Designing system architecture, tech stack, and data models for scalability and maintainability.</p>
       </div>
       <div class="gcard mstep" data-r data-d="3">
         <div class="msn">03</div>
-        <h4 class="mst zh">深度鑑別</h4><h4 class="mst en">Consultative Assessment</h4>
-        <p class="msp zh">以產業專家視角進行多輪對話，提供背景分析、技術評估與薪酬市場洞察。</p>
-        <p class="msp en">Expert-level evaluations with background analysis, technical assessments, and market intelligence.</p>
+        <h4 class="mst zh">敏捷開發</h4><h4 class="mst en">Agile Development</h4>
+        <p class="msp zh">以迭代方式推進開發，定期交付可驗證成果，過程透明、隨時對齊需求。</p>
+        <p class="msp en">Iterative development with regular verifiable deliverables — transparent and continuously aligned.</p>
       </div>
       <div class="gcard mstep" data-r data-d="4">
         <div class="msn">04</div>
-        <h4 class="mst zh">無縫落地</h4><h4 class="mst en">Seamless Integration</h4>
-        <p class="msp zh">媒合成功只是開始。持續提供條件談判、入職銜接與長期組織發展建議。</p>
-        <p class="msp en">Placement is just the start — ongoing negotiation support, onboarding, and long-term advisory.</p>
+        <h4 class="mst zh">上線維運</h4><h4 class="mst en">Launch & Support</h4>
+        <p class="msp zh">交付只是開始。持續提供部署協助、保固維護與長期技術支援。</p>
+        <p class="msp en">Delivery is just the start — ongoing deployment support, warranty maintenance, and long-term technical support.</p>
       </div>
     </div>
   </div>
@@ -622,28 +627,28 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
       <div class="gcard ccard" data-r data-d="1">
         <div class="cq">"</div>
         <div class="cbd">
-          <h3 class="ctitle zh">協助知名外商<em>半導體設備商</em>，在台組建新技術團隊</h3>
-          <h3 class="ctitle en">Building a New Tech Team for a Global <em>Semiconductor Equipment Leader</em></h3>
-          <p class="ctext zh">在客戶面臨極為壓縮的時程壓力下，KV 尋訪顧問團隊於一季內為其組建完整技術陣容，順利串接原廠技術與在地半導體製造商上線。我們的關鍵在於迅速釐清客戶真實需求與潛在的人才招募阻力，針對 80 位以上候選人進行地毯式人才搜索，鎖定 8 年以上研發資歷、精通英語且具備跨國溝通能力的專業工程師。歷經 3–4 輪嚴謹篩選、跨越歐美面試官的考核，最終為客戶招募到資深工程師與管理職人才，提供關鍵戰力。此次合作不僅是時間競賽，更印證了 KV 在限時專案下，仍能精準尋訪中高階資深人才的核心能力。</p>
-          <p class="ctext en">Facing extreme time pressure, KV's search team assembled a complete technical lineup within one quarter, successfully bridging foreign HQ technology with local semiconductor manufacturers. Our edge lay in rapidly clarifying client needs and screening 80+ candidates to identify engineers with 8+ years of R&D experience, fluent English, and cross-cultural communication skills. After 3–4 rounds of rigorous evaluation and interviews with European and American panels, we placed senior engineers and management-level talent — proving KV's capability to precisely source mid-to-senior professionals under tight deadlines.</p>
+          <h3 class="ctitle zh">為知名外商<em>半導體設備商</em>，打造原廠技術整合系統</h3>
+          <h3 class="ctitle en">Building a Tech Integration System for a Global <em>Semiconductor Equipment Leader</em></h3>
+          <p class="ctext zh">在客戶面臨極為壓縮的時程壓力下，Kings Value 開發團隊於一季內交付一套完整的技術整合平台，順利串接原廠設備系統與在地半導體製造商的產線資料。我們的關鍵在於迅速釐清客戶真實需求與既有系統的技術限制，針對 80 餘項設備介接規格進行盤點與設計，建構支援多協定、即時監控的資料管線。歷經 3–4 輪嚴謹的測試與壓力驗證、跨越歐美技術窗口的審查，最終交付穩定上線的整合系統，提供關鍵戰力。此次合作不僅是時間競賽，更印證了 Kings Value 在限時專案下，仍能精準交付中大型系統開發的核心能力。</p>
+          <p class="ctext en">Facing extreme time pressure, the Kings Value team delivered a complete technical integration platform within one quarter, bridging foreign HQ equipment systems with a local semiconductor manufacturer's production data. Our edge lay in rapidly clarifying client needs and existing system constraints, designing a multi-protocol, real-time monitoring data pipeline across 80+ device integration specs. After 3–4 rounds of rigorous testing and stress validation, plus review by European and American technical leads, we delivered a stable production system — proving Kings Value's capability to precisely deliver mid-to-large system development under tight deadlines.</p>
         </div>
       </div>
       <div class="gcard ccard" data-r data-d="2">
         <div class="cq">"</div>
         <div class="cbd">
-          <h3 class="ctitle zh">知名<em>大型零售集團</em>，數位轉型專案組建新團隊</h3>
+          <h3 class="ctitle zh">知名<em>大型零售集團</em>，數位轉型資料中台開發</h3>
           <h3 class="ctitle en">Digital Transformation for a Major <em>Retail Group</em></h3>
-          <p class="ctext zh">為配合數位轉型策略，某知名零售集團決定整合內部資源、組建新團隊以驅動下階段成長。本專案涵蓋兩大尋訪方向：首先是建立數據中台團隊，目的在於串接內部各系統並建構全新的消費者服務體驗。KV 協助招募技術主管與工程師等核心研發成員，順利引進 3 位深耕數據中台與電商領域的資深技術主管。第二階段聚焦於經營管理層尋訪，導入具備整合營運經驗的高階人才推動業務優化。過程中，KV 透過「組織規劃」與「職能診斷」雙重視角分析人才需求，協助企業確立清晰的尋訪路徑。經過三輪嚴格篩選，最終為集團注入兩位資深經營管理人才，成為數位轉型的關鍵推力。</p>
-          <p class="ctext en">To support digital transformation, a renowned retail group sought to integrate resources and build a new team. The project spanned two tracks: first, establishing a data middle-platform team to connect internal systems and rebuild consumer service. KV placed 3 senior tech leaders with deep data-platform and e-commerce backgrounds. The second phase focused on management-level search, introducing executives with integrated operations experience. Through dual lenses of "organizational planning" and "functional diagnosis," KV helped the group define a clear search path, ultimately delivering two senior executives who became key drivers of the transformation.</p>
+          <p class="ctext zh">為配合數位轉型策略，某知名零售集團決定整合內部系統、建構全新的數據中台以驅動下階段成長。本專案涵蓋兩大開發方向：首先是建立數據中台系統，目的在於串接內部各業務系統並打造全新的消費者服務體驗。Kings Value 負責核心架構設計與開發實作，順利交付一套整合會員、訂單與庫存的資料中台，並完成與電商平台的即時介接。第二階段聚焦於營運分析模組，導入具備視覺化儀表板與報表自動化的管理系統推動業務優化。過程中，Kings Value 透過「系統盤點」與「資料建模」雙重視角分析需求，協助企業確立清晰的技術藍圖。經過三輪嚴格測試，最終為集團交付穩定運行的數據中台，成為數位轉型的關鍵推力。</p>
+          <p class="ctext en">To support digital transformation, a renowned retail group sought to integrate internal systems and build a new data platform. The project spanned two tracks: first, building a data middle-platform to connect internal business systems and rebuild the consumer service experience. Kings Value led the core architecture and implementation, delivering a platform integrating membership, orders, and inventory with real-time e-commerce integration. The second phase focused on an operations analytics module with visualization dashboards and automated reporting. Through dual lenses of "system audit" and "data modeling," Kings Value helped define a clear technical blueprint, ultimately delivering a stable data platform that drove the transformation.</p>
         </div>
       </div>
       <div class="gcard ccard" data-r data-d="3">
         <div class="cq">"</div>
         <div class="cbd">
-          <h3 class="ctitle zh">知名<em>數位金融銀行</em>，重整客服團隊</h3>
-          <h3 class="ctitle en">Restructuring Customer Service at a Leading <em>Digital Bank</em></h3>
-          <p class="ctext zh">為提升客服部門整體表現並因應主管離任，某知名數位銀行決定對外尋訪新任客服主管並重整內部團隊。憑藉 KV 在金融產業的深厚經驗，該銀行在一個半月內順利延攬一位具備外商銀行背景的資深客服主管。新主管上任後立即啟動雙階段重組計畫——第一階段針對客服團隊自然流失造成的人力缺口，KV 協助招募 6 位資深客服人才，並由新主管親自面談篩選，有效提升團隊整體效能；第二階段面對擴編需求與正式編制限制，KV 建議導入派遣制度作為短期過渡方案，並從中挑選表現優異者於正式編制釋出時轉為正職，最終為客戶引入 9 位派遣客服。本案 KV 不僅完成尋訪任務，更協助客戶建立外包人員的薪酬與管理框架，大幅提升組織人力的靈活度。</p>
-          <p class="ctext en">To improve customer service performance amid leadership change, a prominent digital bank engaged KV to source a new department head and restructure the team. Drawing on our financial industry depth, the bank onboarded a seasoned CS leader with foreign-bank credentials within six weeks. The new leader launched a two-phase plan: first, KV recruited 6 experienced CS specialists to fill natural attrition gaps; second, given headcount constraints, KV proposed a contract-staffing model with conversion pathways, ultimately placing 9 contract specialists. Beyond search delivery, KV also helped the client design compensation and management frameworks for contingent staff — significantly enhancing organizational agility.</p>
+          <h3 class="ctitle zh">知名<em>數位金融銀行</em>，客服系統開發與團隊駐點</h3>
+          <h3 class="ctitle en">Customer Service Platform for a Leading <em>Digital Bank</em></h3>
+          <p class="ctext zh">為提升客服部門營運效率並因應業務量成長，某知名數位銀行決定重新打造一套整合式客服系統並補強研發量能。憑藉 Kings Value 在金融科技領域的深厚經驗，雙方於一個半月內完成系統規格確認並啟動開發。專案分為雙階段推進——第一階段針對客服流程數位化，Kings Value 開發了整合工單管理、知識庫與即時對話的客服平台，有效提升團隊處理效率；第二階段面對客戶端開發人力不足，Kings Value 以人才派遣方式，由本公司派遣 6 位正式僱用的資深工程師進駐，協助客戶完成系統擴充與後續迭代，並依人月計費彈性調度。本案 Kings Value 不僅完成系統交付，更協助客戶建立可持續維運的技術框架，大幅提升數位服務的靈活度。</p>
+          <p class="ctext en">To improve customer service efficiency amid business growth, a prominent digital bank engaged Kings Value to rebuild an integrated CS platform and reinforce its development capacity. Drawing on our fintech depth, both sides confirmed specs and kicked off development within six weeks. The project ran in two phases: first, digitizing CS workflows — Kings Value built a platform integrating ticket management, knowledge base, and live chat, significantly improving team efficiency; second, given the client's developer shortage, Kings Value dispatched 6 of its own full-time senior engineers on-site for system expansion and iteration, billed flexibly by the month. Beyond delivery, Kings Value helped establish a sustainable technical framework — greatly enhancing the agility of their digital services.</p>
         </div>
       </div>
     </div>
@@ -655,40 +660,40 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   <div class="si">
     <div data-r style="margin-bottom:3.5rem">
       <span class="stag">Insights & Articles</span>
-      <h2 class="sh2 zh">商業洞察與<em>產業觀點</em></h2>
-      <h2 class="sh2 en">Business Insights &amp; <em>Industry Perspectives</em></h2>
+      <h2 class="sh2 zh">技術洞察與<em>開發觀點</em></h2>
+      <h2 class="sh2 en">Tech Insights &amp; <em>Engineering Perspectives</em></h2>
     </div>
     <div class="bgrid">
       <div class="gcard bcard" onclick="openA(1)" data-r data-d="1">
         <div class="biw"><img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80&w=800" alt=""><div class="bio"></div></div>
         <div class="bbd">
-          <div class="bcat zh">產業趨勢 · 約 3 分鐘</div><div class="bcat en">Industry Trends · 3 min read</div>
-          <h3 class="bti zh">全球性的招募困境：為何頂尖企業都需要商業顧問？</h3>
-          <h3 class="bti en">The Global Recruitment Crisis: Why Elite Firms Need Consultants</h3>
-          <p class="bex zh">隨著企業對專業技術需求暴增，人才市場正面臨前所未有的挑戰。了解三大全球招募困境與專業顧問的破局之道...</p>
-          <p class="bex en">As demand for specialized talent surges, the market faces unprecedented challenges. Explore three global recruitment crises and how consultants break through...</p>
+          <div class="bcat zh">技術趨勢 · 約 3 分鐘</div><div class="bcat en">Tech Trends · 3 min read</div>
+          <h3 class="bti zh">自建還是外包？企業軟體開發的關鍵決策</h3>
+          <h3 class="bti en">Build or Outsource? The Key Software Development Decision</h3>
+          <p class="bex zh">當企業面臨數位轉型，是組建內部團隊還是委外開發？剖析三大常見困境與委外開發的破局之道...</p>
+          <p class="bex en">Facing digital transformation, should you build in-house or outsource development? Explore three common dilemmas and how outsourcing breaks through...</p>
           <div class="bmore zh">閱讀全文</div><div class="bmore en">Read Article</div>
         </div>
       </div>
       <div class="gcard bcard" onclick="openA(2)" data-r data-d="2">
         <div class="biw"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" alt=""><div class="bio"></div></div>
         <div class="bbd">
-          <div class="bcat zh">招募策略 · 約 3 分鐘</div><div class="bcat en">Recruitment Strategy · 3 min read</div>
-          <h3 class="bti zh">HR 的真實苦衷：日常繁雜事務纏身，為何需要專業尋訪顧問？</h3>
-          <h3 class="bti en">The HR Reality: Why Overwhelmed Teams Need Professional Consultants</h3>
-          <p class="bex zh">內部人資往往身兼多職，難以撥出時間進行高階尋訪。揭秘為何專業顧問是 HR 最強大的戰略後盾...</p>
-          <p class="bex en">Internal HR teams juggle dozens of responsibilities. Discover why professional consultants are the most powerful strategic reinforcement...</p>
+          <div class="bcat zh">專案管理 · 約 3 分鐘</div><div class="bcat en">Project Management · 3 min read</div>
+          <h3 class="bti zh">為何技術專案總是延期？談需求管理與交付節奏</h3>
+          <h3 class="bti en">Why Tech Projects Slip: Requirement Management & Delivery Cadence</h3>
+          <p class="bex zh">技術專案延期幾乎成為常態，根源往往不在工程能力，而在需求溝通與範疇控管。揭秘穩定交付的關鍵...</p>
+          <p class="bex en">Tech project delays are almost the norm — the root cause is rarely engineering skill, but requirement communication and scope control. The keys to stable delivery...</p>
           <div class="bmore zh">閱讀全文</div><div class="bmore en">Read Article</div>
         </div>
       </div>
       <div class="gcard bcard" onclick="openA(3)" data-r data-d="3">
         <div class="biw"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800" alt=""><div class="bio"></div></div>
         <div class="bbd">
-          <div class="bcat zh">人資洞察 · 約 3 分鐘</div><div class="bcat en">HR Insights · 3 min read</div>
-          <h3 class="bti zh">洞悉人力資源管理：HR 的六大核心職能與戰略分工</h3>
-          <h3 class="bti en">HR Demystified: The Six Core Functions and Strategic Division of Labor</h3>
-          <p class="bex zh">招募只是 HR 的六分之一。深入了解現代人資六大模塊，探討企業如何透過外部顧問進行高效的戰略分工...</p>
-          <p class="bex en">Recruitment is just one-sixth of HR. Deep-dive the six HRM modules and how enterprises leverage external consultants for strategic division...</p>
+          <div class="bcat zh">架構洞察 · 約 3 分鐘</div><div class="bcat en">Architecture Insights · 3 min read</div>
+          <h3 class="bti zh">技術債的真實成本：為何系統重構不能再拖</h3>
+          <h3 class="bti en">The Real Cost of Technical Debt: Why Refactoring Can't Wait</h3>
+          <p class="bex zh">技術債就像隱形利息，隨時間越滾越大。深入了解技術債的五種來源，以及如何透過系統性重構控管...</p>
+          <p class="bex en">Technical debt is like invisible interest, compounding over time. Explore the five sources of technical debt and how to control it through systematic refactoring...</p>
           <div class="bmore zh">閱讀全文</div><div class="bmore en">Read Article</div>
         </div>
       </div>
@@ -701,36 +706,36 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   <div class="si">
     <div data-r style="text-align:center">
       <span class="stag">FAQ</span>
-      <h2 class="sh2 zh">尋訪顧問服務<em>常見問題</em></h2>
+      <h2 class="sh2 zh">軟體開發服務<em>常見問題</em></h2>
       <h2 class="sh2 en"><em>Frequently Asked</em> Questions</h2>
     </div>
     <div class="faqs">
       <details class="gcard faq" data-r data-d="1">
-        <summary><span class="zh">KV 人才尋訪與其他顧問有什麼差別？</span><span class="en">How is KV different from other consultancies?</span></summary>
+        <summary><span class="zh">Kings Value 與其他軟體開發團隊有什麼差別？</span><span class="en">How is Kings Value different from other dev teams?</span></summary>
         <div class="faq-body">
-          <p class="zh">KV 的尋訪顧問團隊由資深產業專家組成，深耕 AI、數位金融、行銷科技與 Web3 等前沿科技領域。我們不僅倚賴深厚的全球人脈與封閉式人才智庫，更導入 AI 與行銷科技工具進行精準匹配，協助企業在最短時間內鎖定關鍵人才，大幅縮短決策週期。</p>
-          <p class="en">KV's consultant team comprises senior industry experts deeply rooted in AI, Fintech, Martech, and Web3. We combine global networks and exclusive talent pools with AI and Martech tools for precise matching — helping enterprises identify key talent quickly and shorten decision cycles.</p>
+          <p class="zh">Kings Value 由資深工程師組成，深耕 AI、數位金融、行銷科技與 Web3 等前沿技術領域。我們不僅具備全棧開發能力，更導入 AI 工具加速開發流程，協助企業在最短時間內完成高品質、可維護的系統交付。</p>
+          <p class="en">Kings Value comprises senior engineers deeply rooted in AI, Fintech, Martech, and Web3. Beyond full-stack capability, we leverage AI tools to accelerate development — helping enterprises deliver high-quality, maintainable systems quickly.</p>
         </div>
       </details>
       <details class="gcard faq" data-r data-d="2">
-        <summary><span class="zh">請問 KV 人才尋訪服務是在成功媒合後收費嗎？</span><span class="en">Does KV only charge upon successful placement?</span></summary>
+        <summary><span class="zh">Kings Value 的收費方式是如何計算的？</span><span class="en">How does Kings Value charge for its services?</span></summary>
         <div class="faq-body">
-          <p class="zh">是的。我們採取「成功媒合制」——僅在推薦的候選人正式到職後，才會依合約條款收取顧問服務費，與企業共同承擔尋才風險。</p>
-          <p class="en">Yes. We operate on a success-based model — fees are only charged after the recommended candidate officially onboards, sharing the recruitment risk with our clients.</p>
+          <p class="zh">依服務類型而定。軟體專案承攬採「固定範疇、固定報價」，依專案規模與工作量估價；技術人才派遣則採「人月計費」，依進駐工程師人數與期間計算。雙方於合約中明確約定範疇、里程碑與付款條件。</p>
+          <p class="en">It depends on the service type. Project contracting uses "fixed scope, fixed quote" based on project size and workload; technical staffing uses "monthly-rate billing" based on the number of embedded engineers and duration. Scope, milestones, and payment terms are clearly defined in the contract.</p>
         </div>
       </details>
       <details class="gcard faq" data-r data-d="3">
-        <summary><span class="zh">KV 如何幫助我招募到適合的人選？</span><span class="en">How does KV help find the right candidate?</span></summary>
+        <summary><span class="zh">一個軟體專案的開發流程是怎麼進行的？</span><span class="en">What does the development process look like?</span></summary>
         <div class="faq-body">
-          <p class="zh">收到企業的人才需求後，KV 立即啟動跨部門協同尋訪流程：商業顧問部展開全景式人才搜尋；客戶服務部針對候選人進行深度面談與背景核實；行銷團隊在專業社群中精準觸及潛在人選；產業研究部門同步進行同業薪酬與人才競爭力分析。針對企業屬意的候選人，我們依需求量身打造篩選流程，涵蓋技能評測、多輪面試與資歷查核，並在條件談判階段協助薪酬斡旋。媒合成功後，我們持續提供保證期內的跟進服務，確保候選人順利融入團隊。</p>
-          <p class="en">Upon receiving your requirements, KV activates a cross-departmental sourcing process: business consultants launch panoramic search, client services conduct in-depth interviews and verification, marketing reaches potential candidates in professional communities, and research handles compensation and competitiveness analysis. For preferred candidates, we tailor the screening process with skill assessments, multi-round interviews, and reference checks, plus negotiation support. After placement, we provide ongoing follow-up during the guarantee period.</p>
+          <p class="zh">收到需求後，Kings Value 啟動跨職能協作流程：先由技術團隊進行需求訪談與系統規格確認；接著完成架構設計與技術選型；開發階段以敏捷迭代方式推進，定期交付可驗證成果；最後進行整合測試、部署上線。專案上線後，我們持續提供保固期內的缺陷修復與技術支援，確保系統穩定運行。</p>
+          <p class="en">Upon receiving requirements, Kings Value activates a cross-functional process: the technical team conducts requirement interviews and confirms specs; then completes architecture design and tech-stack selection; development proceeds in agile iterations with regular verifiable deliverables; finally, integration testing and deployment. After launch, we provide defect fixes and technical support during the warranty period to ensure stable operation.</p>
         </div>
       </details>
       <details class="gcard faq" data-r data-d="4">
-        <summary><span class="zh">請問 KV 顧問服務是否提供試用期保證？</span><span class="en">Does KV offer probation period guarantees?</span></summary>
+        <summary><span class="zh">專案交付後是否提供保固與維護？</span><span class="en">Do you offer post-delivery warranty and maintenance?</span></summary>
         <div class="faq-body">
-          <p class="zh">是的。KV 提供「保證期遞補機制」——若候選人在保證期內離職或不適任，我們將依合約條款，於約定期限內提供替補候選人。詳細保證期天數與條款可參閱我們的<a href="#" onclick="openProcess('contract');return false" style="color:var(--bronze);text-decoration:underline">示範合約</a>。</p>
-          <p class="en">Yes. KV offers a guarantee period replacement mechanism — if a placement departs or proves unsuitable within the guarantee period, we provide a replacement candidate per contract terms. See our <a href="#" onclick="openProcess('contract');return false" style="color:var(--bronze);text-decoration:underline">sample contract</a> for details.</p>
+          <p class="zh">是的。Kings Value 提供「交付保固機制」——系統上線後，於約定的保固期內，我們將依合約條款免費修復屬於開發範疇內的程式缺陷，並提供技術支援。詳細保固天數與條款可參閱我們的<a href="#" onclick="openProcess('contract');return false" style="color:var(--bronze);text-decoration:underline">示範合約</a>。</p>
+          <p class="en">Yes. Kings Value offers a delivery warranty — after launch, within the agreed warranty period, we fix in-scope code defects free of charge and provide technical support per contract terms. See our <a href="#" onclick="openProcess('contract');return false" style="color:var(--bronze);text-decoration:underline">sample contract</a> for details.</p>
         </div>
       </details>
     </div>
@@ -741,10 +746,10 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 <section id="nl">
   <div class="si">
     <span class="stag" data-r>Stay Connected</span>
-    <h2 class="nlh zh" data-r>掌握最新全球高階職缺<br>與產業洞察</h2>
-    <h2 class="nlh en" data-r>Stay Ahead with Global<br>Executive Insights</h2>
-    <p class="nls zh">訂閱 KV 電子報，第一時間獲取未公開的科技與 Web3 高薪崗位，以及最新產業趨勢分析。</p>
-    <p class="nls en">Subscribe for unlisted Tech and Web3 positions first, plus the latest industry trend analysis from KV consultants.</p>
+    <h2 class="nlh zh" data-r>掌握最新技術趨勢<br>與開發洞察</h2>
+    <h2 class="nlh en" data-r>Stay Ahead with the Latest<br>Tech & Engineering Insights</h2>
+    <p class="nls zh">訂閱 Kings Value 電子報，第一時間獲取軟體開發、AI 與 Web3 的技術趨勢分析與實戰經驗分享。</p>
+    <p class="nls en">Subscribe for the latest on software development, AI, and Web3 — technical trend analysis and hands-on engineering insights from Kings Value.</p>
     <!-- TODO: 電子報後端尚未串接。未來可選擇 Formspree / Google Form / Mailchimp 接上實際 email 收集 -->
     <form class="nlf" onsubmit="hSub(event)">
       <input type="email" required placeholder="your@email.com">
@@ -767,8 +772,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 <section id="cta">
   <div class="ctag"></div>
   <div class="si">
-    <h2 class="ctah zh" data-r>準備好佈局<br><em>您的全球科技團隊了嗎？</em></h2>
-    <h2 class="ctah en" data-r>Ready to build<br><em>your world-class tech team?</em></h2>
+    <h2 class="ctah zh" data-r>準備好啟動<br><em>您的下一個技術專案了嗎？</em></h2>
+    <h2 class="ctah en" data-r>Ready to start<br><em>your next tech project?</em></h2>
     <a href="mailto:service@kings-value.com" class="ba" style="display:inline-block;margin-top:.5rem"><span class="zhi">聯絡我們</span><span class="eni">Contact Us</span></a>
     <p class="ctaloc">Taipei · Singapore · Manila</p>
   </div>
@@ -776,12 +781,7 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 
 <footer>
   <span class="fl">© 2026 Kings Value Consulting. All Rights Reserved.</span>
-  <div style="display:flex;align-items:center;gap:1.5rem">
-    <button onclick="openPrivacy()" style="background:none;border:none;color:var(--cream-35);font-family:var(--sans);font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;padding:0;transition:color .3s" onmouseover="this.style.color='var(--bronze)'" onmouseout="this.style.color='var(--cream-35)'">
-      <span class="zhi">隱私權政策</span><span class="eni">Privacy Policy</span>
-    </button>
-    <div class="fkv"><div class="fm">K</div><span class="fn">Kings Value</span></div>
-  </div>
+  <div class="fkv"><div class="fm">K</div><span class="fn">Kings Value</span></div>
 </footer>
 
 <!-- ═══ ARTICLE MODAL ═══ -->
@@ -799,8 +799,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <div class="mbd">
       <div class="mtag2 zhi">合作機制</div>
       <div class="mtag2 eni">PARTNERSHIP</div>
-      <h2 class="mtit zh">與 KV 攜手合作</h2>
-      <h2 class="mtit en">Partnering with KV Hire</h2>
+      <h2 class="mtit zh">與 Kings Value 攜手合作</h2>
+      <h2 class="mtit en">Partnering with Kings Value</h2>
       <div class="tabs">
         <button class="tab active" id="tab-process" onclick="switchTab('process')">
           <span class="zhi">合作流程</span><span class="eni">Our Process</span>
@@ -817,95 +817,97 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
             <div class="pstep-n">Step 01</div>
             <div>
               <div class="pstep-t zh">需求諮詢</div><div class="pstep-t en">Initial Consultation</div>
-              <div class="pstep-d zh">尋訪顧問深度了解職位需求、團隊現況與企業文化，建立精準的人才畫像。</div>
-              <div class="pstep-d en">Our consultants deeply understand position requirements, team dynamics, and corporate culture to build a precise talent profile.</div>
+              <div class="pstep-d zh">技術團隊深度了解專案目標、業務需求與既有系統現況，建立清晰的需求藍圖。</div>
+              <div class="pstep-d en">Our technical team deeply understands project goals, business needs, and existing systems to build a clear requirement blueprint.</div>
             </div>
           </div>
           <div class="pstep">
             <div class="pstep-n">Step 02</div>
             <div>
               <div class="pstep-t zh">簽訂合約</div><div class="pstep-t en">Contract Agreement</div>
-              <div class="pstep-d zh">雙方確認服務條款、費率區間與保證期間，正式啟動尋訪專案。</div>
-              <div class="pstep-d en">Both parties confirm service terms, fee structure, and guarantee period before officially launching the search project.</div>
+              <div class="pstep-d zh">雙方確認服務範疇、報價方式與保固期間，正式啟動開發專案。</div>
+              <div class="pstep-d en">Both parties confirm service scope, pricing model, and warranty period before officially launching the development project.</div>
             </div>
           </div>
           <div class="pstep">
             <div class="pstep-n">Step 03</div>
             <div>
-              <div class="pstep-t zh">人才尋訪</div><div class="pstep-t en">Talent Sourcing</div>
-              <div class="pstep-d zh">啟動全球網絡與封閉式社群，地毯式人才尋訪、深度面談與背景核實同步進行。</div>
-              <div class="pstep-d en">Activating global networks and private communities for comprehensive sourcing, in-depth interviews, and background verification.</div>
+              <div class="pstep-t zh">架構與設計</div><div class="pstep-t en">Architecture & Design</div>
+              <div class="pstep-d zh">完成系統架構規劃、技術選型與資料模型設計，確立開發藍圖與里程碑。</div>
+              <div class="pstep-d en">Completing system architecture, tech-stack selection, and data modeling to establish the development blueprint and milestones.</div>
             </div>
           </div>
           <div class="pstep">
             <div class="pstep-n">Step 04</div>
             <div>
-              <div class="pstep-t zh">推薦候選人</div><div class="pstep-t en">Candidate Presentation</div>
-              <div class="pstep-d zh">一至兩週內為企業精選推薦數位最契合的高階人選，附完整評估報告。</div>
-              <div class="pstep-d en">Within one to two weeks, we present multiple shortlisted senior candidates with comprehensive evaluation reports.</div>
+              <div class="pstep-t zh">敏捷開發</div><div class="pstep-t en">Agile Development</div>
+              <div class="pstep-d zh">以迭代方式推進開發，定期交付可驗證成果，過程透明、隨時對齊需求。</div>
+              <div class="pstep-d en">Iterative development with regular verifiable deliverables — transparent and continuously aligned with your needs.</div>
             </div>
           </div>
           <div class="pstep">
             <div class="pstep-n">Step 05</div>
             <div>
-              <div class="pstep-t zh">面試與決策</div><div class="pstep-t en">Interview & Decision</div>
-              <div class="pstep-d zh">協助安排面試時程、條件溝通與薪酬談判斡旋，確保雙方達成最佳共識。</div>
-              <div class="pstep-d en">Coordinating interview schedules, communicating expectations, and facilitating salary negotiations for optimal agreement.</div>
+              <div class="pstep-t zh">測試與上線</div><div class="pstep-t en">Testing & Launch</div>
+              <div class="pstep-d zh">進行整合測試、效能驗證與部署上線，協助系統順利進入正式營運。</div>
+              <div class="pstep-d en">Integration testing, performance validation, and deployment — bringing the system smoothly into production.</div>
             </div>
           </div>
           <div class="pstep">
             <div class="pstep-n">Done</div>
             <div>
-              <div class="pstep-t zh">入職保證</div><div class="pstep-t en">Onboarding Guarantee</div>
-              <div class="pstep-d zh">候選人到職後啟動保證期，期內若離任或不適任，KV 將提供替補人選，全程跟進融入狀況。</div>
-              <div class="pstep-d en">After onboarding, the guarantee period activates — KV provides replacement candidates if needed, with continuous follow-up on integration.</div>
+              <div class="pstep-t zh">交付保固</div><div class="pstep-t en">Delivery & Warranty</div>
+              <div class="pstep-d zh">系統交付後啟動保固期，期內提供缺陷修復與技術支援，全程跟進系統運行狀況。</div>
+              <div class="pstep-d en">After delivery, the warranty period activates — providing defect fixes and technical support with continuous monitoring.</div>
             </div>
           </div>
         </div>
-        <div class="pnote zh">合約簽訂後正式啟動，全程由 KV 專屬顧問擔任您的尋訪夥伴。</div>
-        <div class="pnote en">Process officially begins upon contract signing — your dedicated KV consultant accompanies you throughout the journey.</div>
+        <div class="pnote zh">合約簽訂後正式啟動，全程由 Kings Value 專屬技術團隊擔任您的開發夥伴。</div>
+        <div class="pnote en">Process officially begins upon contract signing — your dedicated Kings Value technical team accompanies you throughout the journey.</div>
       </div>
 
       <!-- TAB 2: CONTRACT -->
       <div class="tab-content" id="content-contract">
         <div class="contract-section">
           <h4 class="zh">合約期間</h4><h4 class="en">Service Period</h4>
-          <p class="zh">合約自雙方簽署日起生效，效期為一年。期滿後依相同條件自動延展，任一方欲終止合作須於期滿前 90 個日曆天以書面通知。</p>
-          <p class="en">The contract takes effect on the signing date with a one-year term, automatically renewing under the same conditions. Termination requires 90 days written notice before expiration.</p>
+          <p class="zh">軟體專案承攬合約自雙方簽署日起生效，效期至專案驗收完成並結束保固期為止。技術人才派遣合約則依約定之服務期間計算，期滿後可依相同條件續約，任一方欲終止須於約定期限前以書面通知。</p>
+          <p class="en">Project development contracts take effect on the signing date and run until acceptance and the end of the warranty period. Technical staffing contracts follow the agreed service period and may renew under the same conditions; termination requires written notice within the agreed period.</p>
         </div>
         <div class="contract-section">
-          <h4 class="zh">服務費率對照表</h4><h4 class="en">Service Fee Schedule</h4>
-          <p class="zh">候選人到職後，KV 依候選人首年薪資總額（含底薪、獎金估值、固定津貼）計算顧問服務費：</p>
-          <p class="en">Upon onboarding, KV calculates the consulting fee based on the candidate's first-year total compensation (base salary, bonus estimate, fixed allowances):</p>
+          <h4 class="zh">服務報價對照表</h4><h4 class="en">Service Pricing Schedule</h4>
+          <p class="zh">Kings Value 依服務類型提供透明報價。軟體專案承攬採固定範疇固定報價；技術人才派遣採「人月計費」，依每位進駐工程師按月計算：</p>
+          <p class="en">Kings Value offers transparent pricing by service type. Project contracting uses fixed-scope fixed-quote; technical staffing is billed monthly per embedded engineer:</p>
           <table class="rate-table">
-            <thead><tr><th class="zhi">候選人首年薪資 (TWD)</th><th class="eni">First-Year Salary (TWD)</th><th class="zhi">費率</th><th class="eni">Rate</th><th class="zhi">保證期</th><th class="eni">Guarantee</th></tr></thead>
+            <thead><tr><th class="zhi">服務類型</th><th class="eni">Service Type</th><th class="zhi">計費方式</th><th class="eni">Billing</th><th class="zhi">保固/支援</th><th class="eni">Warranty</th></tr></thead>
             <tbody>
-              <tr><td>0 – 1,249,999</td><td>20%</td><td><span class="zhi">30 天</span><span class="eni">30 days</span></td></tr>
-              <tr><td>1,250,000 – 1,749,999</td><td>25%</td><td><span class="zhi">60 天</span><span class="eni">60 days</span></td></tr>
-              <tr><td>1,750,000 以上 / above</td><td>30%</td><td><span class="zhi">90 天</span><span class="eni">90 days</span></td></tr>
+              <tr><td><span class="zhi">軟體專案承攬</span><span class="eni">Project Development</span></td><td><span class="zhi">專案固定報價</span><span class="eni">Fixed Quote</span></td><td><span class="zhi">30–90 天</span><span class="eni">30–90 days</span></td></tr>
+              <tr><td><span class="zhi">技術人才派遣</span><span class="eni">Technical Staffing</span></td><td><span class="zhi">人月計費（每位工程師/月）</span><span class="eni">Per Engineer / Month</span></td><td><span class="zhi">服務期內</span><span class="eni">During Term</span></td></tr>
+              <tr><td><span class="zhi">技術顧問諮詢</span><span class="eni">Technical Advisory</span></td><td><span class="zhi">人日/人時計費</span><span class="eni">Daily / Hourly</span></td><td><span class="zhi">依約定</span><span class="eni">As Agreed</span></td></tr>
             </tbody>
           </table>
+          <p class="zh" style="font-size:.82rem;opacity:.7;margin-top:.6rem">※ 派遣服務之進駐工程師為 Kings Value 正式僱用之員工，由本公司負擔其勞健保、勞退及雇主責任。實際報價依專案規模、技術複雜度與工程師資歷評估後提供正式報價單。</p>
+          <p class="en" style="font-size:.82rem;opacity:.7;margin-top:.6rem">※ Embedded engineers under our staffing service are formally employed by Kings Value, which bears their labor & health insurance, pension, and all employer responsibilities. Final quotes are provided after assessing scope, complexity, and engineer seniority.</p>
         </div>
         <div class="contract-section">
-          <h4 class="zh">替補保證機制</h4><h4 class="en">Replacement Guarantee</h4>
-          <p class="zh">候選人於保證期內離任或不適任時，企業應於 7 日內以書面通知 KV，KV 將依原職位需求啟動替補尋訪。若無法於保證期內覓得替補人選，KV 提供原服務費 20% 的折讓單供日後扣抵。</p>
-          <p class="en">If a placement departs or proves unsuitable within the guarantee period, the client notifies KV in writing within 7 days. KV will initiate replacement search per original requirements. If no replacement is identified, KV provides a 20% credit note of the original fee for future services.</p>
+          <h4 class="zh">交付保固機制</h4><h4 class="en">Delivery Warranty</h4>
+          <p class="zh">系統交付上線後進入保固期，期內若發現屬於開發範疇內的程式缺陷，客戶應以書面通知 Kings Value，我們將於約定時限內免費修復。保固範圍以合約規格書所載功能為準，不含需求範疇外之新增功能。</p>
+          <p class="en">After delivery and launch, the warranty period begins. For in-scope code defects, the client notifies Kings Value in writing, and we provide free fixes within the agreed timeframe. Warranty covers functions in the contract spec, excluding new features beyond the original scope.</p>
         </div>
         <div class="contract-section">
           <h4 class="zh">付款條件</h4><h4 class="en">Payment Terms</h4>
-          <p class="zh">候選人到職當日，KV 發出收款通知；企業應於收到通知後 30 日內完成匯款，逾期將計算每日 5% 年息之延遲利息。</p>
-          <p class="en">KV issues an invoice on the candidate's onboarding day. Payment is due within 30 days of invoice receipt; late payments incur a 5% annual interest rate calculated daily.</p>
+          <p class="zh">專案承攬通常依里程碑分期請款（如簽約、設計完成、開發完成、驗收）；人才派遣則按月結算。Kings Value 發出請款通知後，客戶應於約定期限內完成付款，逾期將依合約計算延遲利息。</p>
+          <p class="en">Project work is typically invoiced by milestone (signing, design, development, acceptance); technical staffing settles monthly. Upon invoice, clients pay within the agreed period; late payments incur interest per contract.</p>
         </div>
         <div class="contract-section">
           <h4 class="zh">雙方權益保障</h4><h4 class="en">Mutual Protection</h4>
-          <p class="zh">雙方為獨立締約關係，互負保密義務。所有候選人資訊均視為機密資料，未經對方書面同意不得對外揭露。合約準據法為中華民國法律。</p>
-          <p class="en">Both parties maintain an independent contractor relationship with mutual confidentiality obligations. All candidate information is treated as confidential and protected under the laws of the Republic of China (Taiwan).</p>
+          <p class="zh">雙方為獨立承攬關係，互負保密義務。所有專案資料、原始碼與技術文件均視為機密，未經對方書面同意不得對外揭露。智慧財產權歸屬依合約約定，合約準據法為中華民國法律。</p>
+          <p class="en">Both parties maintain an independent contractor relationship with mutual confidentiality. All project data, source code, and technical documents are confidential and not disclosed without written consent. IP ownership follows the contract, governed by the laws of the Republic of China (Taiwan).</p>
         </div>
         <div class="pnote zh">※ 本內容為示範版本，實際合約條款以雙方正式簽訂為準。</div>
         <div class="pnote en">※ This is a sample version. Actual contract terms are governed by the officially signed agreement.</div>
         <div class="contract-cta">
-          <a href="mailto:contact@kvhire.me?subject=Request%20for%20KV%20Hire%20Sample%20Contract" class="zhi">📩 索取正式合約</a>
-          <a href="mailto:contact@kvhire.me?subject=Request%20for%20KV%20Hire%20Sample%20Contract" class="eni">📩 Request Official Contract</a>
+          <a href="mailto:contact@kvhire.me?subject=Request%20for%20Kings%20Value%20Sample%20Contract" class="zhi">📩 索取正式合約</a>
+          <a href="mailto:contact@kvhire.me?subject=Request%20for%20Kings%20Value%20Sample%20Contract" class="eni">📩 Request Official Contract</a>
         </div>
       </div>
     </div>
@@ -975,41 +977,40 @@ document.getElementById('pov').addEventListener('click',e=>{if(e.target===e.curr
 
 /* Articles */
 const arts={
-  1:{tag:'產業趨勢 · Industry Trends',zh:'全球性的招募困境：為何頂尖企業都需要商業顧問？',en:'The Global Recruitment Crisis: Why Elite Firms Need Consultants',
-    body:`<p>在數位轉型與 AI 技術高速發展的 2026 年，企業若想立於不敗之地，「搶奪頂尖人才」已成為 CEO 們的首要戰略議題。然而，現代企業在建立高階團隊時，普遍面臨三大全球性招募困境。</p>
-    <h3>困境一：長期的技術人才短缺</h3>
-    <p>在 AI 算法、Web3 架構、雲端工程等領域，頂尖人才一位難求。當內部的招募漏斗無法產出足夠的合格候選人時，企業的擴張腳步便被迫放緩，影響整體市場競爭力。</p>
-    <h3>困境二：激烈的全球搶才競爭</h3>
-    <p>現今的求職生態已轉為「人才買方市場」——頂尖候選人不只看重薪酬，更在意企業願景、技術文化與成長潛力。企業必須透過精準的雇主品牌行銷，才能在人才市場中真正脫穎而出。</p>
-    <h3>困境三：被動求職者難以捕捉</h3>
-    <p>最具戰略價值的前 5% 核心戰力，往往是所謂的「被動求職者」——他們不更新履歷、不逛求職平台，更不會回應普通招募訊息。</p>
-    <blockquote>改變世界的人，通常不在找工作；而是等著被找到的。</blockquote>
-    <h3>KV Hire 的破局之道</h3>
-    <p>面對上述困境，單純的「刊登職缺」早已失效。KV Hire 透過封閉式的頂尖人才智庫與深度的技術語言洞察，化被動等待為主動出擊。我們不僅是人才的搜尋者，更是替企業傳遞品牌價值的最佳談判代表，確保您精準捕獲推動創新的關鍵少數。</p>`},
-  2:{tag:'招募策略 · Recruitment Strategy',zh:'HR 的真實苦衷：日常繁雜事務纏身，為何需要專業尋訪顧問的協助？',en:'The HR Reality: Why Overwhelmed Teams Need Professional Consultants',
-    body:`<p>在許多企業的組織架構中，人力資源（HR）部門被要求既要做好內部行政，又要成為企業擴張的核心驅動力。然而，現實是內部 HR 每天面對龐大且繁雜的日常壓力，根本無暇進行深度的高階尋才。</p>
-    <h3>日常營運的重擔</h3>
-    <p>企業內部的 HR 需要同時處理薪資結算、員工關懷、勞資法規遵循、績效考核規劃，以及大量行政工作。在「必須優先處理」的急件壓力下，HR 能撥給主動尋才的時間被嚴重壓縮。</p>
-    <ul><li>薪資計算與社保申報：每月固定循環，不得延誤</li><li>員工入離職手續與勞資糾紛處理</li><li>績效面談安排與 KPI 制度更新</li><li>法規遵循與勞動法律諮詢</li><li>企業文化活動規劃與執行</li></ul>
-    <h3>技術對話的壁壘</h3>
-    <p>尋訪頂尖的 AI 工程師或 Web3 架構師，需要顧問具備相當的技術對話能力。當候選人詢問系統架構或技術棧的細節時，非技術背景的內部 HR 往往難以進行深度溝通，導致優秀候選人在第一關便悄然流失。</p>
-    <h3>隱形的時間成本</h3>
-    <p>一個關鍵職缺懸缺三個月，對企業造成的專案延宕與業績損失，遠遠超過帳面上的顧問費用。<strong>專業尋訪顧問的存在，正是為了解放 HR 的雙手。</strong>KV Hire 致力於成為 HR 最強大的戰略後盾，讓貴公司的 HR 能聚焦於更重要的企業文化建設與組織戰略。</p>`},
-  3:{tag:'人資洞察 · HR Insights',zh:'洞悉人力資源管理：HR 的六大核心職能與戰略分工',en:'HR Demystified: The Six Core Functions and Strategic Division of Labor',
-    body:`<p>要真正理解企業運作的底層邏輯，就必須了解人力資源管理（HRM）的全貌。現代專業的人力資源管理包含著極具系統性的六大核心職能模塊。</p>
-    <h3>六大核心模塊全解析</h3>
+  1:{tag:'技術趨勢 · Tech Trends',zh:'自建還是外包？企業軟體開發的關鍵決策',en:'Build or Outsource? The Key Software Development Decision',
+    body:`<p>在數位轉型與 AI 技術高速發展的 2026 年，幾乎每家企業都面臨同一個問題：需要開發新系統時，該組建內部團隊，還是委外給專業開發團隊？這個決策牽動成本、速度與長期競爭力。</p>
+    <h3>困境一：技術人才招募與養成成本高昂</h3>
+    <p>在 AI、Web3、雲端工程等領域，資深工程師難尋且薪資高昂。從招募、磨合到形成戰力動輒數月，對於有明確時程的專案而言，自建團隊的隱形成本往往被低估。</p>
+    <h3>困境二：技術棧快速演進，內部能力難以全面覆蓋</h3>
+    <p>現代專案常需橫跨前後端、雲端、資料工程與 AI 整合。要求內部團隊樣樣精通並不現實，而專業開發團隊能依專案需求彈性配置對應技術專長。</p>
+    <h3>困境三：尖峰與離峰的人力落差</h3>
+    <p>專案開發有明顯的尖峰期。自建團隊在尖峰時人力不足、離峰時又閒置成本過高。</p>
+    <blockquote>對的開發策略，不是把所有事都自己做，而是把對的事交給對的團隊。</blockquote>
+    <h3>Kings Value 的破局之道</h3>
+    <p>面對上述困境，委外開發提供了彈性與速度。Kings Value 透過資深全棧團隊與 AI 輔助的開發流程，協助客戶在固定範疇與報價下完成高品質交付；當客戶需要補強研發量能時，也能由本公司派遣正式僱用的工程師進駐，依人月計費，把人力落差轉化為可控的變動成本。</p>`},
+  2:{tag:'專案管理 · Project Management',zh:'為何技術專案總是延期？談需求管理與交付節奏',en:'Why Tech Projects Slip: Requirement Management & Delivery Cadence',
+    body:`<p>軟體專案延期幾乎是業界常態。但深究原因，延期的根源往往不在工程師的技術能力，而在專案啟動前後的需求溝通與範疇控管。</p>
+    <h3>需求模糊：最常見的延期根源</h3>
+    <p>許多專案在需求尚未釐清時就匆促開工，導致開發到一半才發現方向錯誤、反覆返工。清晰的規格書與驗收標準，是準時交付的第一道防線。</p>
+    <ul><li>需求未文件化，僅靠口頭溝通</li><li>驗收標準模糊，交付後爭議不斷</li><li>缺乏優先順序，所有功能都「很重要」</li><li>範疇蔓延（Scope Creep），需求不斷追加</li><li>關鍵決策者缺席，需求反覆變動</li></ul>
+    <h3>範疇控管：說「不」也是專業</h3>
+    <p>專案進行中，新需求總會不斷冒出。專業的開發團隊會明確區分「合約範疇內」與「範疇外」，並透過變更管理流程處理新增需求，而非無止盡地吸收，導致時程與品質雙雙失控。</p>
+    <h3>交付節奏：用迭代取代一次性交付</h3>
+    <p>把大專案切成可驗證的小迭代，定期交付、定期對齊，能在早期就發現偏差。<strong>透明的交付節奏，是建立信任與準時上線的關鍵。</strong>Kings Value 以敏捷迭代推進每個專案，讓客戶全程掌握進度，把延期風險降到最低。</p>`},
+  3:{tag:'架構洞察 · Architecture Insights',zh:'技術債的真實成本：為何系統重構不能再拖',en:'The Real Cost of Technical Debt: Why Refactoring Can\'t Wait',
+    body:`<p>技術債（Technical Debt）就像隱形的利息，在系統運行的每一天悄悄累積。短期內或許感覺不到，但隨著時間推移，它會讓開發速度越來越慢、缺陷越來越多、維護成本越來越高。</p>
+    <h3>技術債的五種常見來源</h3>
     <ul>
-      <li><strong>01 人力資源規劃：</strong>根據企業的營運戰略，預測未來的人才需求，並制定相應的組織架構與人員編制計畫。</li>
-      <li><strong>02 招募與配置：</strong>制定招募管道、篩選履歷、進行面試評估，並將合適的人才精準配置到正確的崗位上。</li>
-      <li><strong>03 培訓與開發：</strong>建立內部教育訓練體系，提升員工的專業技能與管理能力，規劃職業發展路徑。</li>
-      <li><strong>04 績效管理：</strong>建立科學客觀的績效評估指標（KPI 或 OKR），定期追蹤工作表現，作為晉升與激勵的依據。</li>
-      <li><strong>05 薪酬與福利管理：</strong>設計具備市場競爭力的薪資結構與福利制度，平衡員工滿意度與企業成本控制。</li>
-      <li><strong>06 員工關係：</strong>處理勞資溝通、員工申訴與企業文化建立，有效降低流動率，凝聚團隊向心力。</li>
+      <li><strong>01 趕工妥協：</strong>為了趕上線而採用的臨時方案，事後卻從未回頭修正。</li>
+      <li><strong>02 過時技術：</strong>使用已停止維護的套件或框架，安全性與相容性風險與日俱增。</li>
+      <li><strong>03 缺乏測試：</strong>沒有自動化測試的系統，每次修改都像在拆未爆彈。</li>
+      <li><strong>04 文件缺失：</strong>關鍵邏輯只存在於少數人腦中，人員一離開知識就斷層。</li>
+      <li><strong>05 架構僵化：</strong>當初的設計無法支撐現在的規模，每個新功能都越來越難加。</li>
     </ul>
-    <h3>模塊過載與戰略外包的必然性</h3>
-    <p>「招募」僅僅是 HR 工作的六分之一。當企業快速擴張時，要求內部 HR 同時把六個模塊都做到滿分，幾乎是不可能的任務。</p>
-    <blockquote>成熟的跨國企業通常將高階尋訪交給專業顧問，而內部 HR 則專注於無法外包的組織核心能力。</blockquote>
-    <p>將「高階尋訪與配置」交給 KV Hire，讓企業內部 HR 專注於績效管理、組織規劃與文化建立——實現真正意義上的戰略協同。</p>`}
+    <h3>為何不能再拖？</h3>
+    <p>技術債最危險之處，在於它的成本是「複利」累積的。一個三年沒重構的系統，往往讓新功能的開發時間翻倍，甚至讓工程師不敢動既有程式碼。</p>
+    <blockquote>成熟的工程團隊會把重構視為持續投資，而非一次性的大手術。</blockquote>
+    <p>將「系統重構與架構優化」交給 Kings Value，我們透過架構審查、漸進式重構與測試覆蓋率提升，協助企業在不中斷營運的前提下，逐步償還技術債，讓系統重新具備快速迭代的能力。</p>`}
 };
 function openA(id){
   const a=arts[id],isE=document.body.classList.contains('em');
@@ -1022,127 +1023,8 @@ document.getElementById('aov').addEventListener('click',e=>{if(e.target===e.curr
 
 /* ESC closes modals */
 document.addEventListener('keydown',e=>{
-  if(e.key==='Escape'){cA();closeProcess();closeMobMenu();closePrivacy()}
+  if(e.key==='Escape'){cA();closeProcess();closeMobMenu()}
 });
 </script>
-<!-- ═══ PRIVACY POLICY MODAL ═══ -->
-<div class="ov" id="prov">
-  <div class="mbox">
-    <button class="mx" onclick="closePrivacy()">✕</button>
-    <div class="mbd">
-      <div class="mtag2 zhi">法律聲明</div>
-      <div class="mtag2 eni">LEGAL NOTICE</div>
-      <h2 class="mtit zh">隱私權政策</h2>
-      <h2 class="mtit en">Privacy Policy</h2>
-      <div class="mdiv"></div>
-      <div class="mbody">
-        <!-- 中文版 -->
-        <div class="zh">
-          <p>歡迎訪問由 <strong>Kings Value Consulting</strong>（以下簡稱「KV」或「我們」）營運的網站。我們非常重視您的隱私權，並承諾保護您的個人資料。本政策旨在說明我們如何收集、使用、揭露及保護您的個人資訊。當您使用本網站時，即表示您同意本政策所述之個人資料收集與處理方式。</p>
-
-          <h3>1. 我們收集的資訊</h3>
-          <ul>
-            <li><strong>您主動提供的個人資料：</strong>當您填寫聯絡表單、訂閱電子報或與我們聯繫時，可能提供姓名、電子郵件、電話及公司名稱。</li>
-            <li><strong>自動收集的技術數據：</strong>瀏覽本網站時，我們自動記錄 IP 位址、瀏覽器類型、作業系統、伺服器紀錄、造訪時間以及瀏覽行為。</li>
-          </ul>
-
-          <h3>2. 資訊的使用方式</h3>
-          <ul>
-            <li>回應您的詢問或提供您所請求的服務</li>
-            <li>優化與改善本網站的內容、功能與使用者體驗</li>
-            <li>發送與我們業務相關的重要通知、行銷訊息或電子報（您可隨時取消訂閱）</li>
-            <li>維護網站系統安全並防止詐欺行為</li>
-          </ul>
-
-          <h3>3. Cookie 與追蹤技術</h3>
-          <p>我們使用 Cookie 和類似的追蹤技術來提升您的瀏覽體驗、分析網站流量。您可以在瀏覽器設定中拒絕 Cookie，但這可能導致部分功能無法正常運作。</p>
-
-          <h3>4. 資訊的分享與揭露</h3>
-          <p>我們不會將您的個人資料出售、出租或交換給第三方。僅在下列情況可能分享：獲得您的明確同意、提供給受信賴第三方服務商（如雲端託管、郵件群發服務）並要求其遵守保密義務、或基於法律要求與政府機關執法調查。</p>
-
-          <h3>5. 資料安全與儲存</h3>
-          <p>我們採取適當的技術與組織安全措施保護您的個人資料。然而，網際網路上的傳輸或電子儲存方式並非 100% 絕對安全，我們無法保證其絕對的安全。</p>
-
-          <h3>6. 您的權利</h3>
-          <ul>
-            <li>查詢、閱覽或請求製給個人資料複本</li>
-            <li>請求更正或補充不正確的資訊</li>
-            <li>請求刪除您的個人資料（在法律允許範圍內）</li>
-            <li>拒絕或限制我們處理您的個人資料</li>
-          </ul>
-          <p>如欲行使上述權利，請透過下方聯絡方式與我們聯繫。</p>
-
-          <h3>7. 本政策的修訂</h3>
-          <p>我們可能不時更新本隱私權政策，修訂後將公告於本頁面並更新「最後更新日期」。建議您定期查閱。</p>
-
-          <h3>8. 聯絡我們</h3>
-          <p>如對本政策或您的個人資料有任何疑問，請與我們聯繫：</p>
-          <ul>
-            <li><strong>公司名稱：</strong>Kings Value Consulting</li>
-            <li><strong>電子郵件：</strong>service@kings-value.com</li>
-            <li><strong>網站：</strong>https://kvhire.me</li>
-          </ul>
-          <p style="margin-top:1.5rem;font-size:.78rem;color:var(--cream-35);font-style:italic">最後更新日期：2026 年 5 月 17 日</p>
-        </div>
-
-        <!-- English -->
-        <div class="en">
-          <p>Welcome to the website operated by <strong>Kings Value Consulting</strong> ("KV", "we", "us", or "our"). We hold your privacy in high regard and are committed to protecting your personal data. This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information. By using this Website, you consent to the data practices described herein.</p>
-
-          <h3>1. Information We Collect</h3>
-          <ul>
-            <li><strong>Personal Data You Provide Voluntarily:</strong> When filling out contact forms, subscribing to newsletters, or reaching out, you may provide your name, email, phone, and company name.</li>
-            <li><strong>Automatically Collected Technical Data:</strong> We log your IP address, browser type, operating system, server logs, access times, and browsing behavior.</li>
-          </ul>
-
-          <h3>2. How We Use Your Information</h3>
-          <ul>
-            <li>To respond to your inquiries or deliver requested services</li>
-            <li>To optimize and enhance the Website's content, functionality, and user experience</li>
-            <li>To send important notices, marketing communications, or newsletters (opt-out available)</li>
-            <li>To maintain system security and prevent fraudulent activities</li>
-          </ul>
-
-          <h3>3. Cookies and Tracking Technologies</h3>
-          <p>We employ cookies and similar tracking technologies to enhance your browsing experience and analyze traffic. You may refuse cookies via browser settings, though some features may not function properly as a result.</p>
-
-          <h3>4. Information Sharing and Disclosure</h3>
-          <p>We do not sell, rent, or trade your personal data. We may share information only: with your explicit consent; with trusted third-party providers (e.g., cloud hosting, email platforms) under strict confidentiality; or as required by law or government investigation.</p>
-
-          <h3>5. Data Security and Storage</h3>
-          <p>We implement appropriate technical and organizational security measures to protect your personal data. However, no method of Internet transmission or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
-
-          <h3>6. Your Rights</h3>
-          <ul>
-            <li>Right to access and request a copy of your personal data</li>
-            <li>Right to request rectification or completion of inaccurate information</li>
-            <li>Right to request erasure of personal data (where legally permissible)</li>
-            <li>Right to object to or restrict processing of your data</li>
-          </ul>
-          <p>To exercise any of these rights, please contact us via the information below.</p>
-
-          <h3>7. Changes to This Privacy Policy</h3>
-          <p>We reserve the right to update this Privacy Policy. The revised version will be posted on this page with an updated "Last Updated" date. We encourage periodic review.</p>
-
-          <h3>8. Contact Us</h3>
-          <p>If you have questions about this Privacy Policy or your personal data, please contact us at:</p>
-          <ul>
-            <li><strong>Company:</strong> Kings Value Consulting</li>
-            <li><strong>Email:</strong> service@kings-value.com</li>
-            <li><strong>Website:</strong> https://kvhire.me</li>
-          </ul>
-          <p style="margin-top:1.5rem;font-size:.78rem;color:var(--cream-35);font-style:italic">Last Updated: May 17, 2026</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-function openPrivacy(){document.getElementById('prov').classList.add('op');document.body.style.overflow='hidden'}
-function closePrivacy(){document.getElementById('prov').classList.remove('op');document.body.style.overflow=''}
-document.getElementById('prov').addEventListener('click',e=>{if(e.target===e.currentTarget)closePrivacy()});
-</script>
-
 </body>
 </html>

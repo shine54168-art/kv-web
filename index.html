@@ -3,18 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KV | 軟體開發與企業顧問</title>
-<meta name="description" content="KV — Professional, Passionate, Exquisite. 軟體承攬開發與企業人才組織顧問團隊，提供客製化系統開發、組織健檢、員工關係診斷與 HR 制度優化。">
+<title>職推王 JTK | 軟體開發與企業顧問</title>
+<meta name="description" content="職推王 JTK — Professional, Passionate, Exquisite. 軟體承攬開發與企業人才組織顧問團隊，提供客製化系統開發、組織健檢、員工關係診斷與 HR 制度優化。">
+<meta name="theme-color" content="#08070a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%238a4d2c'/%3E%3Cstop offset='40%25' stop-color='%23f2cdb2'/%3E%3Cstop offset='70%25' stop-color='%23b8714b'/%3E%3Cstop offset='100%25' stop-color='%23e0aa84'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='13' fill='%23100d13'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='34' font-weight='700' letter-spacing='-3' fill='url(%23g)'%3EJTK%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="職推王 JTK | 軟體開發與企業顧問">
+<meta property="og:description" content="軟體承攬開發與企業人才組織顧問團隊 — 從系統打造到組織健檢，一站式落地。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kvhire.me/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Playfair+Display:wght@500;600;700&family=Noto+Serif+TC:wght@500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --ink:#070d18; --ink-2:#0d1828; --ink-3:#142540;
-  --brand:#253439; --brand-dk:#1a262a; --brand-mid:#2e4048;
-  --bronze:#b89582; --bronze-lt:#cbb09f; --bronze-dk:#957464;
-  --cream:#f6e5d7; --cream-80:rgba(246,229,215,.8); --cream-60:rgba(246,229,215,.6); --cream-35:rgba(246,229,215,.35);
+  /* Ground — near-black */
+  --ink:#08070a; --ink-2:#0e0c11; --ink-3:#17141b;
+  /* Panels */
+  --brand:#1c1820; --brand-dk:#0a0810; --brand-mid:#262029;
+  /* Rose gold (legacy --bronze names kept as aliases) */
+  --rg:#d9a07a; --rg-lt:#f0c7a9; --rg-dk:#a86844; --rg-deep:#6f402a;
+  --bronze:#d9a07a; --bronze-lt:#f0c7a9; --bronze-dk:#a86844;
+  --cream:#f5ece5; --cream-80:rgba(245,236,229,.8); --cream-60:rgba(245,236,229,.6); --cream-35:rgba(245,236,229,.35);
+  /* Brushed-copper sweep used by the logo and metal text */
+  --metal:linear-gradient(118deg,#7d4527 0%,#c98a63 13%,#f4d3ba 28%,#b06843 42%,#eab792 58%,#8f4d2d 74%,#e0aa84 88%,#a0603c 100%);
   --serif:'Cormorant Garamond',Georgia,serif;
+  --display:'Playfair Display',Georgia,serif;
+  --cjk:'Noto Serif TC',Georgia,serif;
   --sans:'DM Sans',sans-serif;
 }
 html{scroll-behavior:smooth}
@@ -26,37 +41,56 @@ body.em .zh{display:none}body.em .en{display:block}
 body.em .zhi{display:none}body.em .eni{display:inline}
 
 /* ════ AMBIENT BACKGROUND SYSTEM ════ */
-.ambient-base{position:fixed;inset:0;z-index:-10;background:radial-gradient(ellipse 80% 60% at 50% 20%,rgba(29,53,89,.5) 0%,transparent 60%),radial-gradient(ellipse 60% 80% at 50% 100%,rgba(20,37,64,.6) 0%,transparent 60%),linear-gradient(180deg,var(--ink) 0%,var(--ink-2) 50%,var(--ink) 100%)}
-.ambient-stars{position:fixed;inset:0;z-index:-9;pointer-events:none;opacity:.35;mix-blend-mode:screen}
-.ambient-stars video{width:100%;height:100%;object-fit:cover}
-.ambient-monogram{position:fixed;inset:0;z-index:-8;background-image:url('KV_website_background.png');background-size:780px auto;background-repeat:repeat;opacity:.06;mix-blend-mode:overlay;pointer-events:none;filter:hue-rotate(180deg) sepia(.3) saturate(.4)}
+.ambient-base{position:fixed;inset:0;z-index:-10;background:radial-gradient(ellipse 80% 60% at 50% 18%,rgba(96,54,32,.34) 0%,transparent 62%),radial-gradient(ellipse 60% 80% at 50% 100%,rgba(52,30,18,.4) 0%,transparent 60%),linear-gradient(180deg,var(--ink) 0%,var(--ink-2) 50%,var(--ink) 100%)}
+.ambient-stars{position:fixed;inset:0;z-index:-9;pointer-events:none;opacity:.85;mix-blend-mode:screen}
+.ambient-stars canvas{display:block;width:100%;height:100%}
+/* Repeating JTK monogram watermark — vector, no image file */
+.ambient-monogram{position:fixed;inset:0;z-index:-8;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='340' height='340'%3E%3Ctext x='170' y='196' font-family='Georgia,serif' font-size='108' font-weight='700' letter-spacing='-9' text-anchor='middle' fill='%23d9a07a'%3EJTK%3C/text%3E%3C/svg%3E");background-size:340px 340px;background-repeat:repeat;opacity:.035;mix-blend-mode:overlay;pointer-events:none}
+.ambient-grain{position:fixed;inset:0;z-index:-7;pointer-events:none;opacity:.16;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E")}
 .orb{position:fixed;border-radius:50%;filter:blur(100px);z-index:-7;pointer-events:none}
-.orb-1{width:520px;height:520px;background:radial-gradient(circle,rgba(94,121,184,.28) 0%,transparent 70%);top:-12%;left:-8%;animation:float-1 28s ease-in-out infinite}
-.orb-2{width:620px;height:620px;background:radial-gradient(circle,rgba(184,149,130,.1) 0%,transparent 70%);top:40%;right:-12%;animation:float-2 32s ease-in-out infinite}
-.orb-3{width:480px;height:480px;background:radial-gradient(circle,rgba(45,46,95,.25) 0%,transparent 70%);bottom:-8%;left:25%;animation:float-3 26s ease-in-out infinite}
+.orb-1{width:520px;height:520px;background:radial-gradient(circle,rgba(196,116,70,.24) 0%,transparent 70%);top:-12%;left:-8%;animation:float-1 28s ease-in-out infinite}
+.orb-2{width:620px;height:620px;background:radial-gradient(circle,rgba(240,199,169,.09) 0%,transparent 70%);top:40%;right:-12%;animation:float-2 32s ease-in-out infinite}
+.orb-3{width:480px;height:480px;background:radial-gradient(circle,rgba(110,54,28,.26) 0%,transparent 70%);bottom:-8%;left:25%;animation:float-3 26s ease-in-out infinite}
+
+/* ════ SCROLL PROGRESS ════ */
+#prog{position:fixed;top:0;left:0;height:2px;width:0;z-index:200;background:var(--metal);box-shadow:0 0 12px rgba(217,160,122,.5);transition:width .1s linear}
+
+/* ════ JTK LOGO (vector) ════ */
+.jtk-mark{display:block;overflow:visible}
+.jtk-mark text{font-family:var(--display);font-weight:600;letter-spacing:-.09em}
+.jtk-cjk{font-family:var(--cjk);font-weight:600}
+.metal{background:var(--metal);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
 @keyframes float-1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(60px,80px) scale(1.05)}}
 @keyframes float-2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-70px,50px) scale(1.08)}}
 @keyframes float-3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-50px,-40px) scale(1.05)}}
 
 /* ════ CURSOR ════ */
-#cur{position:fixed;width:7px;height:7px;background:var(--bronze);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform .12s}
-#cur-r{position:fixed;width:28px;height:28px;border:1px solid rgba(184,149,130,.3);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:opacity .2s}
+#cur{position:fixed;width:7px;height:7px;background:var(--bronze);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform .12s;opacity:0}
+body.mm #cur,body.mm #cur-r{opacity:1}
+#cur-r{position:fixed;width:28px;height:28px;border:1px solid rgba(217,160,122,.3);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:opacity .2s;opacity:0}
 @media(max-width:768px){#cur,#cur-r{display:none}body{cursor:auto!important}}
 
 /* ════ NAV ════ */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.1rem 3rem;display:flex;align-items:center;justify-content:space-between;background:rgba(7,13,24,.55);backdrop-filter:blur(30px) saturate(160%);-webkit-backdrop-filter:blur(30px) saturate(160%);border-bottom:1px solid rgba(246,229,215,.05);box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 8px 24px rgba(0,0,0,.2)}
-.nlogo{display:flex;align-items:center;gap:.85rem;cursor:pointer}
-.nmark{width:38px;height:38px;background:rgba(37,52,57,.5);border:1px solid rgba(184,149,130,.32);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:1.2rem;font-weight:600;color:var(--bronze);backdrop-filter:blur(8px);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
-.nname{font-family:var(--serif);font-size:.9rem;letter-spacing:.25em;text-transform:uppercase;color:var(--cream);font-weight:400;line-height:1}
-.nsub{font-size:.52rem;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-35);margin-top:.2rem}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.1rem 3rem;display:flex;align-items:center;justify-content:space-between;background:rgba(8,7,10,.55);backdrop-filter:blur(30px) saturate(160%);-webkit-backdrop-filter:blur(30px) saturate(160%);border-bottom:1px solid rgba(245,236,229,.05);box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 8px 24px rgba(0,0,0,.2)}
+.nlogo{display:flex;align-items:center;gap:.8rem;cursor:pointer}
+.nmark{width:42px;height:42px;flex-shrink:0;border-radius:9px;background:radial-gradient(circle at 32% 26%,rgba(217,160,122,.16) 0%,rgba(28,24,32,.6) 70%);border:1px solid rgba(217,160,122,.34);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px);box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 4px 14px rgba(0,0,0,.35);transition:border-color .35s,box-shadow .35s}
+.nlogo:hover .nmark{border-color:rgba(217,160,122,.7);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 6px 20px rgba(217,160,122,.22)}
+.nmark .jtk-mark{width:30px;height:auto}
+.nname{font-family:var(--cjk);font-size:.94rem;letter-spacing:.16em;font-weight:600;line-height:1}
+.nsub{font-family:var(--display);font-size:.55rem;letter-spacing:.34em;text-transform:uppercase;color:var(--cream-35);margin-top:.28rem}
 .nlinks{display:flex;align-items:center;gap:1.8rem}
 .nlinks a,.nlinks button{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--cream-60);text-decoration:none;transition:color .3s;background:none;border:none;font-family:var(--sans);cursor:pointer;padding:0}
 .nlinks a:hover,.nlinks button:hover{color:var(--bronze)}
 .nright{display:flex;align-items:center;gap:.85rem}
-.blang{font-size:.64rem;letter-spacing:.12em;border:1px solid rgba(184,149,130,.28);padding:.3rem .65rem;background:transparent;color:var(--bronze);cursor:pointer;font-family:var(--sans);transition:all .3s}
-.blang:hover{background:rgba(184,149,130,.08)}
-.ncta{font-size:.66rem;letter-spacing:.15em;text-transform:uppercase;padding:.48rem 1.2rem;border:1px solid rgba(184,149,130,.45);background:rgba(37,52,57,.4);backdrop-filter:blur(10px);color:var(--bronze);text-decoration:none;transition:all .3s;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}
+.blang{font-size:.64rem;letter-spacing:.12em;border:1px solid rgba(217,160,122,.28);padding:.3rem .65rem;background:transparent;color:var(--bronze);cursor:pointer;font-family:var(--sans);transition:all .3s}
+.blang:hover{background:rgba(217,160,122,.08)}
+.ncta{font-size:.66rem;letter-spacing:.15em;text-transform:uppercase;padding:.48rem 1.2rem;border:1px solid rgba(217,160,122,.45);background:rgba(28,24,32,.4);backdrop-filter:blur(10px);color:var(--bronze);text-decoration:none;transition:all .3s;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}
 .ncta:hover{background:var(--bronze);color:var(--brand-dk);border-color:var(--bronze)}
+
+nav.slim{padding:.72rem 3rem;background:rgba(8,7,10,.78);border-bottom-color:rgba(217,160,122,.12)}
+nav.slim .nmark{width:36px;height:36px}
+nav.slim .nmark .jtk-mark{width:26px}
+nav{transition:padding .4s cubic-bezier(.16,1,.3,1),background .4s}
 
 /* Mobile menu */
 .mob-toggle{display:none;background:none;border:none;color:var(--bronze);font-size:1.5rem;cursor:pointer}
@@ -64,14 +98,14 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.1rem 3rem;display:
 @media(max-width:1024px){
   .nlinks{display:none}
   .mob-toggle{display:block}
-  .mob-menu.open{display:flex;flex-direction:column;gap:1rem;position:fixed;top:70px;left:0;right:0;background:rgba(7,13,24,.95);backdrop-filter:blur(20px);padding:2rem;z-index:99;border-bottom:1px solid rgba(184,149,130,.15)}
+  .mob-menu.open{display:flex;flex-direction:column;gap:1rem;position:fixed;top:70px;left:0;right:0;background:rgba(8,7,10,.95);backdrop-filter:blur(20px);padding:2rem;z-index:99;border-bottom:1px solid rgba(217,160,122,.15)}
   .mob-menu a,.mob-menu button{font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--cream-80);text-decoration:none;background:none;border:none;font-family:var(--sans);cursor:pointer;text-align:left;padding:.5rem 0}
 }
 
 /* ════ HERO ════ */
-#hero{position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8rem 2rem 4rem;overflow:hidden}
-.hero-arch{position:absolute;inset:0;z-index:0;background-image:url('hero-architecture.jpg');background-size:cover;background-position:center center;opacity:.32;filter:blur(1px) saturate(.85)}
-.hero-arch::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 40%,rgba(7,13,24,.4) 0%,var(--ink) 80%),linear-gradient(180deg,rgba(7,13,24,.3) 0%,rgba(7,13,24,.85) 100%)}
+#hero{position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:7rem 2rem 6rem;overflow:hidden}
+.hero-arch{position:absolute;inset:0;z-index:0;background-image:url('hero-glass.jpg');background-size:cover;background-position:center 42%;opacity:.42;filter:blur(1.5px) sepia(.45) saturate(1.15) hue-rotate(-12deg) brightness(.85)}
+.hero-arch::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 40%,rgba(8,7,10,.4) 0%,var(--ink) 80%),linear-gradient(180deg,rgba(8,7,10,.3) 0%,rgba(8,7,10,.85) 100%)}
 .mtns{position:absolute;bottom:0;left:0;right:0;height:40%;pointer-events:none;z-index:1}
 .mtn{position:absolute;bottom:0;left:0;width:100%}
 .mtn1{animation:mf 20s ease-in-out infinite;opacity:.5}
@@ -80,19 +114,23 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.1rem 3rem;display:
 @keyframes mf{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
 
 .hero-inner{position:relative;z-index:3;max-width:880px;width:100%}
-.hbadge{display:inline-flex;align-items:center;gap:.6rem;padding:.45rem 1.1rem;margin-bottom:2rem;font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--bronze);background:rgba(37,52,57,.45);backdrop-filter:blur(20px) saturate(150%);-webkit-backdrop-filter:blur(20px) saturate(150%);border:1px solid rgba(184,149,130,.28);border-radius:100px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 4px 20px rgba(0,0,0,.15);opacity:0;transform:translateY(10px);animation:fu .7s .2s forwards}
+/* Hero logo lockup */
+.hlock{width:min(258px,58vw);margin:0 auto 1.35rem;opacity:0;transform:translateY(18px) scale(.96);animation:fu 1.1s .1s forwards}
+.hlock .jtk-mark{width:100%;height:auto;filter:drop-shadow(0 10px 28px rgba(217,160,122,.24))}
+.hrule{width:150px;height:1px;margin:0 auto 1.35rem;background:linear-gradient(90deg,transparent,rgba(217,160,122,.75),transparent);opacity:0;animation:fu .8s .55s forwards}
+.hbadge{display:inline-flex;align-items:center;gap:.6rem;padding:.45rem 1.1rem;margin-bottom:1.5rem;font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--bronze);background:rgba(28,24,32,.45);backdrop-filter:blur(20px) saturate(150%);-webkit-backdrop-filter:blur(20px) saturate(150%);border:1px solid rgba(217,160,122,.28);border-radius:100px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 4px 20px rgba(0,0,0,.15);opacity:0;transform:translateY(10px);animation:fu .7s .2s forwards}
 .hbadge::before{content:'';width:5px;height:5px;background:var(--bronze);border-radius:50%;animation:bl 2.2s infinite}
 @keyframes bl{0%,100%{opacity:1}50%{opacity:.25}}
-.hh1{font-family:var(--serif);font-size:clamp(2.6rem,5.5vw,5.2rem);font-weight:300;line-height:1.05;letter-spacing:-.005em;margin-bottom:1.2rem;color:var(--cream);opacity:0;transform:translateY(24px);animation:fu 1s .45s forwards}
-.hh1 em{font-style:italic;color:var(--bronze);font-weight:400}
-.hpax{font-family:var(--serif);font-size:.95rem;font-style:italic;color:var(--bronze-lt);letter-spacing:.15em;margin-bottom:2rem;opacity:0;animation:fu .8s .65s forwards}
+.hh1{font-family:var(--serif);font-size:clamp(2.4rem,4.6vw,4.3rem);font-weight:300;line-height:1.08;letter-spacing:-.005em;margin-bottom:1rem;color:var(--cream);opacity:0;transform:translateY(24px);animation:fu 1s .45s forwards}
+.hh1 em{font-style:italic;font-weight:400;background:var(--metal);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.hpax{font-family:var(--serif);font-size:.95rem;font-style:italic;color:var(--bronze-lt);letter-spacing:.15em;margin-bottom:1.7rem;opacity:0;animation:fu .8s .65s forwards}
 .hpax span{margin:0 .35rem;opacity:.6}
-.hp{font-size:.97rem;color:var(--cream-60);max-width:520px;margin:0 auto 2.5rem;opacity:0;transform:translateY(16px);animation:fu .8s .85s forwards}
+.hp{font-size:.95rem;color:var(--cream-60);max-width:520px;margin:0 auto 2.1rem;opacity:0;transform:translateY(16px);animation:fu .8s .85s forwards}
 .hbtns{display:flex;gap:.85rem;align-items:center;justify-content:center;flex-wrap:wrap;opacity:0;animation:fu .7s 1.05s forwards}
-.ba{padding:.85rem 2rem;background:var(--bronze);color:var(--brand-dk);font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;font-weight:500;border-radius:100px;box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 4px 20px rgba(184,149,130,.2);transition:all .3s}
-.ba:hover{background:var(--bronze-lt);transform:translateY(-2px)}
-.bb{padding:.85rem 2rem;background:rgba(37,52,57,.4);backdrop-filter:blur(20px);border:1px solid rgba(184,149,130,.3);color:var(--bronze);font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;border-radius:100px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06);transition:all .3s;cursor:pointer;font-family:var(--sans)}
-.bb:hover{border-color:var(--bronze);background:rgba(184,149,130,.1)}
+.ba{padding:.85rem 2rem;background:var(--metal);background-size:200% 100%;color:#1a0f08;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;font-weight:500;border-radius:100px;box-shadow:inset 0 1px 0 rgba(255,255,255,.32),0 6px 24px rgba(217,160,122,.24);transition:background-position .6s ease,transform .3s,box-shadow .3s}
+.ba:hover{background-position:100% 0;transform:translateY(-2px);box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 10px 30px rgba(217,160,122,.34)}
+.bb{padding:.85rem 2rem;background:rgba(28,24,32,.4);backdrop-filter:blur(20px);border:1px solid rgba(217,160,122,.3);color:var(--bronze);font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;border-radius:100px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06);transition:all .3s;cursor:pointer;font-family:var(--sans)}
+.bb:hover{border-color:var(--bronze);background:rgba(217,160,122,.1)}
 .hscroll{position:absolute;bottom:1.5rem;left:50%;transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:.55rem;opacity:0;animation:fu .6s 1.3s forwards}
 .hscroll span{font-size:.55rem;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-35)}
 .sbar{width:1px;height:40px;background:linear-gradient(to bottom,var(--bronze),transparent);animation:sp 2.2s infinite}
@@ -100,17 +138,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.1rem 3rem;display:
 @keyframes fu{to{opacity:1;transform:none}}
 
 /* ════ MARQUEE STRIP ════ */
-.mqstrip{background:var(--bronze);overflow:hidden;padding:.58rem 0;position:relative;z-index:10}
+.mqstrip{background:var(--metal);overflow:hidden;padding:.6rem 0;position:relative;z-index:10;box-shadow:0 0 30px rgba(217,160,122,.18)}
 .mqin{display:flex;animation:mqs 28s linear infinite;white-space:nowrap}
-.mqin span{font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:var(--brand-dk);font-weight:500;padding:0 2.25rem}
+.mqin span{font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:#1a0f08;font-weight:500;padding:0 2.25rem}
 .mqin span::before{content:'·';margin-right:2.25rem;opacity:.45}
 @keyframes mqs{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* ════ STATS — floating glass strip ════ */
-.stats{position:relative;z-index:5;margin:3rem auto;max-width:1200px;padding:2.5rem 3rem;background:rgba(37,52,57,.55);backdrop-filter:blur(40px) saturate(170%);-webkit-backdrop-filter:blur(40px) saturate(170%);border:1px solid rgba(246,229,215,.08);border-radius:24px;display:flex;justify-content:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 20px 50px rgba(0,0,0,.3)}
-.stat{flex:1;max-width:200px;text-align:center;padding:0 1.6rem;border-right:1px solid rgba(184,149,130,.12)}
+.stats{position:relative;z-index:5;margin:3rem auto;max-width:1200px;padding:2.5rem 3rem;background:rgba(28,24,32,.55);backdrop-filter:blur(40px) saturate(170%);-webkit-backdrop-filter:blur(40px) saturate(170%);border:1px solid rgba(245,236,229,.08);border-radius:24px;display:flex;justify-content:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 20px 50px rgba(0,0,0,.3)}
+.stat{flex:1;max-width:200px;text-align:center;padding:0 1.6rem;border-right:1px solid rgba(217,160,122,.12)}
 .stat:last-child{border-right:none}
-.stn{font-family:var(--serif);font-size:2.4rem;font-weight:300;color:var(--bronze);line-height:1;margin-bottom:.38rem;display:block}
+.stn{font-family:var(--display);font-size:2.5rem;font-weight:600;line-height:1;margin-bottom:.42rem;display:block;background:var(--metal);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
 .stl{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-60)}
 
 /* ════ SECTION BASE ════ */
@@ -118,7 +156,7 @@ section{padding:7rem 3rem;position:relative}
 .si{max-width:1200px;margin:0 auto;position:relative;z-index:2}
 .stag{font-size:.58rem;letter-spacing:.4em;text-transform:uppercase;color:var(--bronze);display:block;margin-bottom:1.1rem}
 .sh2{font-family:var(--serif);font-size:clamp(1.9rem,3vw,2.85rem);font-weight:300;line-height:1.15;margin-bottom:1.2rem;color:var(--cream)}
-.sh2 em{font-style:italic;color:var(--bronze)}
+.sh2 em{font-style:italic;background:var(--metal);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
 .slead{color:var(--cream-60);font-size:.9rem;max-width:560px}
 
 /* Reveal */
@@ -129,17 +167,17 @@ section{padding:7rem 3rem;position:relative}
 [data-r][data-d="5"]{transition-delay:.56s}
 
 /* ════ GLASS CARD (reusable) ════ */
-.gcard{position:relative;background:rgba(37,52,57,.7);backdrop-filter:blur(40px) saturate(160%);-webkit-backdrop-filter:blur(40px) saturate(160%);border:1px solid rgba(246,229,215,.1);border-radius:24px;transition:all .5s cubic-bezier(.16,1,.3,1);overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.08),inset 0 -1px 0 rgba(0,0,0,.1),0 20px 50px rgba(0,0,0,.25),0 4px 12px rgba(0,0,0,.1)}
+.gcard{position:relative;background:rgba(28,24,32,.7);backdrop-filter:blur(40px) saturate(160%);-webkit-backdrop-filter:blur(40px) saturate(160%);border:1px solid rgba(245,236,229,.1);border-radius:24px;transition:all .5s cubic-bezier(.16,1,.3,1);overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.08),inset 0 -1px 0 rgba(0,0,0,.1),0 20px 50px rgba(0,0,0,.25),0 4px 12px rgba(0,0,0,.1)}
 .gcard::before{content:'';position:absolute;top:0;left:0;right:50%;height:50%;background:linear-gradient(135deg,rgba(255,255,255,.06) 0%,transparent 60%);border-radius:24px 24px 0 0;pointer-events:none}
-.gcard::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1.5px;background:linear-gradient(90deg,transparent,rgba(184,149,130,.6),transparent);opacity:0;transition:opacity .4s}
-.gcard:hover{background:rgba(46,64,72,.78);border-color:rgba(184,149,130,.3);transform:translateY(-8px);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 30px 70px rgba(0,0,0,.35),0 8px 20px rgba(184,149,130,.12)}
+.gcard::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1.5px;background:linear-gradient(90deg,transparent,rgba(217,160,122,.6),transparent);opacity:0;transition:opacity .4s}
+.gcard:hover{background:rgba(38,32,44,.78);border-color:rgba(217,160,122,.3);transform:translateY(-8px);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 30px 70px rgba(0,0,0,.35),0 8px 20px rgba(217,160,122,.12)}
 .gcard:hover::after{opacity:1}
 
 /* ════ #1 CORE ADVANTAGES (3 cards) ════ */
 .adv-hdr{text-align:center;margin-bottom:4rem}
 .advcards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .acard{padding:2.75rem 2.25rem}
-.anum{font-family:var(--serif);font-size:2.7rem;font-weight:300;color:rgba(184,149,130,.2);line-height:1;margin-bottom:1.4rem;position:relative;z-index:2}
+.anum{font-family:var(--serif);font-size:2.7rem;font-weight:300;color:rgba(217,160,122,.2);line-height:1;margin-bottom:1.4rem;position:relative;z-index:2}
 .at{font-family:var(--serif);font-size:1.28rem;font-weight:400;margin-bottom:.85rem;color:var(--cream);position:relative;z-index:2}
 .ap{font-size:.83rem;color:var(--cream-60);line-height:1.82;position:relative;z-index:2}
 
@@ -148,15 +186,15 @@ section{padding:7rem 3rem;position:relative}
 .why-grid .gcard:nth-child(4){grid-column:1/2}
 .why-grid .gcard:nth-child(5){grid-column:2/4}
 .wcard{padding:2.4rem 2rem;display:flex;gap:1.5rem;align-items:flex-start}
-.wico{flex-shrink:0;width:46px;height:46px;border:1px solid rgba(184,149,130,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--bronze);font-family:var(--serif);font-size:1rem;font-weight:500;background:rgba(184,149,130,.06);position:relative;z-index:2}
-.wcard > div{flex:1;position:relative;z-index:2}
+.wico{flex-shrink:0;width:46px;height:46px;border:1px solid rgba(217,160,122,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--bronze);font-family:var(--serif);font-size:1rem;font-weight:500;background:rgba(217,160,122,.06);position:relative;z-index:2}
+.wcard > div:last-child{flex:1;position:relative;z-index:2}
 .wt{font-family:var(--serif);font-size:1.15rem;font-weight:400;margin-bottom:.55rem;color:var(--cream)}
 .wp{font-size:.8rem;color:var(--cream-60);line-height:1.78}
 
 /* ════ #3 INDUSTRIES (4 cards) ════ */
 .igrid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:4rem}
 .icard{padding:2.4rem 2.5rem;display:flex;gap:1.85rem;align-items:flex-start}
-.iicon{width:50px;height:50px;flex-shrink:0;border:1px solid rgba(184,149,130,.25);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:.95rem;font-weight:600;color:var(--bronze);letter-spacing:-.02em;border-radius:8px;background:rgba(184,149,130,.06);position:relative;z-index:2}
+.iicon{width:50px;height:50px;flex-shrink:0;border:1px solid rgba(217,160,122,.25);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:.95rem;font-weight:600;color:var(--bronze);letter-spacing:-.02em;border-radius:8px;background:rgba(217,160,122,.06);position:relative;z-index:2}
 .icard > div:last-child{position:relative;z-index:2}
 .it{font-family:var(--serif);font-size:1.18rem;font-weight:400;margin-bottom:.5rem;color:var(--cream)}
 .ip{font-size:.82rem;color:var(--cream-60);line-height:1.78}
@@ -178,7 +216,7 @@ section{padding:7rem 3rem;position:relative}
 /* ════ #6 SUCCESS STORIES (3 cards) ════ */
 .cgrid{display:grid;grid-template-columns:1fr;gap:1.5rem;margin-top:3.5rem}
 .ccard{padding:2.75rem 3rem;position:relative}
-.cq{font-family:var(--serif);font-size:3.5rem;font-weight:500;color:rgba(184,149,130,.25);line-height:1;position:absolute;top:1.5rem;left:2rem;z-index:2}
+.cq{font-family:var(--serif);font-size:3.5rem;font-weight:500;color:rgba(217,160,122,.25);line-height:1;position:absolute;top:1.5rem;left:2rem;z-index:2}
 .cbd{position:relative;z-index:2;padding-left:2.75rem}
 .ctitle{font-family:var(--serif);font-size:1.3rem;font-weight:500;margin-bottom:1rem;color:var(--cream);line-height:1.35}
 .ctitle em{font-style:normal;color:var(--bronze)}
@@ -190,7 +228,7 @@ section{padding:7rem 3rem;position:relative}
 .biw{height:200px;overflow:hidden;position:relative}
 .biw img{width:100%;height:100%;object-fit:cover;filter:saturate(.5) brightness(.75);transition:transform .65s,filter .4s}
 .bcard:hover .biw img{transform:scale(1.07);filter:saturate(.7) brightness(.88)}
-.bio{position:absolute;inset:0;background:linear-gradient(to top,rgba(37,52,57,.72) 0%,transparent 55%)}
+.bio{position:absolute;inset:0;background:linear-gradient(to top,rgba(28,24,32,.72) 0%,transparent 55%)}
 .bbd{padding:1.85rem 2rem;flex:1;display:flex;flex-direction:column;position:relative;z-index:2}
 .bcat{font-size:.57rem;letter-spacing:.3em;text-transform:uppercase;color:var(--bronze);margin-bottom:.65rem}
 .bti{font-family:var(--serif);font-size:1.1rem;font-weight:400;line-height:1.32;margin-bottom:.65rem;color:var(--cream);transition:color .3s}
@@ -213,52 +251,54 @@ section{padding:7rem 3rem;position:relative}
 #nl{padding:6rem 3rem;text-align:center;position:relative}
 .nlh{font-family:var(--serif);font-size:clamp(1.5rem,2.5vw,2.15rem);font-weight:300;margin-bottom:.85rem;color:var(--cream)}
 .nls{color:var(--cream-60);font-size:.87rem;margin-bottom:2.4rem;max-width:480px;margin-left:auto;margin-right:auto}
-.nlf{display:flex;gap:0;max-width:460px;margin:0 auto 2rem;background:rgba(37,52,57,.55);backdrop-filter:blur(20px);border:1px solid rgba(184,149,130,.22);border-radius:100px;overflow:hidden}
+.nlf{display:flex;gap:0;max-width:460px;margin:0 auto 2rem;background:rgba(28,24,32,.55);backdrop-filter:blur(20px);border:1px solid rgba(217,160,122,.22);border-radius:100px;overflow:hidden}
 .nlf input{flex:1;background:transparent;border:none;padding:.9rem 1.5rem;color:var(--cream);font-family:var(--sans);font-size:.82rem;outline:none}
-.nlf input::placeholder{color:rgba(246,229,215,.22)}
-.nlf button{padding:.9rem 1.6rem;background:var(--bronze);border:none;color:var(--brand-dk);font-family:var(--sans);font-size:.63rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;font-weight:500;transition:background .3s;white-space:nowrap}
-.nlf button:hover{background:var(--bronze-lt)}
+.nlf input::placeholder{color:rgba(245,236,229,.22)}
+.nlf button{padding:.9rem 1.6rem;background:var(--metal);border:none;color:#1a0f08;font-family:var(--sans);font-size:.63rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;font-weight:500;transition:background .3s;white-space:nowrap}
+.nlf button:hover{filter:brightness(1.12)}
 .nlbs{display:flex;gap:.85rem;justify-content:center;flex-wrap:wrap}
-.nlb{padding:.7rem 1.4rem;border:1px solid rgba(184,149,130,.22);background:rgba(37,52,57,.4);backdrop-filter:blur(10px);color:var(--cream-60);font-family:var(--sans);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:all .3s;display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;border-radius:100px}
-.nlb:hover{border-color:var(--bronze);color:var(--bronze);background:rgba(184,149,130,.06)}
+.nlb{padding:.7rem 1.4rem;border:1px solid rgba(217,160,122,.22);background:rgba(28,24,32,.4);backdrop-filter:blur(10px);color:var(--cream-60);font-family:var(--sans);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:all .3s;display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;border-radius:100px}
+.nlb:hover{border-color:var(--bronze);color:var(--bronze);background:rgba(217,160,122,.06)}
 .nlb svg{width:15px;height:15px;fill:currentColor}
 
 /* ════ #10 CONTACT ════ */
 #cta{text-align:center;padding:8rem 3rem;position:relative}
-.ctag{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(184,149,130,.055) 0%,transparent 68%);pointer-events:none}
+.ctag{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(217,160,122,.055) 0%,transparent 68%);pointer-events:none}
 .ctah{font-family:var(--serif);font-size:clamp(2.2rem,4.5vw,3.7rem);font-weight:300;line-height:1.1;margin-bottom:1.7rem;position:relative;z-index:1;color:var(--cream)}
-.ctah em{font-style:italic;color:var(--bronze)}
-.ctam{font-family:var(--serif);font-size:clamp(1rem,2.2vw,1.6rem);font-weight:300;color:var(--bronze);text-decoration:none;border-bottom:1px solid rgba(184,149,130,.28);padding-bottom:.2rem;transition:border-color .3s;position:relative;z-index:1;display:inline-block}
+.ctah em{font-style:italic;background:var(--metal);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.ctam{font-family:var(--serif);font-size:clamp(1rem,2.2vw,1.6rem);font-weight:300;color:var(--bronze);text-decoration:none;border-bottom:1px solid rgba(217,160,122,.28);padding-bottom:.2rem;transition:border-color .3s;position:relative;z-index:1;display:inline-block}
 .ctam:hover{border-color:var(--bronze)}
 .ctaloc{margin-top:2rem;font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-35);position:relative;z-index:1}
 
 /* ════ FOOTER ════ */
-footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px solid rgba(184,149,130,.07);padding:1.5rem 3rem;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:5}
+footer{background:rgba(8,7,10,.7);backdrop-filter:blur(20px);border-top:1px solid rgba(217,160,122,.07);padding:1.5rem 3rem;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:5}
 .fl{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--cream-35)}
-.fkv{display:flex;align-items:center;gap:.55rem}
-.fm{width:24px;height:24px;border:1px solid rgba(184,149,130,.22);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:.78rem;color:rgba(184,149,130,.45)}
-.fn{font-family:var(--serif);font-size:.68rem;letter-spacing:.2em;color:rgba(246,229,215,.25)}
+.fbrand{display:flex;align-items:center;gap:.6rem;opacity:.5;transition:opacity .35s}
+footer:hover .fbrand{opacity:.9}
+.fm{width:26px;height:26px;border:1px solid rgba(217,160,122,.24);border-radius:6px;display:flex;align-items:center;justify-content:center}
+.fm .jtk-mark{width:17px;height:auto}
+.fn{font-family:var(--cjk);font-size:.7rem;letter-spacing:.16em;color:rgba(245,236,229,.4);font-weight:600}
 
 /* ════ MODALS ════ */
-.ov{position:fixed;inset:0;z-index:500;background:rgba(7,13,24,.85);backdrop-filter:blur(20px);display:none;align-items:flex-start;justify-content:center;padding:2rem;overflow-y:auto}
+.ov{position:fixed;inset:0;z-index:500;background:rgba(8,7,10,.85);backdrop-filter:blur(20px);display:none;align-items:flex-start;justify-content:center;padding:2rem;overflow-y:auto}
 .ov.op{display:flex}
-.mbox{background:rgba(37,52,57,.95);backdrop-filter:blur(30px);border:1px solid rgba(184,149,130,.18);width:100%;max-width:780px;position:relative;margin:auto;border-radius:20px;box-shadow:0 30px 80px rgba(0,0,0,.4)}
+.mbox{background:rgba(28,24,32,.95);backdrop-filter:blur(30px);border:1px solid rgba(217,160,122,.18);width:100%;max-width:780px;position:relative;margin:auto;border-radius:20px;box-shadow:0 30px 80px rgba(0,0,0,.4)}
 .mx{position:absolute;top:1.2rem;right:1.2rem;width:36px;height:36px;background:transparent;border:none;color:var(--cream-35);font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:color .3s;z-index:3}
 .mx:hover{color:var(--bronze)}
 .mbd{padding:3rem 3.5rem}
 .mtag2{font-size:.56rem;letter-spacing:.35em;text-transform:uppercase;color:var(--bronze);margin-bottom:.85rem}
 .mtit{font-family:var(--serif);font-size:clamp(1.5rem,2.3vw,2rem);font-weight:300;line-height:1.2;margin-bottom:1.5rem;color:var(--cream)}
-.mdiv{width:42px;height:1px;background:rgba(184,149,130,.32);margin-bottom:1.5rem}
+.mdiv{width:42px;height:1px;background:rgba(217,160,122,.32);margin-bottom:1.5rem}
 .mbody p{color:var(--cream-60);font-size:.87rem;line-height:1.9;margin-bottom:1.05rem}
 .mbody h3{font-family:var(--serif);font-size:1.08rem;font-weight:400;color:var(--bronze);margin:1.85rem 0 .6rem}
 .mbody ul{list-style:none;padding:0;margin-bottom:1rem}
 .mbody li{font-size:.83rem;color:var(--cream-60);padding:.32rem 0 .32rem 1.15rem;position:relative;line-height:1.78}
-.mbody li::before{content:'—';position:absolute;left:0;color:rgba(184,149,130,.4)}
+.mbody li::before{content:'—';position:absolute;left:0;color:rgba(217,160,122,.4)}
 .mbody strong{color:var(--cream);font-weight:500}
-.mbody blockquote{border-left:2px solid rgba(184,149,130,.32);padding:.9rem 1.4rem;margin:1.4rem 0;background:rgba(184,149,130,.04);font-size:.85rem;color:var(--cream-60);font-style:italic;line-height:1.8}
+.mbody blockquote{border-left:2px solid rgba(217,160,122,.32);padding:.9rem 1.4rem;margin:1.4rem 0;background:rgba(217,160,122,.04);font-size:.85rem;color:var(--cream-60);font-style:italic;line-height:1.8}
 
 /* Process Modal Tabs */
-.tabs{display:flex;gap:.5rem;border-bottom:1px solid rgba(184,149,130,.15);margin-bottom:2rem}
+.tabs{display:flex;gap:.5rem;border-bottom:1px solid rgba(217,160,122,.15);margin-bottom:2rem}
 .tab{padding:.85rem 1.5rem;background:none;border:none;color:var(--cream-35);font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;position:relative;transition:color .3s}
 .tab.active{color:var(--bronze)}
 .tab.active::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:2px;background:var(--bronze)}
@@ -267,32 +307,50 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 
 /* Process Steps */
 .psteps{display:flex;flex-direction:column;gap:0}
-.pstep{display:grid;grid-template-columns:90px 1fr;gap:1.5rem;padding:1.25rem 0;border-bottom:1px solid rgba(184,149,130,.08)}
+.pstep{display:grid;grid-template-columns:90px 1fr;gap:1.5rem;padding:1.25rem 0;border-bottom:1px solid rgba(217,160,122,.08)}
 .pstep:last-child{border-bottom:none}
 .pstep-n{font-family:var(--serif);font-size:1rem;color:var(--bronze);letter-spacing:.05em;padding-top:.15rem}
 .pstep-t{font-family:var(--serif);font-size:1.1rem;font-weight:500;color:var(--cream);margin-bottom:.3rem}
 .pstep-d{font-size:.8rem;color:var(--cream-60);line-height:1.7}
-.pnote{margin-top:1.5rem;padding:1rem 1.25rem;background:rgba(184,149,130,.06);border-left:2px solid rgba(184,149,130,.3);font-size:.78rem;color:var(--cream-60);line-height:1.7;font-style:italic}
+.pnote{margin-top:1.5rem;padding:1rem 1.25rem;background:rgba(217,160,122,.06);border-left:2px solid rgba(217,160,122,.3);font-size:.78rem;color:var(--cream-60);line-height:1.7;font-style:italic}
 
 /* Contract Table */
 .contract-section{margin-bottom:1.75rem}
 .contract-section h4{font-family:var(--serif);font-size:1.05rem;color:var(--bronze);margin-bottom:.6rem;font-weight:500}
 .contract-section p{font-size:.83rem;color:var(--cream-60);line-height:1.8;margin-bottom:.5rem}
 .rate-table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.8rem}
-.rate-table th,.rate-table td{padding:.7rem 1rem;text-align:left;border-bottom:1px solid rgba(184,149,130,.12)}
-.rate-table th{color:var(--bronze);font-family:var(--serif);font-weight:500;letter-spacing:.05em;text-transform:uppercase;font-size:.7rem;background:rgba(184,149,130,.04)}
+.rate-table th,.rate-table td{padding:.7rem 1rem;text-align:left;border-bottom:1px solid rgba(217,160,122,.12)}
+.rate-table th{color:var(--bronze);font-family:var(--serif);font-weight:500;letter-spacing:.05em;text-transform:uppercase;font-size:.7rem;background:rgba(217,160,122,.04)}
 .rate-table td{color:var(--cream-60)}
-.rate-table tr:hover td{background:rgba(184,149,130,.03)}
+.rate-table tr:hover td{background:rgba(217,160,122,.03)}
 .contract-cta{margin-top:1.75rem;display:flex;justify-content:center}
-.contract-cta a{padding:.75rem 1.75rem;background:var(--bronze);color:var(--brand-dk);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;font-weight:500;border-radius:100px;transition:background .3s}
-.contract-cta a:hover{background:var(--bronze-lt)}
+.contract-cta a{padding:.75rem 1.75rem;background:var(--metal);color:#1a0f08;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;font-weight:500;border-radius:100px;transition:background .3s}
+.contract-cta a:hover{filter:brightness(1.12)}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  [data-r]{opacity:1;transform:none}
+}
 
 /* ════ MOBILE ════ */
 @media(max-width:768px){
   nav{padding:1rem 1.25rem}
+  nav.slim{padding:.7rem 1.25rem}
+  .ncta{display:none!important}  /* beats body.em .en */
+  .nright{gap:.6rem}
+  .blang{font-size:.58rem;padding:.28rem .5rem}
+  .hbadge{font-size:.5rem;letter-spacing:.14em;padding:.4rem .85rem;gap:.45rem}
+  .hbtns{flex-direction:column;width:100%}
+  .hbtns .ba,.hbtns .bb{width:100%;max-width:280px;text-align:center}
+  .hscroll{display:none}
+  #hero{padding:6.5rem 1.25rem 4rem}
+  .hlock{width:min(240px,66vw);margin-bottom:1.4rem}
+  .hrule{width:120px;margin-bottom:1.2rem}
+  .nname{font-size:.85rem}
+  .nsub{font-size:.5rem;letter-spacing:.26em}
   section{padding:5rem 1.25rem}
   .stats{margin:1.5rem 1.25rem;padding:1.75rem;flex-wrap:wrap;gap:1.5rem}
-  .stat{border-right:none;padding-bottom:1rem;border-bottom:1px solid rgba(184,149,130,.07);flex:1 1 40%}
+  .stat{border-right:none;padding-bottom:1rem;border-bottom:1px solid rgba(217,160,122,.07);flex:1 1 40%}
   .advcards,.sgrid,.bgrid{grid-template-columns:1fr;gap:1rem}
   .why-grid{grid-template-columns:1fr;gap:1rem}
   .why-grid .gcard:nth-child(4),.why-grid .gcard:nth-child(5){grid-column:auto}
@@ -313,15 +371,29 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 
 <div id="cur"></div>
 <div id="cur-r"></div>
+<div id="prog"></div>
+
+<!-- ═══ SHARED BRUSHED-COPPER GRADIENT (referenced by every JTK mark) ═══ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="cuGrad" x1="0" y1="0" x2="1" y2=".85">
+      <stop offset="0%"   stop-color="#7d4527"/>
+      <stop offset="13%"  stop-color="#c98a63"/>
+      <stop offset="28%"  stop-color="#f4d3ba"/>
+      <stop offset="42%"  stop-color="#b06843"/>
+      <stop offset="58%"  stop-color="#eab792"/>
+      <stop offset="74%"  stop-color="#8f4d2d"/>
+      <stop offset="88%"  stop-color="#e0aa84"/>
+      <stop offset="100%" stop-color="#a0603c"/>
+    </linearGradient>
+  </defs>
+</svg>
 
 <!-- ═══ AMBIENT BACKGROUND ═══ -->
 <div class="ambient-base"></div>
-<div class="ambient-stars">
-  <video autoplay loop muted playsinline>
-    <source src="stars-bg.mp4" type="video/mp4">
-  </video>
-</div>
+<div class="ambient-stars"><canvas id="stars"></canvas></div>
 <div class="ambient-monogram"></div>
+<div class="ambient-grain"></div>
 <div class="orb orb-1"></div>
 <div class="orb orb-2"></div>
 <div class="orb orb-3"></div>
@@ -329,10 +401,14 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 <!-- ═══ NAV ═══ -->
 <nav id="nav">
   <div class="nlogo" onclick="scrollTo({top:0,behavior:'smooth'})">
-    <div class="nmark">K</div>
+    <div class="nmark">
+      <svg class="jtk-mark" viewBox="0 0 124 76" role="img" aria-label="JTK">
+        <text x="63" y="59" text-anchor="middle" font-size="66" fill="url(#cuGrad)">JTK</text>
+      </svg>
+    </div>
     <div>
-      <div class="nname">KV</div>
-      <div class="nsub">Consulting</div>
+      <div class="nname metal">職推王</div>
+      <div class="nsub">JTK Consulting</div>
     </div>
   </div>
   <div class="nlinks">
@@ -351,7 +427,7 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   </div>
   <div class="mob-menu" id="mob-menu">
     <a href="#adv" onclick="closeMobMenu()" class="zh">核心優勢</a><a href="#adv" onclick="closeMobMenu()" class="en">Advantages</a>
-    <a href="#why" onclick="closeMobMenu()" class="zh">為何選擇我們</a><a href="#why" onclick="closeMobMenu()" class="en">Why KV</a>
+    <a href="#why" onclick="closeMobMenu()" class="zh">為何選擇我們</a><a href="#why" onclick="closeMobMenu()" class="en">Why JTK</a>
     <a href="#ind" onclick="closeMobMenu()" class="zh">專注產業</a><a href="#ind" onclick="closeMobMenu()" class="en">Industries</a>
     <a href="#sol" onclick="closeMobMenu()" class="zh">服務方案</a><a href="#sol" onclick="closeMobMenu()" class="en">Solutions</a>
     <a href="#meth" onclick="closeMobMenu()" class="zh">顧問方法論</a><a href="#meth" onclick="closeMobMenu()" class="en">Methodology</a>
@@ -368,17 +444,24 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 <section id="hero">
   <div class="hero-arch"></div>
   <div class="mtns">
-    <svg class="mtn mtn1" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 320L0 210 L100 170 L200 195 L320 130 L440 165 L560 95 L680 130 L800 80 L920 115 L1060 62 L1180 98 L1300 70 L1380 88 L1440 75 L1440 320Z" fill="rgba(7,13,24,0.55)"/></svg>
-    <svg class="mtn mtn2" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 320L0 235 L90 210 L210 225 L340 185 L460 205 L580 165 L700 188 L830 148 L960 172 L1090 142 L1210 162 L1340 138 L1440 152 L1440 320Z" fill="rgba(7,13,24,0.72)"/></svg>
-    <svg class="mtn mtn3" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 320L0 268 L110 252 L240 260 L360 238 L480 248 L600 225 L730 240 L860 215 L990 232 L1120 210 L1250 225 L1380 205 L1440 215 L1440 320Z" fill="rgba(7,13,24,0.92)"/></svg>
+    <svg class="mtn mtn1" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 320L0 210 L100 170 L200 195 L320 130 L440 165 L560 95 L680 130 L800 80 L920 115 L1060 62 L1180 98 L1300 70 L1380 88 L1440 75 L1440 320Z" fill="rgba(8,7,10,0.55)"/></svg>
+    <svg class="mtn mtn2" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 320L0 235 L90 210 L210 225 L340 185 L460 205 L580 165 L700 188 L830 148 L960 172 L1090 142 L1210 162 L1340 138 L1440 152 L1440 320Z" fill="rgba(8,7,10,0.72)"/></svg>
+    <svg class="mtn mtn3" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 320L0 268 L110 252 L240 260 L360 238 L480 248 L600 225 L730 240 L860 215 L990 232 L1120 210 L1250 225 L1380 205 L1440 215 L1440 320Z" fill="rgba(8,7,10,0.92)"/></svg>
   </div>
   <div class="hero-inner">
+    <div class="hlock">
+      <svg class="jtk-mark" viewBox="0 0 300 178" role="img" aria-label="職推王 JTK">
+        <text x="152" y="94" text-anchor="middle" font-size="102" fill="url(#cuGrad)">JTK</text>
+        <text class="jtk-cjk" x="152" y="166" text-anchor="middle" font-size="31" letter-spacing="7" fill="url(#cuGrad)">職推王</text>
+      </svg>
+    </div>
+    <div class="hrule"></div>
     <div class="hbadge"><span class="zhi">軟體開發 × 企業顧問</span><span class="eni">Software & Organizational Consulting</span></div>
     <h1 class="hh1 zh">用技術與洞察<br><em>讓組織與系統一起進化</em></h1>
     <h1 class="hh1 en">Where Technology<br><em>Meets Organizational Insight</em></h1>
     <div class="hpax">Professional<span>·</span>Passionate<span>·</span>Exquisite</div>
-    <p class="hp zh">KV 提供兩大核心服務：客製化軟體承攬開發，以及企業人才與組織顧問。從系統打造到組織健檢，協助企業強化體質、穩健成長。</p>
-    <p class="hp en">KV delivers two core services: custom software development and enterprise talent & organizational consulting — from building systems to organizational health checks that strengthen and grow your business.</p>
+    <p class="hp zh">職推王提供兩大核心服務：客製化軟體承攬開發，以及企業人才與組織顧問。從系統打造到組織健檢，協助企業強化體質、穩健成長。</p>
+    <p class="hp en">JTK delivers two core services: custom software development and enterprise talent & organizational consulting — from building systems to organizational health checks that strengthen and grow your business.</p>
     <div class="hbtns">
       <a href="#sol" class="ba zh">探索服務方案</a><a href="#sol" class="ba en">Explore Services</a>
       <button class="bb zh" onclick="openProcess()">合作流程</button>
@@ -444,7 +527,7 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <div style="text-align:center;margin-bottom:1rem" data-r>
       <span class="stag">Why Choose Us</span>
       <h2 class="sh2 zh">為何選擇<em>我們</em></h2>
-      <h2 class="sh2 en">Why <em>KV</em></h2>
+      <h2 class="sh2 en">Why <em>JTK</em></h2>
     </div>
     <div class="why-grid">
       <div class="gcard wcard" data-r data-d="1">
@@ -452,8 +535,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         <div>
           <h4 class="wt zh">懂業務的顧問思維</h4>
           <h4 class="wt en">Business-Savvy Consulting</h4>
-          <p class="wp zh">KV 不是只會接規格的外包商。我們先理解你的營運模式與組織運作，找出流程中真正的痛點，再用技術與制度對症下藥。</p>
-          <p class="wp en">KV is not a spec-taking vendor. We understand your operations and organization first, identify the real pain points, then apply technology and process where it matters.</p>
+          <p class="wp zh">職推王不是只會接規格的外包商。我們先理解你的營運模式與組織運作，找出流程中真正的痛點，再用技術與制度對症下藥。</p>
+          <p class="wp en">JTK is not a spec-taking vendor. We understand your operations and organization first, identify the real pain points, then apply technology and process where it matters.</p>
         </div>
       </div>
       <div class="gcard wcard" data-r data-d="2">
@@ -470,8 +553,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         <div>
           <h4 class="wt zh">交付後維護保固</h4>
           <h4 class="wt en">Post-Delivery Warranty</h4>
-          <p class="wp zh">系統上線後，KV 依合約條款提供保固期內的缺陷修復與技術支援，全程守護每一次交付的成果與品質。</p>
-          <p class="wp en">After launch, KV provides defect fixes and technical support within the warranty period per contract — protecting the quality of every delivery.</p>
+          <p class="wp zh">系統上線後，職推王依合約條款提供保固期內的缺陷修復與技術支援，全程守護每一次交付的成果與品質。</p>
+          <p class="wp en">After launch, JTK provides defect fixes and technical support within the warranty period per contract — protecting the quality of every delivery.</p>
         </div>
       </div>
       <div class="gcard wcard" data-r data-d="4">
@@ -488,8 +571,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         <div>
           <h4 class="wt zh">企業組織顧問</h4>
           <h4 class="wt en">Organizational Advisory</h4>
-          <p class="wp zh">除了軟體開發，KV 也為企業提供組織健檢、員工關係診斷與 HR 制度顧問，協助企業強化內部體質、提升團隊運作效率。</p>
-          <p class="wp en">Beyond software, KV offers organizational health checks, employee relations diagnosis, and HR process advisory — strengthening your internal foundation and team efficiency.</p>
+          <p class="wp zh">除了軟體開發，職推王也為企業提供組織健檢、員工關係診斷與 HR 制度顧問，協助企業強化內部體質、提升團隊運作效率。</p>
+          <p class="wp en">Beyond software, JTK offers organizational health checks, employee relations diagnosis, and HR process advisory — strengthening your internal foundation and team efficiency.</p>
         </div>
       </div>
     </div>
@@ -549,8 +632,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
       <span class="stag">Our Solutions</span>
       <h2 class="sh2 zh">兩大<em>服務主軸</em></h2>
       <h2 class="sh2 en">Two <em>Core Pillars</em></h2>
-      <p class="slead zh">KV 提供軟體承攬開發與企業組織顧問兩大服務。從打造系統到強化組織，從找出問題到親手解決，一路陪你走完。</p>
-      <p class="slead en">KV offers two pillars: custom software development and enterprise organizational consulting. From building systems to strengthening organizations, we see it through.</p>
+      <p class="slead zh">職推王提供軟體承攬開發與企業組織顧問兩大服務。從打造系統到強化組織，從找出問題到親手解決，一路陪你走完。</p>
+      <p class="slead en">JTK offers two pillars: custom software development and enterprise organizational consulting. From building systems to strengthening organizations, we see it through.</p>
     </div>
     <div class="sgrid">
       <div class="gcard scard" data-r data-d="1">
@@ -584,7 +667,7 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <div data-r style="text-align:center">
       <span class="stag">Our Methodology</span>
       <h2 class="sh2 zh"><em>從診斷到交付</em>的方法論</h2>
-      <h2 class="sh2 en">The <em>KV</em> Delivery Method</h2>
+      <h2 class="sh2 en">The <em>JTK</em> Delivery Method</h2>
     </div>
     <div class="mgrid">
       <div class="gcard mstep" data-r data-d="1">
@@ -629,8 +712,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         <div class="cbd">
           <h3 class="ctitle zh">為知名外商<em>半導體設備商</em>，打造原廠技術整合系統</h3>
           <h3 class="ctitle en">Building a Tech Integration System for a Global <em>Semiconductor Equipment Leader</em></h3>
-          <p class="ctext zh">在客戶面臨極為壓縮的時程壓力下，KV 開發團隊於一季內交付一套完整的技術整合平台，順利串接原廠設備系統與在地半導體製造商的產線資料。我們的關鍵在於迅速釐清客戶真實需求與既有系統的技術限制，針對 80 餘項設備介接規格進行盤點與設計，建構支援多協定、即時監控的資料管線。歷經 3–4 輪嚴謹的測試與壓力驗證、跨越歐美技術窗口的審查，最終交付穩定上線的整合系統。此次合作不僅是時間競賽，更印證了 KV 在限時專案下，仍能精準交付中大型系統開發的核心能力。</p>
-          <p class="ctext en">Facing extreme time pressure, KV's team delivered a complete technical integration platform within one quarter, bridging foreign HQ equipment systems with a local semiconductor manufacturer's production data. Our edge lay in rapidly clarifying client needs and system constraints, designing a multi-protocol, real-time monitoring data pipeline across 80+ device integration specs. After 3–4 rounds of rigorous testing and stress validation, we delivered a stable production system — proving KV's capability to precisely deliver mid-to-large system development under tight deadlines.</p>
+          <p class="ctext zh">在客戶面臨極為壓縮的時程壓力下，職推王開發團隊於一季內交付一套完整的技術整合平台，順利串接原廠設備系統與在地半導體製造商的產線資料。我們的關鍵在於迅速釐清客戶真實需求與既有系統的技術限制，針對 80 餘項設備介接規格進行盤點與設計，建構支援多協定、即時監控的資料管線。歷經 3–4 輪嚴謹的測試與壓力驗證、跨越歐美技術窗口的審查，最終交付穩定上線的整合系統。此次合作不僅是時間競賽，更印證了職推王在限時專案下，仍能精準交付中大型系統開發的核心能力。</p>
+          <p class="ctext en">Facing extreme time pressure, JTK's team delivered a complete technical integration platform within one quarter, bridging foreign HQ equipment systems with a local semiconductor manufacturer's production data. Our edge lay in rapidly clarifying client needs and system constraints, designing a multi-protocol, real-time monitoring data pipeline across 80+ device integration specs. After 3–4 rounds of rigorous testing and stress validation, we delivered a stable production system — proving JTK's capability to precisely deliver mid-to-large system development under tight deadlines.</p>
         </div>
       </div>
       <div class="gcard ccard" data-r data-d="2">
@@ -638,8 +721,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         <div class="cbd">
           <h3 class="ctitle zh">知名<em>大型零售集團</em>，數位轉型資料中台開發</h3>
           <h3 class="ctitle en">Digital Transformation for a Major <em>Retail Group</em></h3>
-          <p class="ctext zh">為配合數位轉型策略，某知名零售集團決定整合內部系統、建構全新的數據中台以驅動下階段成長。本專案涵蓋兩大開發方向：首先是建立數據中台系統，串接內部各業務系統並打造全新的消費者服務體驗。KV 負責核心架構設計與開發實作，順利交付一套整合會員、訂單與庫存的資料中台，並完成與電商平台的即時介接。第二階段聚焦於營運分析模組，導入具備視覺化儀表板與報表自動化的管理系統推動業務優化。過程中，KV 透過「系統盤點」與「資料建模」雙重視角分析需求，協助企業確立清晰的技術藍圖。經過三輪嚴格測試，最終為集團交付穩定運行的數據中台，成為數位轉型的關鍵推力。</p>
-          <p class="ctext en">To support digital transformation, a renowned retail group sought to integrate internal systems and build a new data platform. The project spanned two tracks: first, building a data middle-platform to connect internal business systems and rebuild the consumer experience. KV led the core architecture and implementation, delivering a platform integrating membership, orders, and inventory with real-time e-commerce integration. The second phase focused on an analytics module with dashboards and automated reporting. Through dual lenses of "system audit" and "data modeling," KV helped define a clear technical blueprint, ultimately delivering a stable data platform that drove the transformation.</p>
+          <p class="ctext zh">為配合數位轉型策略，某知名零售集團決定整合內部系統、建構全新的數據中台以驅動下階段成長。本專案涵蓋兩大開發方向：首先是建立數據中台系統，串接內部各業務系統並打造全新的消費者服務體驗。職推王負責核心架構設計與開發實作，順利交付一套整合會員、訂單與庫存的資料中台，並完成與電商平台的即時介接。第二階段聚焦於營運分析模組，導入具備視覺化儀表板與報表自動化的管理系統推動業務優化。過程中，職推王透過「系統盤點」與「資料建模」雙重視角分析需求，協助企業確立清晰的技術藍圖。經過三輪嚴格測試，最終為集團交付穩定運行的數據中台，成為數位轉型的關鍵推力。</p>
+          <p class="ctext en">To support digital transformation, a renowned retail group sought to integrate internal systems and build a new data platform. The project spanned two tracks: first, building a data middle-platform to connect internal business systems and rebuild the consumer experience. JTK led the core architecture and implementation, delivering a platform integrating membership, orders, and inventory with real-time e-commerce integration. The second phase focused on an analytics module with dashboards and automated reporting. Through dual lenses of "system audit" and "data modeling," JTK helped define a clear technical blueprint, ultimately delivering a stable data platform that drove the transformation.</p>
         </div>
       </div>
       <div class="gcard ccard" data-r data-d="3">
@@ -647,8 +730,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         <div class="cbd">
           <h3 class="ctitle zh">知名<em>數位金融銀行</em>，客服系統開發與組織優化</h3>
           <h3 class="ctitle en">CS Platform & Organization Optimization for a Leading <em>Digital Bank</em></h3>
-          <p class="ctext zh">為提升客服部門營運效率並因應業務量成長，某知名數位銀行決定重新打造一套整合式客服系統，並同步優化內部團隊運作。憑藉 KV 在金融科技與組織顧問的雙重經驗，雙方於一個半月內完成系統規格確認並啟動開發。本案分為雙階段推進——第一階段針對客服流程數位化，KV 開發了整合工單管理、知識庫與即時對話的客服平台，並串接銀行既有的 CRM 系統，有效提升團隊處理效率；第二階段則以組織顧問角度切入，協助客戶進行客服團隊的流程健檢與員工關係診斷，重新設計分工與績效制度，提升團隊運作效率與留任率。本案 KV 不僅完成系統交付，更協助客戶從技術與組織雙管齊下，大幅提升數位服務的靈活度。</p>
-          <p class="ctext en">To improve customer service efficiency amid business growth, a prominent digital bank engaged KV to rebuild an integrated CS platform and optimize team operations. Drawing on our fintech and organizational consulting expertise, both sides confirmed specs and kicked off development within six weeks. The project ran in two phases: first, digitizing CS workflows — KV built a platform integrating ticket management, knowledge base, and live chat, connected to the bank's existing CRM; second, from an organizational consulting angle, KV conducted a process health check and employee relations diagnosis for the CS team, redesigning roles and performance systems to boost efficiency and retention. Beyond delivery, KV helped the client advance on both technical and organizational fronts.</p>
+          <p class="ctext zh">為提升客服部門營運效率並因應業務量成長，某知名數位銀行決定重新打造一套整合式客服系統，並同步優化內部團隊運作。憑藉職推王在金融科技與組織顧問的雙重經驗，雙方於一個半月內完成系統規格確認並啟動開發。本案分為雙階段推進——第一階段針對客服流程數位化，職推王開發了整合工單管理、知識庫與即時對話的客服平台，並串接銀行既有的 CRM 系統，有效提升團隊處理效率；第二階段則以組織顧問角度切入，協助客戶進行客服團隊的流程健檢與員工關係診斷，重新設計分工與績效制度，提升團隊運作效率與留任率。本案職推王不僅完成系統交付，更協助客戶從技術與組織雙管齊下，大幅提升數位服務的靈活度。</p>
+          <p class="ctext en">To improve customer service efficiency amid business growth, a prominent digital bank engaged JTK to rebuild an integrated CS platform and optimize team operations. Drawing on our fintech and organizational consulting expertise, both sides confirmed specs and kicked off development within six weeks. The project ran in two phases: first, digitizing CS workflows — JTK built a platform integrating ticket management, knowledge base, and live chat, connected to the bank's existing CRM; second, from an organizational consulting angle, JTK conducted a process health check and employee relations diagnosis for the CS team, redesigning roles and performance systems to boost efficiency and retention. Beyond delivery, JTK helped the client advance on both technical and organizational fronts.</p>
         </div>
       </div>
     </div>
@@ -711,14 +794,14 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     </div>
     <div class="faqs">
       <details class="gcard faq" data-r data-d="1">
-        <summary><span class="zh">KV 與其他軟體開發或顧問公司有什麼差別？</span><span class="en">How is KV different from other firms?</span></summary>
+        <summary><span class="zh">職推王與其他軟體開發或顧問公司有什麼差別？</span><span class="en">How is JTK different from other firms?</span></summary>
         <div class="faq-body">
-          <p class="zh">KV 同時具備軟體開發與組織顧問兩種能力。我們不只是寫程式，更能從業務與組織角度理解問題；也不只出建議報告，更能親手把系統與制度落地。這種「診斷 + 開發」一條龍的整合能力，是我們最大的差異。</p>
-          <p class="en">KV combines software development and organizational consulting. We don't just code — we understand problems from a business and organizational angle; and we don't just deliver recommendation decks — we implement systems and processes ourselves. This end-to-end "diagnose + build" capability is our key difference.</p>
+          <p class="zh">職推王同時具備軟體開發與組織顧問兩種能力。我們不只是寫程式，更能從業務與組織角度理解問題；也不只出建議報告，更能親手把系統與制度落地。這種「診斷 + 開發」一條龍的整合能力，是我們最大的差異。</p>
+          <p class="en">JTK combines software development and organizational consulting. We don't just code — we understand problems from a business and organizational angle; and we don't just deliver recommendation decks — we implement systems and processes ourselves. This end-to-end "diagnose + build" capability is our key difference.</p>
         </div>
       </details>
       <details class="gcard faq" data-r data-d="2">
-        <summary><span class="zh">KV 的收費方式是如何計算的？</span><span class="en">How does KV charge for its services?</span></summary>
+        <summary><span class="zh">職推王的收費方式是如何計算的？</span><span class="en">How does JTK charge for its services?</span></summary>
         <div class="faq-body">
           <p class="zh">依服務類型而定。軟體開發與系統整合採「固定範疇、固定報價」，依專案規模與工作量估價；組織顧問服務則依顧問投入（人日／人時）或專案範疇計費。雙方於合約中明確約定範疇、里程碑與付款條件。</p>
           <p class="en">It depends on the service type. Software development and system integration use "fixed scope, fixed quote" based on project size; organizational consulting is billed by consulting effort (daily/hourly) or project scope. Scope, milestones, and payment terms are clearly defined in the contract.</p>
@@ -727,15 +810,15 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
       <details class="gcard faq" data-r data-d="3">
         <summary><span class="zh">一個專案的合作流程是怎麼進行的？</span><span class="en">What does the engagement process look like?</span></summary>
         <div class="faq-body">
-          <p class="zh">收到需求後，KV 啟動跨職能協作流程：先由團隊進行需求訪談與現況診斷，釐清業務目標與痛點；接著提出技術或組織方案、確認範疇與里程碑；開發或導入階段以敏捷迭代推進，定期交付可驗證成果；最後進行測試上線或成效驗收。專案結束後，我們持續提供保固維護與優化建議，確保成果穩定運行。</p>
-          <p class="en">Upon receiving requirements, KV activates a cross-functional process: requirement interviews and diagnosis to clarify goals and pain points; then a technical or organizational proposal with defined scope and milestones; agile iterations with regular verifiable deliverables during build or rollout; and finally testing, launch, or outcome acceptance. After completion, we provide warranty maintenance and optimization advice to keep results running stably.</p>
+          <p class="zh">收到需求後，職推王啟動跨職能協作流程：先由團隊進行需求訪談與現況診斷，釐清業務目標與痛點；接著提出技術或組織方案、確認範疇與里程碑；開發或導入階段以敏捷迭代推進，定期交付可驗證成果；最後進行測試上線或成效驗收。專案結束後，我們持續提供保固維護與優化建議，確保成果穩定運行。</p>
+          <p class="en">Upon receiving requirements, JTK activates a cross-functional process: requirement interviews and diagnosis to clarify goals and pain points; then a technical or organizational proposal with defined scope and milestones; agile iterations with regular verifiable deliverables during build or rollout; and finally testing, launch, or outcome acceptance. After completion, we provide warranty maintenance and optimization advice to keep results running stably.</p>
         </div>
       </details>
       <details class="gcard faq" data-r data-d="4">
         <summary><span class="zh">專案交付後是否提供保固與維護？</span><span class="en">Do you offer post-delivery warranty?</span></summary>
         <div class="faq-body">
-          <p class="zh">是的。KV 提供「交付保固機制」——系統上線後，於約定的保固期內，我們將依合約條款免費修復屬於開發範疇內的程式缺陷，並提供技術支援。詳細保固天數與條款可參閱我們的<a href="#" onclick="openProcess('contract');return false" style="color:var(--bronze);text-decoration:underline">示範合約</a>。</p>
-          <p class="en">Yes. KV offers a delivery warranty — after launch, within the agreed warranty period, we fix in-scope code defects free of charge and provide technical support per contract terms. See our <a href="#" onclick="openProcess('contract');return false" style="color:var(--bronze);text-decoration:underline">sample contract</a> for details.</p>
+          <p class="zh">是的。職推王提供「交付保固機制」——系統上線後，於約定的保固期內，我們將依合約條款免費修復屬於開發範疇內的程式缺陷，並提供技術支援。詳細保固天數與條款可參閱我們的<a href="#" onclick="openProcess('contract');return false" style="color:var(--bronze);text-decoration:underline">示範合約</a>。</p>
+          <p class="en">Yes. JTK offers a delivery warranty — after launch, within the agreed warranty period, we fix in-scope code defects free of charge and provide technical support per contract terms. See our <a href="#" onclick="openProcess('contract');return false" style="color:var(--bronze);text-decoration:underline">sample contract</a> for details.</p>
         </div>
       </details>
     </div>
@@ -748,7 +831,7 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <span class="stag" data-r>Stay Connected</span>
     <h2 class="nlh zh" data-r>掌握最新技術趨勢<br>與組織洞察</h2>
     <h2 class="nlh en" data-r>Stay Ahead with the Latest<br>Tech & Organization Insights</h2>
-    <p class="nls zh">訂閱 KV 電子報，第一時間獲取軟體開發、系統整合與組織管理的實戰洞察與趨勢分析。</p>
+    <p class="nls zh">訂閱職推王電子報，第一時間獲取軟體開發、系統整合與組織管理的實戰洞察與趨勢分析。</p>
     <p class="nls en">Subscribe for hands-on insights and trend analysis on software development, system integration, and organizational management.</p>
     <!-- TODO: 電子報後端尚未串接。未來可選擇 Formspree / Google Form / Mailchimp 接上實際 email 收集 -->
     <form class="nlf" onsubmit="hSub(event)">
@@ -774,14 +857,21 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
   <div class="si">
     <h2 class="ctah zh" data-r>準備好啟動<br><em>您的下一個專案了嗎？</em></h2>
     <h2 class="ctah en" data-r>Ready to start<br><em>your next project?</em></h2>
-    <a href="mailto:service@kings-value.com" class="ba" style="display:inline-block;margin-top:.5rem"><span class="zhi">聯絡我們</span><span class="eni">Contact Us</span></a>
+    <a href="mailto:contact@jtk-hire.me" class="ba" style="display:inline-block;margin-top:.5rem"><span class="zhi">聯絡我們</span><span class="eni">Contact Us</span></a>
     <p class="ctaloc">Taipei · Singapore · Manila · Ho Chi Minh</p>
   </div>
 </section>
 
 <footer>
-  <span class="fl">© 2026 Kings Value Consulting. All Rights Reserved.</span>
-  <div class="fkv"><div class="fm">K</div><span class="fn">KV</span></div>
+  <span class="fl">© 2026 職推王 JTK. All Rights Reserved.</span>
+  <div class="fbrand">
+    <div class="fm">
+      <svg class="jtk-mark" viewBox="0 0 124 76" role="img" aria-label="JTK">
+        <text x="63" y="59" text-anchor="middle" font-size="66" fill="url(#cuGrad)">JTK</text>
+      </svg>
+    </div>
+    <span class="fn">職推王 JTK</span>
+  </div>
 </footer>
 
 <!-- ═══ ARTICLE MODAL ═══ -->
@@ -799,8 +889,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
     <div class="mbd">
       <div class="mtag2 zhi">合作機制</div>
       <div class="mtag2 eni">PARTNERSHIP</div>
-      <h2 class="mtit zh">與 KV 攜手合作</h2>
-      <h2 class="mtit en">Partnering with KV</h2>
+      <h2 class="mtit zh">與職推王攜手合作</h2>
+      <h2 class="mtit en">Partnering with JTK</h2>
       <div class="tabs">
         <button class="tab active" id="tab-process" onclick="switchTab('process')">
           <span class="zhi">合作流程</span><span class="eni">Our Process</span>
@@ -862,8 +952,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
             </div>
           </div>
         </div>
-        <div class="pnote zh">合約簽訂後正式啟動，全程由 KV 專屬團隊擔任您的合作夥伴。</div>
-        <div class="pnote en">Process officially begins upon contract signing — your dedicated KV team accompanies you throughout the journey.</div>
+        <div class="pnote zh">合約簽訂後正式啟動，全程由職推王專屬團隊擔任您的合作夥伴。</div>
+        <div class="pnote en">Process officially begins upon contract signing — your dedicated JTK team accompanies you throughout the journey.</div>
       </div>
 
       <!-- TAB 2: CONTRACT -->
@@ -875,8 +965,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         </div>
         <div class="contract-section">
           <h4 class="zh">服務報價對照表</h4><h4 class="en">Service Pricing Schedule</h4>
-          <p class="zh">KV 依服務類型提供透明報價。軟體開發與系統整合採固定範疇固定報價；組織顧問服務依顧問投入計費：</p>
-          <p class="en">KV offers transparent pricing by service type. Software development and integration use fixed-scope fixed-quote; organizational consulting is billed by consulting effort:</p>
+          <p class="zh">職推王依服務類型提供透明報價。軟體開發與系統整合採固定範疇固定報價；組織顧問服務依顧問投入計費：</p>
+          <p class="en">JTK offers transparent pricing by service type. Software development and integration use fixed-scope fixed-quote; organizational consulting is billed by consulting effort:</p>
           <table class="rate-table">
             <thead><tr><th class="zhi">服務類型</th><th class="eni">Service Type</th><th class="zhi">計費方式</th><th class="eni">Billing</th><th class="zhi">保固/支援</th><th class="eni">Warranty</th></tr></thead>
             <tbody>
@@ -888,12 +978,12 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         </div>
         <div class="contract-section">
           <h4 class="zh">交付保固機制</h4><h4 class="en">Delivery Warranty</h4>
-          <p class="zh">系統交付上線後進入保固期，期內若發現屬於開發範疇內的程式缺陷，客戶應以書面通知 KV，KV 將於約定時限內免費修復。保固範圍以合約規格書所載功能為準，不含需求範疇外之新增功能。</p>
-          <p class="en">After delivery and launch, the warranty period begins. For in-scope code defects, the client notifies KV in writing, and we provide free fixes within the agreed timeframe. Warranty covers functions in the contract spec, excluding new features beyond the original scope.</p>
+          <p class="zh">系統交付上線後進入保固期，期內若發現屬於開發範疇內的程式缺陷，客戶應以書面通知職推王，職推王將於約定時限內免費修復。保固範圍以合約規格書所載功能為準，不含需求範疇外之新增功能。</p>
+          <p class="en">After delivery and launch, the warranty period begins. For in-scope code defects, the client notifies JTK in writing, and we provide free fixes within the agreed timeframe. Warranty covers functions in the contract spec, excluding new features beyond the original scope.</p>
         </div>
         <div class="contract-section">
           <h4 class="zh">付款條件</h4><h4 class="en">Payment Terms</h4>
-          <p class="zh">專案類服務通常依里程碑分期請款（如簽約、設計完成、開發完成、驗收）；長期顧問或維運則按期結算。KV 發出請款通知後，客戶應於約定期限內完成付款，逾期將依合約計算延遲利息。</p>
+          <p class="zh">專案類服務通常依里程碑分期請款（如簽約、設計完成、開發完成、驗收）；長期顧問或維運則按期結算。職推王發出請款通知後，客戶應於約定期限內完成付款，逾期將依合約計算延遲利息。</p>
           <p class="en">Project-based services are typically invoiced by milestone (signing, design, development, acceptance); long-term advisory settles by period. Upon invoice, clients pay within the agreed period; late payments incur interest per contract.</p>
         </div>
         <div class="contract-section">
@@ -904,8 +994,8 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
         <div class="pnote zh">※ 本內容為示範版本，實際合約條款以雙方正式簽訂為準。</div>
         <div class="pnote en">※ This is a sample version. Actual contract terms are governed by the officially signed agreement.</div>
         <div class="contract-cta">
-          <a href="mailto:contact@kvhire.me?subject=Request%20for%20KV%20Hire%20Sample%20Contract" class="zhi">📩 索取正式合約</a>
-          <a href="mailto:contact@kvhire.me?subject=Request%20for%20KV%20Hire%20Sample%20Contract" class="eni">📩 Request Official Contract</a>
+          <a href="mailto:contact@jtk-hire.me?subject=Request%20for%20JTK%20Sample%20Contract" class="zhi">📩 索取正式合約</a>
+          <a href="mailto:contact@jtk-hire.me?subject=Request%20for%20JTK%20Sample%20Contract" class="eni">📩 Request Official Contract</a>
         </div>
       </div>
     </div>
@@ -916,12 +1006,69 @@ footer{background:rgba(7,13,24,.7);backdrop-filter:blur(20px);border-top:1px sol
 /* Cursor */
 const cur=document.getElementById('cur'),crr=document.getElementById('cur-r');
 let mx=0,my=0,rx=0,ry=0;
-document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cur.style.left=mx+'px';cur.style.top=my+'px'});
+document.addEventListener('mousemove',e=>{document.body.classList.add('mm');mx=e.clientX;my=e.clientY;cur.style.left=mx+'px';cur.style.top=my+'px'});
 (function ar(){rx+=(mx-rx)*.1;ry+=(my-ry)*.1;crr.style.left=rx+'px';crr.style.top=ry+'px';requestAnimationFrame(ar)})();
 document.querySelectorAll('a,button,.bcard,.gcard,details summary').forEach(el=>{
   el.addEventListener('mouseenter',()=>{cur.style.transform='translate(-50%,-50%) scale(2.2)';crr.style.opacity='0'});
   el.addEventListener('mouseleave',()=>{cur.style.transform='translate(-50%,-50%) scale(1)';crr.style.opacity='1'});
 });
+
+/* Ambient starfield — drawn, not streamed (replaces a 4.5 MB video loop) */
+(function(){
+  const cv=document.getElementById('stars'); if(!cv||!cv.getContext) return;
+  const ctx=cv.getContext('2d');
+  const still=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const LAYERS=[{n:120,r:[.4,.9],a:[.10,.30],v:.008},
+                {n:64, r:[.7,1.4],a:[.22,.50],v:.017},
+                {n:26, r:[1.2,2.1],a:[.38,.75],v:.030}];
+  let w=0,h=0,raf=0;
+  const stars=LAYERS.flatMap(L=>Array.from({length:L.n},()=>({
+    x:Math.random(), y:Math.random(),
+    r:L.r[0]+Math.random()*(L.r[1]-L.r[0]),
+    a:L.a[0]+Math.random()*(L.a[1]-L.a[0]),
+    v:L.v, ph:Math.random()*6.28, tw:.5+Math.random()*1.3
+  })));
+  function size(){
+    const d=Math.min(window.devicePixelRatio||1,2);
+    w=innerWidth; h=innerHeight;
+    cv.width=Math.round(w*d); cv.height=Math.round(h*d);
+    ctx.setTransform(d,0,0,d,0,0);
+  }
+  function draw(t){
+    ctx.clearRect(0,0,w,h);
+    for(const s of stars){
+      const y=(s.y+(still?0:s.v*t/1000))%1;
+      const a=still?s.a:s.a*(.68+.32*Math.sin(t/1000*s.tw+s.ph));
+      const px=s.x*w, py=y*h;
+      if(s.r>1.35){                       /* the brightest few get a soft halo */
+        ctx.fillStyle='rgba(240,199,169,'+(a*.11).toFixed(3)+')';
+        ctx.beginPath(); ctx.arc(px,py,s.r*3.4,0,6.2832); ctx.fill();
+      }
+      ctx.fillStyle='rgba(255,236,220,'+a.toFixed(3)+')';
+      ctx.beginPath(); ctx.arc(px,py,s.r,0,6.2832); ctx.fill();
+    }
+  }
+  function loop(t){ draw(t); raf=requestAnimationFrame(loop); }
+  function start(){ if(!raf&&!still) raf=requestAnimationFrame(loop); }
+  function stop(){ if(raf){cancelAnimationFrame(raf); raf=0;} }
+  size(); draw(0);
+  addEventListener('resize',()=>{size(); if(still)draw(0);});
+  document.addEventListener('visibilitychange',()=>document.hidden?stop():start());
+  start();
+})();
+
+/* Scroll progress */
+const prog=document.getElementById('prog');
+function upProg(){
+  const h=document.documentElement.scrollHeight-window.innerHeight;
+  prog.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+}
+window.addEventListener('scroll',upProg,{passive:true});
+window.addEventListener('resize',upProg);upProg();
+
+/* Nav shrinks on scroll */
+const navEl=document.getElementById('nav');
+window.addEventListener('scroll',()=>{navEl.classList.toggle('slim',window.scrollY>40)},{passive:true});
 
 /* Reveal */
 const ro=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('vis')}),{threshold:.1});
@@ -984,8 +1131,8 @@ const arts={
     <h3>困境三：尖峰與離峰的人力落差</h3>
     <p>專案開發有明顯的尖峰期。自建團隊在尖峰時人力不足、離峰時又閒置成本過高。</p>
     <blockquote>對的開發策略，不是把所有事都自己做，而是把對的事交給對的團隊。</blockquote>
-    <h3>KV 的破局之道</h3>
-    <p>面對上述困境，委外開發提供了彈性與速度。KV 透過資深全棧團隊與 AI 輔助的開發流程，協助客戶在固定範疇與報價下完成高品質交付；更重要的是，我們會先以顧問角度釐清「哪些該自建、哪些該委外、哪些用現成工具整合就好」，幫客戶把資源花在真正有價值的地方。</p>`},
+    <h3>職推王的破局之道</h3>
+    <p>面對上述困境，委外開發提供了彈性與速度。職推王透過資深全棧團隊與 AI 輔助的開發流程，協助客戶在固定範疇與報價下完成高品質交付；更重要的是，我們會先以顧問角度釐清「哪些該自建、哪些該委外、哪些用現成工具整合就好」，幫客戶把資源花在真正有價值的地方。</p>`},
   2:{tag:'組織管理 · Organization',zh:'員工為什麼留不住？談員工關係診斷的價值',en:'Why Can\'t You Retain Staff? The Value of Employee Relations Diagnosis',
     body:`<p>許多企業把高離職率歸咎於「薪水不夠」，於是不斷加薪，卻發現人還是一個個走。真正的根源，往往藏在組織結構、管理方式與員工關係裡，而這些用加薪是補不起來的。</p>
     <h3>離職的真實原因，常常不是錢</h3>
@@ -994,7 +1141,7 @@ const arts={
     <h3>員工關係診斷在做什麼</h3>
     <p>員工關係診斷透過敬業度調查、離職面談分析、匿名訪談與組織健檢，把「感覺有問題但說不清楚」的狀況，轉化為可量化、可行動的洞察，找出真正該優先處理的環節。</p>
     <blockquote>留才不是一場加薪競賽，而是讓對的人，願意留在對的環境。</blockquote>
-    <p>KV 以組織顧問角度，協助企業進行員工關係診斷與制度設計，從找出問題到提出可落地的改善方案，讓企業把資源花在真正影響留任的關鍵上。</p>`},
+    <p>職推王以組織顧問角度，協助企業進行員工關係診斷與制度設計，從找出問題到提出可落地的改善方案，讓企業把資源花在真正影響留任的關鍵上。</p>`},
   3:{tag:'架構洞察 · Architecture',zh:'技術債的真實成本：為何系統重構不能再拖',en:'The Real Cost of Technical Debt: Why Refactoring Can\'t Wait',
     body:`<p>技術債（Technical Debt）就像隱形的利息，在系統運行的每一天悄悄累積。短期內或許感覺不到，但隨著時間推移，它會讓開發速度越來越慢、缺陷越來越多、維護成本越來越高。</p>
     <h3>技術債的五種常見來源</h3>
@@ -1008,7 +1155,7 @@ const arts={
     <h3>為何不能再拖？</h3>
     <p>技術債最危險之處，在於它的成本是「複利」累積的。一個三年沒重構的系統，往往讓新功能的開發時間翻倍，甚至讓工程師不敢動既有程式碼。</p>
     <blockquote>成熟的工程團隊會把重構視為持續投資，而非一次性的大手術。</blockquote>
-    <p>將「系統重構與架構優化」交給 KV，我們透過架構審查、漸進式重構與測試覆蓋率提升，協助企業在不中斷營運的前提下，逐步償還技術債，讓系統重新具備快速迭代的能力。</p>`}
+    <p>將「系統重構與架構優化」交給職推王，我們透過架構審查、漸進式重構與測試覆蓋率提升，協助企業在不中斷營運的前提下，逐步償還技術債，讓系統重新具備快速迭代的能力。</p>`}
 };
 function openA(id){
   const a=arts[id],isE=document.body.classList.contains('em');

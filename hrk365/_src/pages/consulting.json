@@ -1,7 +1,7 @@
 {
   "slug": "consulting",
-  "title": { "zh": "HR 顧問服務｜職級薪酬、勞動法遵與留任分析｜HRK365", "en": "HR Consulting | Job Architecture, Pay, Compliance and Retention | HRK365" },
-  "desc": { "zh": "HRK365 HR 顧問：組織與職級健檢、薪酬結構設計與市場對標、勞動法遵檢視、員工關係與離職分析，專為台灣科技與製造企業設計。", "en": "HRK365 HR consulting: organisation and job architecture reviews, pay structure design and benchmarking, labour compliance reviews, employee relations and attrition analysis for technology and manufacturing employers in Taiwan." },
+  "title": { "zh": "HR 顧問服務｜職級薪酬、勞動法遵與留任分析｜HiReKing", "en": "HR Consulting | Job Architecture, Pay, Compliance and Retention | HiReKing" },
+  "desc": { "zh": "HiReKing HR 顧問：組織與職級健檢、薪酬結構設計與市場對標、勞動法遵檢視、員工關係與離職分析，專為台灣科技與製造企業設計。", "en": "HiReKing HR consulting: organisation and job architecture reviews, pay structure design and benchmarking, labour compliance reviews, employee relations and attrition analysis for technology and manufacturing employers in Taiwan." },
   "blocks": [
     {
       "type": "pagehero",

@@ -310,9 +310,19 @@ def b_contact(b, lang, cfg):
                "dt": ["Email", "Phone", "LINE", "Address", "Hours"]},
     }[lang]
     opts = "".join("<option>%s</option>" % esc(o) for o in L["topics"])
+    endpoint = c.get("form_endpoint") or ""
+    if endpoint:
+        form_attrs = 'method="POST" action="%s"' % esc(endpoint)
+        note = L["note"]
+    else:
+        # No form backend configured yet: the form composes an email instead,
+        # so enquiries still reach us on a purely static host.
+        form_attrs = 'data-mailto="%s"' % esc(c["email"])
+        note = {"zh": "送出後會開啟你的郵件軟體並帶入內容，寄到 %s。也可以直接來信。" % c["email"],
+                "en": "Submitting opens your email client with the details filled in, addressed to %s. You are welcome to write to us directly."  % c["email"]}[lang]
     h = section_open(b) + head(b, lang)
     h += '<div class="split" style="align-items:start"><div data-reveal>'
-    h += ('<form class="form" method="POST" action="%s">'
+    h += ('<form class="form" %s>'
           '<div class="form__row">'
           '<div class="field"><label for="f-name">%s</label><input id="f-name" name="name" required></div>'
           '<div class="field"><label for="f-co">%s</label><input id="f-co" name="company"></div></div>'
@@ -323,8 +333,8 @@ def b_contact(b, lang, cfg):
           '<div class="field"><label for="f-msg">%s</label><textarea id="f-msg" name="message"></textarea></div>'
           '<button class="btn btn--primary" type="submit">%s</button>'
           '<p class="form__note">%s</p></form>'
-          % (esc(c["form_endpoint"]), L["name"], L["company"], L["email"], L["phone"],
-             L["topic"], opts, L["msg"], L["send"], L["note"]))
+          % (form_attrs, L["name"], L["company"], L["email"], L["phone"],
+             L["topic"], opts, L["msg"], L["send"], note))
     h += "</div>"
     h += ('<div class="panel-soft" data-reveal><dl class="contactlist">'
           '<div><dt>%s</dt><dd><a href="mailto:%s">%s</a></dd></div>'
@@ -365,10 +375,10 @@ def render_nav(cfg, lang, alt_href):
     b = cfg["brand"]
     h = '<a class="skip" href="#main">%s</a>' % ("跳到主要內容" if lang == "zh" else "Skip to content")
     h += '<nav class="nav"><div class="nav__inner">'
-    h += ('<a class="logo" href="%s"><span class="logo__mark">HR</span>'
+    h += ('<a class="logo" href="%s"><img class="logo__mark" src="%s" alt="" width="38" height="45">'
           '<span class="logo__text"><span class="logo__name">%s</span>'
           '<span class="logo__sub">%s</span></span></a>'
-          % (url("/", lang), esc(b["name"]),
+          % (url("/", lang), esc(b["logo"]), esc(b["name"]),
              "Talent &amp; HR" if lang == "en" else "獵才顧問"))
     h += '<ul class="nav__links">'
     for item in cfg["nav"]:
@@ -415,10 +425,10 @@ def render_footer(cfg, lang):
               "to payroll outsourcing and organisational consulting.",
     }[lang]
     h = '<footer class="footer"><div class="wrap"><div class="footer__grid"><div>'
-    h += ('<a class="logo" href="%s"><span class="logo__mark">HR</span>'
+    h += ('<a class="logo" href="%s"><img class="logo__mark" src="%s" alt="" width="38" height="45">'
           '<span class="logo__text"><span class="logo__name">%s</span>'
           '<span class="logo__sub">%s</span></span></a>'
-          % (url("/", lang), esc(b["name"]), esc(t(b["tagline"], lang))))
+          % (url("/", lang), esc(b["logo"]), esc(b["name"]), esc(t(b["tagline"], lang))))
     h += '<p class="footer__about">%s</p>' % about
     h += '<p class="footer__about"><a href="mailto:%s">%s</a><a href="tel:%s">%s</a></p>' % (
         esc(c["email"]), esc(c["email"]), esc(c["phone_href"]), esc(c["phone_display"]))
@@ -453,11 +463,13 @@ BASE = """<!DOCTYPE html>
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canonical}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0D2E52">
+{og_image}<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#232E39">
+<link rel="icon" href="{favicon}">
+<link rel="apple-touch-icon" href="{favicon}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css">
 <noscript><style>[data-reveal]{{opacity:1;transform:none}}</style></noscript>
 {jsonld}
@@ -555,13 +567,16 @@ def build():
                 else ("/" + (slug + "/" if slug else ""))
 
             body = "".join(BLOCKS[b["type"]](b, lang, cfg) for b in page["blocks"])
+            og = cfg["brand"].get("og_image", "")
+            og_tag = ('<meta property="og:image" content="%s%s">\n' % (base_url, og)) \
+                if og and os.path.exists(os.path.join(ROOT, og.lstrip("/"))) else ""
             jsonld = (org_jsonld(cfg) if not slug else "") + faq_jsonld(page, lang)
             html = BASE.format(
                 html_lang=HTML_LANG[lang],
                 title=esc(t(page["title"], lang)),
                 desc=esc(t(page["desc"], lang)),
                 canonical=canonical, alt_zh=alt_zh, alt_en=alt_en,
-                jsonld=jsonld,
+                jsonld=jsonld, favicon=cfg["brand"]["logo"], og_image=og_tag,
                 nav=render_nav(cfg, lang, alt_href),
                 body=body,
                 footer=render_footer(cfg, lang),

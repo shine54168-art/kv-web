@@ -1,7 +1,7 @@
 {
   "slug": "contact",
-  "title": { "zh": "聯絡 HRK365｜預約諮詢", "en": "Contact HRK365 | Book a consultation" },
-  "desc": { "zh": "與 HRK365 顧問聯繫。企業客戶可預約免費初步諮詢，求職者可留下人才資料。一個工作日內回覆。", "en": "Get in touch with HRK365. Employers can book a free initial consultation; candidates can register their details. We reply within one business day." },
+  "title": { "zh": "聯絡 HiReKing｜預約諮詢", "en": "Contact HiReKing | Book a consultation" },
+  "desc": { "zh": "與 HiReKing 顧問聯繫。企業客戶可預約免費初步諮詢，求職者可留下人才資料。一個工作日內回覆。", "en": "Get in touch with HiReKing. Employers can book a free initial consultation; candidates can register their details. We reply within one business day." },
   "blocks": [
     {
       "type": "pagehero",

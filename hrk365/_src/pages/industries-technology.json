@@ -1,7 +1,7 @@
 {
   "slug": "industries/technology",
-  "title": { "zh": "科技／IT 軟體人才招募｜韌體、後端、資料與資安｜HRK365", "en": "Technology & IT Recruitment in Taiwan | Firmware, Backend, Data & Security | HRK365" },
-  "desc": { "zh": "HRK365 科技與 IT 軟體獵才：韌體、嵌入式、後端、前端、資料、雲端與資安工程師，以及產品經理與技術主管職。", "en": "HRK365's technology practice covers firmware, embedded, backend, frontend, data, cloud and security engineers, plus product managers and engineering leadership." },
+  "title": { "zh": "科技／IT 軟體人才招募｜韌體、後端、資料與資安｜HiReKing", "en": "Technology & IT Recruitment in Taiwan | Firmware, Backend, Data & Security | HiReKing" },
+  "desc": { "zh": "HiReKing 科技與 IT 軟體獵才：韌體、嵌入式、後端、前端、資料、雲端與資安工程師，以及產品經理與技術主管職。", "en": "HiReKing's technology practice covers firmware, embedded, backend, frontend, data, cloud and security engineers, plus product managers and engineering leadership." },
   "blocks": [
     {
       "type": "pagehero",

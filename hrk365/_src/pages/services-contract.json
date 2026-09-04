@@ -1,7 +1,7 @@
 {
   "slug": "services/contract",
-  "title": { "zh": "人力派遣與約聘｜專案人力、旺季補位與代理職缺｜HRK365", "en": "Contract & Temporary Staffing in Taiwan | Project, Peak and Cover Roles | HRK365" },
-  "desc": { "zh": "HRK365 人力派遣與約聘服務：由我方擔任雇主處理勞健保與薪資，人力隨專案彈性增減，並可事先約定轉正機制。", "en": "HRK365 contract and temporary staffing: we act as the employer of record for payroll and statutory insurance, headcount flexes with the project, and conversion terms can be agreed up front." },
+  "title": { "zh": "人力派遣與約聘｜專案人力、旺季補位與代理職缺｜HiReKing", "en": "Contract & Temporary Staffing in Taiwan | Project, Peak and Cover Roles | HiReKing" },
+  "desc": { "zh": "HiReKing 人力派遣與約聘服務：由我方擔任雇主處理勞健保與薪資，人力隨專案彈性增減，並可事先約定轉正機制。", "en": "HiReKing contract and temporary staffing: we act as the employer of record for payroll and statutory insurance, headcount flexes with the project, and conversion terms can be agreed up front." },
   "blocks": [
     {
       "type": "pagehero",

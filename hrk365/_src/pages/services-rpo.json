@@ -1,7 +1,7 @@
 {
   "slug": "services/rpo",
-  "title": { "zh": "大量招募與 RPO｜新廠開線、據點擴張與招募流程外包｜HRK365", "en": "Volume Hiring & RPO in Taiwan | New Sites, Expansion and Embedded Recruitment | HRK365" },
-  "desc": { "zh": "HRK365 大量招募與 RPO：新廠開線、據點擴張與季節性進人的批次招募，或整段招募流程外包並內嵌你的 HR 團隊。", "en": "HRK365 volume hiring and RPO: batch recruitment for new plants, site expansion and seasonal intakes — or an embedded team taking over your hiring process end to end." },
+  "title": { "zh": "大量招募與 RPO｜新廠開線、據點擴張與招募流程外包｜HiReKing", "en": "Volume Hiring & RPO in Taiwan | New Sites, Expansion and Embedded Recruitment | HiReKing" },
+  "desc": { "zh": "HiReKing 大量招募與 RPO：新廠開線、據點擴張與季節性進人的批次招募，或整段招募流程外包並內嵌你的 HR 團隊。", "en": "HiReKing volume hiring and RPO: batch recruitment for new plants, site expansion and seasonal intakes — or an embedded team taking over your hiring process end to end." },
   "blocks": [
     {
       "type": "pagehero",

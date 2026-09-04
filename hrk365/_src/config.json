@@ -1,11 +1,11 @@
 {
   "brand": {
-    "name": "HRK365",
+    "name": "HiReKing",
     "domain": "hrk365.com",
     "base_url": "https://hrk365.com",
     "tagline": {
-      "zh": "新加坡標準，台灣戰場",
-      "en": "Singapore standards. Taiwan focus."
+      "zh": "成就人才，成就企業",
+      "en": "Empowering people. Elevating business."
     },
     "legal_name": {
       "zh": "「台灣公司登記全名待補」",
@@ -18,7 +18,10 @@
     "parent": {
       "zh": "新加坡總部名稱待補",
       "en": "Singapore HQ entity name TBC"
-    }
+    },
+    "short": "HRK365",
+    "logo": "/assets/img/logo-mark.svg",
+    "og_image": "/assets/img/og-banner.png"
   },
   "contact": {
     "email": "hello@hrk365.com",
@@ -33,7 +36,7 @@
       "zh": "週一至週五 09:00–18:00",
       "en": "Mon–Fri, 9am–6pm (GMT+8)"
     },
-    "form_endpoint": "https://formspree.io/f/REPLACE_ME"
+    "form_endpoint": ""
   },
   "nav": [
     {

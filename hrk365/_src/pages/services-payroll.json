@@ -1,7 +1,7 @@
 {
   "slug": "services/payroll",
-  "title": { "zh": "薪資外包與勞健保實務｜薪資計算、投保申報與扣繳｜HRK365", "en": "Payroll & Statutory Outsourcing in Taiwan | Payroll, Insurance and Withholding | HRK365" },
-  "desc": { "zh": "HRK365 薪資外包服務：薪資計算、加班費與請假扣減、勞健保與勞退投保異動、二代健保與扣繳申報，適合沒有專職 HR 的公司。", "en": "HRK365 payroll outsourcing: payroll runs, overtime and leave, labour and health insurance, pension enrolment, supplementary premiums and withholding filings — for companies without a dedicated HR function." },
+  "title": { "zh": "薪資外包與勞健保實務｜薪資計算、投保申報與扣繳｜HiReKing", "en": "Payroll & Statutory Outsourcing in Taiwan | Payroll, Insurance and Withholding | HiReKing" },
+  "desc": { "zh": "HiReKing 薪資外包服務：薪資計算、加班費與請假扣減、勞健保與勞退投保異動、二代健保與扣繳申報，適合沒有專職 HR 的公司。", "en": "HiReKing payroll outsourcing: payroll runs, overtime and leave, labour and health insurance, pension enrolment, supplementary premiums and withholding filings — for companies without a dedicated HR function." },
   "blocks": [
     {
       "type": "pagehero",

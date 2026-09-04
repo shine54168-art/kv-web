@@ -1,14 +1,14 @@
 {
   "slug": "candidates",
-  "title": { "zh": "給求職者｜半導體與科技人才職涯諮詢｜HRK365", "en": "For Candidates | Semiconductor and Technology Careers | HRK365" },
-  "desc": { "zh": "HRK365 受企業委託尋才。了解我們怎麼對待人選：顧問親自面談、資料受管、不未經同意轉出履歷，以及如何與我們保持聯繫。", "en": "HRK365 is engaged by employers to fill specific roles. How we work with candidates: consultant-led interviews, governed data, no CV sent anywhere without consent." },
+  "title": { "zh": "給求職者｜半導體與科技人才職涯諮詢｜HiReKing", "en": "For Candidates | Semiconductor and Technology Careers | HiReKing" },
+  "desc": { "zh": "HiReKing 受企業委託尋才。了解我們怎麼對待人選：顧問親自面談、資料受管、不未經同意轉出履歷，以及如何與我們保持聯繫。", "en": "HiReKing is engaged by employers to fill specific roles. How we work with candidates: consultant-led interviews, governed data, no CV sent anywhere without consent." },
   "blocks": [
     {
       "type": "pagehero",
       "crumbs": [{ "label": { "zh": "求職者", "en": "Candidates" } }],
       "eyebrow": { "zh": "給求職者", "en": "For candidates" },
       "title": { "zh": "我們不會把你的履歷亂丟", "en": "Your CV does not go anywhere without you" },
-      "sub": { "zh": "先說清楚：HRK365 是受企業委託尋才，能提供的機會取決於當期的委任職缺。我們不做履歷轉手，也不會在未經你同意的情況下把資料送出去。", "en": "To be clear: HRK365 is engaged by employers to fill specific roles, so the opportunities we can offer depend on our current assignments. We do not forward CVs, and nothing is sent anywhere without your agreement." }
+      "sub": { "zh": "先說清楚：HiReKing 是受企業委託尋才，能提供的機會取決於當期的委任職缺。我們不做履歷轉手，也不會在未經你同意的情況下把資料送出去。", "en": "To be clear: HiReKing is engaged by employers to fill specific roles, so the opportunities we can offer depend on our current assignments. We do not forward CVs, and nothing is sent anywhere without your agreement." }
     },
     {
       "type": "cards",

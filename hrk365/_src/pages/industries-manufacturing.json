@@ -1,7 +1,7 @@
 {
   "slug": "industries/manufacturing",
-  "title": { "zh": "科技製造與電子零組件招募｜製程、設備、品保與廠務主管｜HRK365", "en": "Manufacturing & Electronics Recruitment in Taiwan | Process, Equipment, QA & Plant Leadership | HRK365" },
-  "desc": { "zh": "HRK365 科技製造獵才：面板、被動元件、PCB、光電與精密機械的製程、設備、品保、自動化與廠務主管職，含海外廠派駐與當地招募。", "en": "HRK365's manufacturing practice covers display, passive components, PCB, optoelectronics and precision machinery — process, equipment, QA, automation and plant leadership, including overseas assignments." },
+  "title": { "zh": "科技製造與電子零組件招募｜製程、設備、品保與廠務主管｜HiReKing", "en": "Manufacturing & Electronics Recruitment in Taiwan | Process, Equipment, QA & Plant Leadership | HiReKing" },
+  "desc": { "zh": "HiReKing 科技製造獵才：面板、被動元件、PCB、光電與精密機械的製程、設備、品保、自動化與廠務主管職，含海外廠派駐與當地招募。", "en": "HiReKing's manufacturing practice covers display, passive components, PCB, optoelectronics and precision machinery — process, equipment, QA, automation and plant leadership, including overseas assignments." },
   "blocks": [
     {
       "type": "pagehero",

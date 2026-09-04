@@ -61,6 +61,29 @@
     });
   }
 
+  /* ---- contact form without a backend: compose an email instead ---- */
+  var mailForm = document.querySelector('form[data-mailto]');
+  if (mailForm) {
+    mailForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var d = new FormData(mailForm);
+      var get = function (k) { return (d.get(k) || '').toString().trim(); };
+      var subject = (get('topic') || 'Enquiry') + ' — ' + (get('company') || get('name') || '');
+      var lines = [
+        'Name: ' + get('name'),
+        'Company: ' + get('company'),
+        'Email: ' + get('email'),
+        'Phone: ' + get('phone'),
+        'Topic: ' + get('topic'),
+        '',
+        get('message')
+      ];
+      window.location.href = 'mailto:' + mailForm.dataset.mailto +
+        '?subject=' + encodeURIComponent(subject) +
+        '&body=' + encodeURIComponent(lines.join('\n'));
+    });
+  }
+
   /* ---- year ---- */
   document.querySelectorAll('.js-year').forEach(function (el) {
     el.textContent = new Date().getFullYear();

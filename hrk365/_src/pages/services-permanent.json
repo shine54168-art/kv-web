@@ -1,7 +1,7 @@
 {
   "slug": "services/permanent",
-  "title": { "zh": "正職人才推薦（獵才）｜半導體與科技業關鍵職｜HRK365", "en": "Permanent Placement | Executive & Specialist Search in Taiwan | HRK365" },
-  "desc": { "zh": "HRK365 正職獵才服務：主動接觸被動人選、顧問親自面談、附書面評估與保固期，專攻半導體與科技業的關鍵職與主管職。", "en": "HRK365 permanent placement: direct approach to passive candidates, consultant-led interviews, written assessments and a replacement guarantee — focused on critical and leadership roles in semiconductor and technology." },
+  "title": { "zh": "正職人才推薦（獵才）｜半導體與科技業關鍵職｜HiReKing", "en": "Permanent Placement | Executive & Specialist Search in Taiwan | HiReKing" },
+  "desc": { "zh": "HiReKing 正職獵才服務：主動接觸被動人選、顧問親自面談、附書面評估與保固期，專攻半導體與科技業的關鍵職與主管職。", "en": "HiReKing permanent placement: direct approach to passive candidates, consultant-led interviews, written assessments and a replacement guarantee — focused on critical and leadership roles in semiconductor and technology." },
   "blocks": [
     {
       "type": "pagehero",

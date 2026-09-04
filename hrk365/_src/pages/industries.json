@@ -1,7 +1,7 @@
 {
   "slug": "industries",
-  "title": { "zh": "專注產業｜半導體、科技製造、IT 與金融｜HRK365", "en": "Industries | Semiconductor, Manufacturing, Technology & Finance | HRK365" },
-  "desc": { "zh": "HRK365 專注半導體、科技製造與電子零組件、科技／IT 軟體與金融專業服務四個產業，顧問各自負責熟悉的領域。", "en": "HRK365 focuses on four markets — semiconductor, advanced manufacturing and electronics, technology and IT, and financial and professional services — with consultants dedicated to each." },
+  "title": { "zh": "專注產業｜半導體、科技製造、IT 與金融｜HiReKing", "en": "Industries | Semiconductor, Manufacturing, Technology & Finance | HiReKing" },
+  "desc": { "zh": "HiReKing 專注半導體、科技製造與電子零組件、科技／IT 軟體與金融專業服務四個產業，顧問各自負責熟悉的領域。", "en": "HiReKing focuses on four markets — semiconductor, advanced manufacturing and electronics, technology and IT, and financial and professional services — with consultants dedicated to each." },
   "blocks": [
     {
       "type": "pagehero",
@@ -18,7 +18,7 @@
         {
           "icon": "chip",
           "title": { "zh": "半導體（主力）", "en": "Semiconductor (core practice)" },
-          "body": { "zh": "晶圓製造、封裝測試、IC 設計與設備材料。製程、設備、整合、良率、封裝、驗證與廠級主管職。這是 HRK365 來台灣的主要原因。", "en": "Wafer fabrication, OSAT, IC design, equipment and materials — process, equipment, integration, yield, packaging, verification and plant leadership. This is why HRK365 came to Taiwan." },
+          "body": { "zh": "晶圓製造、封裝測試、IC 設計與設備材料。製程、設備、整合、良率、封裝、驗證與廠級主管職。這是 HiReKing 來台灣的主要原因。", "en": "Wafer fabrication, OSAT, IC design, equipment and materials — process, equipment, integration, yield, packaging, verification and plant leadership. This is why HiReKing came to Taiwan." },
           "link": { "label": { "zh": "半導體人才服務", "en": "Semiconductor practice" }, "href": "/industries/semiconductor/" }
         },
         {

@@ -1,7 +1,7 @@
 {
   "slug": "industries/semiconductor",
-  "title": { "zh": "半導體人才招募｜晶圓、封測、IC 設計與設備材料｜HRK365", "en": "Semiconductor Recruitment in Taiwan | Fab, OSAT, IC Design & Equipment | HRK365" },
-  "desc": { "zh": "HRK365 半導體獵才服務：晶圓製造、封裝測試、IC 設計與設備材料的製程、設備、整合、良率與主管職。顧問來自台灣一線同業，熟悉竹科、中科與南科市場。", "en": "HRK365's semiconductor search practice covers wafer fabrication, OSAT, IC design, and equipment and materials — process, equipment, integration, yield and leadership roles across Taiwan's science parks." },
+  "title": { "zh": "半導體人才招募｜晶圓、封測、IC 設計與設備材料｜HiReKing", "en": "Semiconductor Recruitment in Taiwan | Fab, OSAT, IC Design & Equipment | HiReKing" },
+  "desc": { "zh": "HiReKing 半導體獵才服務：晶圓製造、封裝測試、IC 設計與設備材料的製程、設備、整合、良率與主管職。顧問來自台灣一線同業，熟悉竹科、中科與南科市場。", "en": "HiReKing's semiconductor search practice covers wafer fabrication, OSAT, IC design, and equipment and materials — process, equipment, integration, yield and leadership roles across Taiwan's science parks." },
   "blocks": [
     {
       "type": "pagehero",
@@ -11,7 +11,7 @@
       ],
       "eyebrow": { "zh": "主力產業", "en": "Core practice" },
       "title": { "zh": "半導體人才招募", "en": "Semiconductor recruitment" },
-      "sub": { "zh": "這是 HRK365 來台灣的原因。晶圓製造、封裝測試、IC 設計到設備材料，從資深工程師到廠級主管，我們把整條供應鏈當成一個人才市場來看。", "en": "This is why HRK365 came to Taiwan. Wafer fabrication, OSAT, IC design and equipment and materials — from senior engineers to plant leadership, we treat the whole supply chain as one talent market." },
+      "sub": { "zh": "這是 HiReKing 來台灣的原因。晶圓製造、封裝測試、IC 設計到設備材料，從資深工程師到廠級主管，我們把整條供應鏈當成一個人才市場來看。", "en": "This is why HiReKing came to Taiwan. Wafer fabrication, OSAT, IC design and equipment and materials — from senior engineers to plant leadership, we treat the whole supply chain as one talent market." },
       "ctas": [{ "label": { "zh": "討論你的半導體職缺", "en": "Discuss your semiconductor roles" }, "href": "/contact/" }]
     },
     {
@@ -126,7 +126,7 @@
         },
         {
           "q": { "zh": "海外廠的職缺你們也做嗎？", "en": "Do you cover our overseas sites?" },
-          "a": { "zh": "做。台灣半導體客戶在新加坡、馬來西亞檳城與越南設點的需求持續增加，這正是 HRK365 新加坡背景的用武之地：台灣端的幹部派駐與當地招募可以一起規劃，當地的雇用形式與薪酬結構我們也講得出來。", "en": "Yes. Taiwanese semiconductor clients keep expanding into Singapore, Penang and Vietnam, and this is where our Singapore background earns its keep: expatriate assignments from Taiwan and local hiring can be planned together, and we can explain local employment models and pay structures rather than guessing." }
+          "a": { "zh": "做。台灣半導體客戶在新加坡、馬來西亞檳城與越南設點的需求持續增加，這正是 HiReKing 新加坡背景的用武之地：台灣端的幹部派駐與當地招募可以一起規劃，當地的雇用形式與薪酬結構我們也講得出來。", "en": "Yes. Taiwanese semiconductor clients keep expanding into Singapore, Penang and Vietnam, and this is where our Singapore background earns its keep: expatriate assignments from Taiwan and local hiring can be planned together, and we can explain local employment models and pay structures rather than guessing." }
         }
       ]
     },

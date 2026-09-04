@@ -1,7 +1,7 @@
 {
   "slug": "industries/finance",
-  "title": { "zh": "金融與專業服務人才招募｜財會、法遵、風控與法務｜HRK365", "en": "Financial & Professional Services Recruitment | Finance, Compliance, Risk & Legal | HRK365" },
-  "desc": { "zh": "HRK365 金融與專業服務獵才：會計、財務、法遵、風控、法務與顧問職，重視證照條件與背景查核，並支援科技與製造業的財會法務團隊擴編。", "en": "HRK365 recruits across accounting, finance, compliance, risk, legal and advisory roles — with proper attention to credentials and background checks, including finance and legal build-outs inside technology and manufacturing firms." },
+  "title": { "zh": "金融與專業服務人才招募｜財會、法遵、風控與法務｜HiReKing", "en": "Financial & Professional Services Recruitment | Finance, Compliance, Risk & Legal | HiReKing" },
+  "desc": { "zh": "HiReKing 金融與專業服務獵才：會計、財務、法遵、風控、法務與顧問職，重視證照條件與背景查核，並支援科技與製造業的財會法務團隊擴編。", "en": "HiReKing recruits across accounting, finance, compliance, risk, legal and advisory roles — with proper attention to credentials and background checks, including finance and legal build-outs inside technology and manufacturing firms." },
   "blocks": [
     {
       "type": "pagehero",

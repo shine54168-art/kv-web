@@ -1,7 +1,7 @@
 {
   "slug": "insights",
-  "title": { "zh": "商業洞察｜半導體人才市場與 HR 實務觀察｜HRK365", "en": "Insights | Semiconductor Talent Market and HR Practice | HRK365" },
-  "desc": { "zh": "HRK365 從招募現場整理的觀察：半導體人才市場動態、薪酬結構、競業條款實務與台灣科技業的 HR 議題。", "en": "Observations from the hiring floor: the semiconductor talent market, pay structures, non-compete practice and HR issues facing Taiwan's technology sector." },
+  "title": { "zh": "商業洞察｜半導體人才市場與 HR 實務觀察｜HiReKing", "en": "Insights | Semiconductor Talent Market and HR Practice | HiReKing" },
+  "desc": { "zh": "HiReKing 從招募現場整理的觀察：半導體人才市場動態、薪酬結構、競業條款實務與台灣科技業的 HR 議題。", "en": "Observations from the hiring floor: the semiconductor talent market, pay structures, non-compete practice and HR issues facing Taiwan's technology sector." },
   "blocks": [
     {
       "type": "pagehero",

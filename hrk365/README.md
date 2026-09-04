@@ -1,6 +1,6 @@
-# HRK365 — 官方網站
+# HiReKing（HRK365）— 官方網站
 
-新加坡獵頭品牌 HRK365 的台灣官網。純靜態網站，無需伺服器，可直接部署於 GitHub Pages。
+新加坡獵頭品牌 HiReKing 的台灣官網，網域 hrk365.com。純靜態網站，無需伺服器，可直接部署於 GitHub Pages。
 
 - 中文（預設）：`/`
 - 英文：`/en/`
@@ -73,13 +73,25 @@ python3 -m http.server 8000
 | `_src/pages/about.json` | 顧問團隊介紹、公司統編、成立日期 |
 | `_src/pages/index.json` → `stats` | 實績數字（目前為 `—`，沒有依據的數字不放） |
 | `_src/pages/index.json` → `quotes` | 客戶推薦（需經客戶書面同意才可刊登） |
-| `assets/img/` | 品牌 logo、團隊照片、OG 分享圖 |
+| `assets/img/logo-mark.svg` | **目前是暫用的 SVG 替身**，請換成正式 logo（見下方） |
+| `assets/img/og-banner.png` | 社群分享圖（用 LinkedIn banner 那張即可，1200×630 以上） |
+| `assets/img/` | 團隊照片 |
 
 > **法規提醒**：依台灣《就業服務法》，私立就業服務機構須揭示許可證字號與收費標準。上線前請確認相關資訊已完整刊登。
 
+### Logo 檔案
+
+網站的 logo 目前是一個暫用的 SVG（`assets/img/logo-mark.svg`），只是把 HR 疊字與銅金漸層做了近似。**請用正式檔案覆蓋它**：
+
+1. 把透明背景版的 logo 存成 `assets/img/logo-mark.svg`（向量最佳）或 `logo-mark.png`
+2. 若用 PNG，記得同步修改 `_src/config.json` 的 `brand.logo` 副檔名，再重新建置
+3. 深色底版本目前不需要另外準備：導覽列是白底、頁尾是深底，透明背景的銅金 logo 兩邊都清楚
+
 ### 聯絡表單
 
-表單目前指向 `form_endpoint` 設定值。可選方案：
+目前 `form_endpoint` 是空的，此時表單會**改用信件模式**：使用者按送出會開啟自己的郵件軟體，內容自動帶入並寄到 `contact.email`。這在純靜態網站上一定收得到，缺點是使用者必須有設定好的郵件軟體。
+
+要改成直接收表單，填入 `form_endpoint` 即可自動切換：
 
 - [Formspree](https://formspree.io/)：免費方案即可收信，把產生的網址填入 `config.json`
 - Google Forms / Typeform：改為導向外部表單

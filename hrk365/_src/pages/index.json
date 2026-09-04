@@ -1,0 +1,698 @@
+{
+  "slug": "",
+  "title": {
+    "zh": "HRK365｜來自新加坡的獵頭品牌，專注台灣半導體與科技人才",
+    "en": "HRK365 | A Singapore search firm focused on Taiwan's semiconductor and technology talent"
+  },
+  "desc": {
+    "zh": "HRK365 是來自新加坡的獵頭品牌，在台灣設立專屬團隊，聚焦半導體、科技製造與科技業人才。顧問來自台灣一線同業，作業與治理制度承襲新加坡總部。",
+    "en": "HRK365 is a Singapore-born search firm with a dedicated Taiwan team, focused on semiconductor, advanced manufacturing and technology talent. Our consultants come from Taiwan's leading search firms; our process and governance come from Singapore."
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "eyebrow": {
+        "zh": "新加坡獵頭品牌 · 台灣專屬團隊",
+        "en": "Singapore search firm · Dedicated Taiwan team"
+      },
+      "title": {
+        "zh": "新加坡的獵頭標準，<br>打台灣的半導體戰場。",
+        "en": "Singapore search standards,<br>aimed at Taiwan's semiconductor market."
+      },
+      "sub": {
+        "zh": "HRK365 來自新加坡，在台灣設立專屬團隊，聚焦半導體與科技製造人才。顧問全數來自台灣一線人力資源同業，帶著本地累積的產業網絡；作業流程、人選查核與資料治理，則承襲新加坡總部的制度。",
+        "en": "HRK365 is a Singapore search firm with a team built specifically for Taiwan, focused on semiconductor and advanced manufacturing talent. Every consultant comes from a leading Taiwanese search firm and brings a local industry network - running on the process, candidate vetting and data governance standards of our Singapore parent."
+      },
+      "ctas": [
+        {
+          "label": {
+            "zh": "談談你的職缺",
+            "en": "Tell us about your roles"
+          },
+          "href": "/contact/"
+        },
+        {
+          "label": {
+            "zh": "半導體人才服務",
+            "en": "Semiconductor practice"
+          },
+          "href": "/industries/semiconductor/",
+          "style": "btn--onDark"
+        }
+      ],
+      "markets": true,
+      "card": {
+        "title": {
+          "zh": "品牌是新的，團隊不是",
+          "en": "The brand is new. The team is not."
+        },
+        "items": [
+          {
+            "zh": "顧問來自台灣各大人力資源與獵才同業，直接帶著既有的產業網絡進來。",
+            "en": "Our consultants come from Taiwan's major recruitment and search firms, and bring their existing industry networks with them."
+          },
+          {
+            "zh": "新加坡總部的作業與治理制度：人選查核、資料保護、利益迴避都有明文規範。",
+            "en": "Singapore HQ process and governance: candidate vetting, data protection and conflict-of-interest rules are written down, not improvised."
+          },
+          {
+            "zh": "聚焦半導體與科技製造，不做什麼職缺都接的通才型人力公司。",
+            "en": "Focused on semiconductor and advanced manufacturing - not a generalist agency that takes any vacancy."
+          },
+          {
+            "zh": "新品牌沒有歷史包袱，也沒有跟你的競爭對手綁定的舊承諾。",
+            "en": "A new brand carries no legacy baggage - and no prior commitments to your competitors."
+          }
+        ]
+      }
+    },
+    {
+      "type": "split",
+      "eyebrow": {
+        "zh": "我們是誰",
+        "en": "Who we are"
+      },
+      "title": {
+        "zh": "從新加坡來，為台灣而設",
+        "en": "From Singapore, built for Taiwan"
+      },
+      "body": {
+        "zh": "HRK365 的根在新加坡——一個把獵頭當專業服務業經營的市場，流程、法遵與客戶資料治理都有明確標準。我們把這套制度帶到台灣，但沒有把新加坡的做法直接複製過來。<br><br>台灣的半導體與科技製造有自己的節奏：晶圓廠與封測廠的輪班文化、竹科與南科的通勤半徑、股票分紅與年終在薪酬談判裡的份量。這些事，只有在台灣做過招募的人才懂。所以台灣團隊的顧問，全部來自台灣一線同業。",
+        "en": "HRK365's roots are in Singapore - a market where executive search is run as a professional service, with defined process, compliance and client-data governance. We brought that framework to Taiwan, but we did not simply copy the Singapore playbook.<br><br>Taiwan's semiconductor and advanced manufacturing sector has its own rhythm: shift culture in fabs and OSAT plants, the commuting radius around the Hsinchu and Tainan science parks, the weight of stock bonuses and year-end pay in every negotiation. Only people who have recruited here understand that. So every consultant on the Taiwan team came from a leading Taiwanese search firm."
+      },
+      "ctas": [
+        {
+          "label": {
+            "zh": "認識我們的做事方式",
+            "en": "How we work"
+          },
+          "href": "/about/",
+          "style": "btn--dark"
+        }
+      ],
+      "panel": {
+        "title": {
+          "zh": "這樣的組合，實際差在哪裡",
+          "en": "What the combination actually changes"
+        },
+        "items": [
+          {
+            "zh": "<strong>人選查核不是走過場</strong>：學經歷、離職原因與競業限制，依總部規範逐項確認。",
+            "en": "<strong>Vetting is not a formality</strong> - credentials, reasons for leaving and non-compete exposure are checked item by item, to HQ standard."
+          },
+          {
+            "zh": "<strong>資料保護寫進流程</strong>：人選個資的蒐集、使用與保存期限有明確規則，不是存在顧問私人電腦裡。",
+            "en": "<strong>Data protection is built into the process</strong> - collection, use and retention of candidate data follow explicit rules, not a consultant's personal laptop."
+          },
+          {
+            "zh": "<strong>利益迴避有明文</strong>：不從服務中的客戶挖角，範圍與期間事先講清楚。",
+            "en": "<strong>Conflict of interest is written down</strong> - we do not source from clients we serve, and the scope and duration are agreed up front."
+          },
+          {
+            "zh": "<strong>本地判斷不打折</strong>：職缺該怎麼開、薪酬怎麼談，由懂台灣市場的顧問決定。",
+            "en": "<strong>Local judgement stays local</strong> - how a role is framed and how pay is negotiated is decided by consultants who know this market."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cards",
+      "id": "services",
+      "soft": true,
+      "eyebrow": {
+        "zh": "招募服務",
+        "en": "Recruitment"
+      },
+      "title": {
+        "zh": "四種進人方式，對應四種不同的問題",
+        "en": "Four ways to bring people in — for four different problems"
+      },
+      "body": {
+        "zh": "不是每個缺都該用同一種方法補。我們會先看急迫度、預算結構與雇主責任歸屬，再決定用哪一種。",
+        "en": "Not every vacancy should be filled the same way. We look at urgency, cost structure and where employer liability should sit before recommending an approach."
+      },
+      "cols": 2,
+      "items": [
+        {
+          "icon": "search",
+          "title": {
+            "zh": "正職人才推薦（獵才）",
+            "en": "Permanent Placement"
+          },
+          "body": {
+            "zh": "關鍵職與難找的職缺。主動接觸市場上未在求職的被動人選，以成功媒合計費，附保固期。",
+            "en": "Key and hard-to-fill roles. We approach passive candidates who are not actively job hunting. Success-based fee with a replacement guarantee."
+          },
+          "link": {
+            "label": {
+              "zh": "了解獵才服務",
+              "en": "Explore permanent placement"
+            },
+            "href": "/services/permanent/"
+          }
+        },
+        {
+          "icon": "clock",
+          "title": {
+            "zh": "人力派遣／約聘",
+            "en": "Contract & Temporary Staffing"
+          },
+          "body": {
+            "zh": "專案期、旺季或人力凍結期的彈性補位。由我們擔任雇主、處理勞健保與薪資，你只管派工。",
+            "en": "Flexible cover for projects, peak seasons or headcount freezes. We act as the employer of record and handle payroll and statutory filings."
+          },
+          "link": {
+            "label": {
+              "zh": "了解派遣服務",
+              "en": "Explore contract staffing"
+            },
+            "href": "/services/contract/"
+          }
+        },
+        {
+          "icon": "users",
+          "title": {
+            "zh": "大量招募／RPO",
+            "en": "Volume Hiring & RPO"
+          },
+          "body": {
+            "zh": "新廠開線、據點擴張、季節性大量進人。可單案執行，也可整段招募流程外包，內嵌你的 HR 團隊。",
+            "en": "New lines, new sites, seasonal intakes. Run as a project, or as an embedded team taking over your whole hiring process."
+          },
+          "link": {
+            "label": {
+              "zh": "了解大量招募",
+              "en": "Explore volume hiring"
+            },
+            "href": "/services/rpo/"
+          }
+        },
+        {
+          "icon": "doc",
+          "title": {
+            "zh": "薪資外包／勞健保實務",
+            "en": "Payroll & Statutory Outsourcing"
+          },
+          "body": {
+            "zh": "薪資計算、勞健保與勞退投保、二代健保、扣繳申報。把 HR 行政的重複工與法遵風險移出去。",
+            "en": "Payroll runs, labour and health insurance, pension contributions and withholding filings. Move the repetitive admin and compliance risk off your desk."
+          },
+          "link": {
+            "label": {
+              "zh": "了解薪資外包",
+              "en": "Explore payroll outsourcing"
+            },
+            "href": "/services/payroll/"
+          }
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "eyebrow": {
+        "zh": "HR 顧問",
+        "en": "HR Consulting"
+      },
+      "title": {
+        "zh": "人補進來之後，制度撐不撐得住？",
+        "en": "Once people are in, does your HR system hold?"
+      },
+      "body": {
+        "zh": "招募解決的是「缺人」，但多數企業真正的問題是留不住、帶不動、算不清。HRK365 的顧問線處理的就是這一段：職級與薪酬結構、績效與考核、勞動法遵、員工關係與離職分析。",
+        "en": "Recruitment solves an empty seat. The deeper problem is usually retention, management capability and pay that nobody can explain. Our consulting line covers exactly that: job architecture and pay structure, performance systems, labour compliance, employee relations and attrition analysis."
+      },
+      "bullets": [
+        {
+          "zh": "<strong>組織與職級健檢</strong>：職務盤點、職級架構、薪酬帶寬與市場對標。",
+          "en": "<strong>Organisation and job architecture review</strong> — role mapping, grading, salary bands and market benchmarking."
+        },
+        {
+          "zh": "<strong>勞動法遵檢視</strong>：工時、加班、請假、契約與工作規則的風險盤點。",
+          "en": "<strong>Labour compliance review</strong> — working hours, overtime, leave, contracts and work rules."
+        },
+        {
+          "zh": "<strong>員工關係與離職分析</strong>：離職原因結構化訪談，找出真正的流失點。",
+          "en": "<strong>Employee relations and attrition analysis</strong> — structured exit interviews that surface the real cause."
+        },
+        {
+          "zh": "<strong>HR 流程與制度導入</strong>：招募、到職、考核到離職的一整段流程重建。",
+          "en": "<strong>HR process design</strong> — rebuilding the flow from hiring and onboarding through review and exit."
+        }
+      ],
+      "ctas": [
+        {
+          "label": {
+            "zh": "了解顧問服務",
+            "en": "Explore HR consulting"
+          },
+          "href": "/consulting/",
+          "style": "btn--dark"
+        }
+      ],
+      "panel": {
+        "title": {
+          "zh": "什麼時候該找顧問，而不是只找人？",
+          "en": "When you need a consultant, not just more hires"
+        },
+        "items": [
+          {
+            "zh": "同一個職位一年換三個人。",
+            "en": "The same seat has turned over three times this year."
+          },
+          {
+            "zh": "薪水給到市場水準，人還是走。",
+            "en": "You pay at market rate and people still leave."
+          },
+          {
+            "zh": "職級混亂，加薪與升遷沒有依據。",
+            "en": "Grades are ad hoc; raises and promotions have no basis."
+          },
+          {
+            "zh": "勞檢、勞資爭議或加班費計算讓你不安。",
+            "en": "Labour inspections, disputes or overtime calculations keep you up at night."
+          },
+          {
+            "zh": "跨境據點的 HR 制度各做各的。",
+            "en": "Each overseas site runs its own version of HR."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": {
+        "zh": "專注產業",
+        "en": "Industries"
+      },
+      "title": {
+        "zh": "我們熟的產業，才敢接",
+        "en": "We take on the industries we actually know"
+      },
+      "body": {
+        "zh": "半導體是我們的主戰場，其餘三塊是與它高度相鄰、人才互相流動的市場。",
+        "en": "Semiconductor is our main ground; the other three are adjacent markets that talent moves between."
+      },
+      "cols": 2,
+      "items": [
+        {
+          "icon": "chip",
+          "title": {
+            "zh": "半導體（主力）",
+            "en": "Semiconductor (core practice)"
+          },
+          "body": {
+            "zh": "晶圓製造、封裝測試、IC 設計與半導體設備材料。製程、設備、整合、良率、封裝與 EDA／IP 人才，以及廠級主管職。",
+            "en": "Wafer fabrication, OSAT, IC design, and semiconductor equipment and materials. Process, equipment, integration, yield, packaging and EDA/IP talent, through to plant leadership."
+          },
+          "link": {
+            "label": {
+              "zh": "半導體人才服務",
+              "en": "Semiconductor practice"
+            },
+            "href": "/industries/semiconductor/"
+          }
+        },
+        {
+          "icon": "layers",
+          "title": {
+            "zh": "科技製造／電子零組件",
+            "en": "Advanced Manufacturing & Electronics"
+          },
+          "body": {
+            "zh": "面板、被動元件、PCB、光電與精密機械。製程、設備、品保、自動化與廠務幹部，含海外廠派駐。",
+            "en": "Display, passive components, PCB, optoelectronics and precision machinery - process, equipment, QA, automation and plant leadership, including overseas assignments."
+          },
+          "link": {
+            "label": {
+              "zh": "科技製造招募",
+              "en": "Manufacturing recruitment"
+            },
+            "href": "/industries/manufacturing/"
+          }
+        },
+        {
+          "icon": "search",
+          "title": {
+            "zh": "科技／IT 軟體",
+            "en": "Technology & IT"
+          },
+          "body": {
+            "zh": "韌體、嵌入式、後端、資料與資安工程師，以及 PM、技術主管與 CTO 級人選。與半導體業的軟韌體需求高度重疊。",
+            "en": "Firmware, embedded, backend, data and security engineers, plus product managers, engineering leads and CTO-level hires - heavily overlapping with semiconductor software demand."
+          },
+          "link": {
+            "label": {
+              "zh": "科技產業招募",
+              "en": "Technology recruitment"
+            },
+            "href": "/industries/technology/"
+          }
+        },
+        {
+          "icon": "bank",
+          "title": {
+            "zh": "金融／專業服務",
+            "en": "Financial & Professional Services"
+          },
+          "body": {
+            "zh": "會計、財務、法遵、風控與法務職。重視證照條件與背景查核，也支援科技業的財會與法務團隊擴編。",
+            "en": "Accounting, finance, compliance, risk and legal roles where credentials and background checks matter - including finance and legal build-outs inside technology firms."
+          },
+          "link": {
+            "label": {
+              "zh": "金融業招募",
+              "en": "Financial services recruitment"
+            },
+            "href": "/industries/finance/"
+          }
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "soft": true,
+      "eyebrow": {
+        "zh": "合作流程",
+        "en": "How we work"
+      },
+      "title": {
+        "zh": "從第一通電話到人選到職",
+        "en": "From the first call to the first day"
+      },
+      "body": {
+        "zh": "流程公開，時程與責任事先講清楚。你隨時知道案子走到哪一步。",
+        "en": "The process is transparent. Timelines and responsibilities are agreed up front, and you always know which stage the search is at."
+      },
+      "items": [
+        {
+          "title": {
+            "zh": "需求訪談與職缺定義",
+            "en": "Briefing and role definition"
+          },
+          "body": {
+            "zh": "不只拿 JD。我們會問清楚這個職位為什麼開、上一任為什麼離開、主管的實際期待與可談的薪酬帶寬。必要時建議你調整條件——條件不合理，找再久都找不到。",
+            "en": "We do more than take the JD. Why does this role exist, why did the last person leave, what does the hiring manager actually expect, and what is the real salary band? If the brief is unrealistic we will say so — an impossible brief never closes."
+          }
+        },
+        {
+          "title": {
+            "zh": "搜尋策略與人才地圖",
+            "en": "Search strategy and talent mapping"
+          },
+          "body": {
+            "zh": "鎖定目標公司與職稱範圍，主動接觸被動人選，同時回報市場的真實供給狀況與薪資水準。",
+            "en": "We define target companies and titles, approach passive candidates directly, and report back what the market actually supplies and what it costs."
+          }
+        },
+        {
+          "title": {
+            "zh": "篩選與深度面談",
+            "en": "Screening and in-depth interviews"
+          },
+          "body": {
+            "zh": "每位推薦人選都經過顧問親自面談，附上動機、離職原因、薪酬期待與風險提醒，不做履歷轉手。",
+            "en": "Every shortlisted candidate is interviewed by a consultant. You receive motivation, reasons for leaving, salary expectations and any risks we see — never a forwarded CV."
+          }
+        },
+        {
+          "title": {
+            "zh": "面試安排與offer 協商",
+            "en": "Interviews and offer negotiation"
+          },
+          "body": {
+            "zh": "協助安排面試、收集雙向回饋，並在 offer 階段居中處理薪酬、到職日與反挽留（counter-offer）風險。",
+            "en": "We coordinate interviews, collect feedback both ways, and manage the offer stage — pay, start date and counter-offer risk."
+          }
+        },
+        {
+          "title": {
+            "zh": "到職追蹤與保固",
+            "en": "Onboarding follow-up and guarantee"
+          },
+          "body": {
+            "zh": "到職後定期追蹤適應狀況，保固期內若不合適，依約免費遞補。同時把過程中發現的組織問題回饋給你。",
+            "en": "We check in after the start date. If the hire does not work out within the guarantee period, we replace them at no additional fee — and we tell you what we noticed about the organisation along the way."
+          }
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "eyebrow": {
+        "zh": "數字",
+        "en": "By the numbers"
+      },
+      "title": {
+        "zh": "我們的實績",
+        "en": "Our track record"
+      },
+      "body": {
+        "zh": "以下數字待你提供實際資料後填入，我們不放沒有依據的宣傳數字。",
+        "en": "These figures are placeholders until you supply the real data — we do not publish numbers we cannot stand behind."
+      },
+      "items": [
+        {
+          "n": "—",
+          "l": {
+            "zh": "累計成功媒合人數 <span class=\"tbc\">待補</span>",
+            "en": "Successful placements <span class=\"tbc\">TBC</span>"
+          },
+          "tbc": true
+        },
+        {
+          "n": "—",
+          "l": {
+            "zh": "平均首份推薦天數 <span class=\"tbc\">待補</span>",
+            "en": "Days to first shortlist <span class=\"tbc\">TBC</span>"
+          },
+          "tbc": true
+        },
+        {
+          "n": "—",
+          "l": {
+            "zh": "保固期留任率 <span class=\"tbc\">待補</span>",
+            "en": "Retention through guarantee <span class=\"tbc\">TBC</span>"
+          },
+          "tbc": true
+        },
+        {
+          "n": "—",
+          "l": {
+            "zh": "服務企業客戶數 <span class=\"tbc\">待補</span>",
+            "en": "Client companies served <span class=\"tbc\">TBC</span>"
+          },
+          "tbc": true
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "soft": true,
+      "eyebrow": {
+        "zh": "客戶怎麼說",
+        "en": "What clients say"
+      },
+      "title": {
+        "zh": "客戶推薦",
+        "en": "Client testimonials"
+      },
+      "body": {
+        "zh": "以下為版面示意，實際推薦內容需由客戶同意後刊登。",
+        "en": "Layout placeholders — real testimonials go live only with the client's written consent."
+      },
+      "cols": 2,
+      "items": [
+        {
+          "text": {
+            "zh": "（推薦內容待補。建議請客戶具體描述：原本卡住的問題、HRK365 做了什麼、結果如何。空泛的稱讚沒有說服力。）",
+            "en": "(Testimonial TBC. Ask the client to describe the specific problem, what HRK365 did, and the outcome. Generic praise persuades nobody.)"
+          },
+          "author": {
+            "zh": "（姓名／職稱／公司或產業別）",
+            "en": "(Name / title / company or sector)"
+          }
+        },
+        {
+          "text": {
+            "zh": "（推薦內容待補。第二則建議來自不同服務線，例如派遣或顧問案，讓兩則不重複。）",
+            "en": "(Testimonial TBC. Source the second one from a different service line — contract staffing or consulting — so the two do not overlap.)"
+          },
+          "author": {
+            "zh": "（姓名／職稱／公司或產業別）",
+            "en": "(Name / title / company or sector)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "posts",
+      "eyebrow": {
+        "zh": "商業洞察",
+        "en": "Insights"
+      },
+      "title": {
+        "zh": "招募與 HR 現場的觀察",
+        "en": "Notes from the hiring floor"
+      },
+      "body": {
+        "zh": "以下為預定主題，文章上線後會替換為實際內容。",
+        "en": "Planned topics — these cards will be replaced by the articles once written."
+      },
+      "items": [
+        {
+          "date": {
+            "zh": "預定主題",
+            "en": "Planned"
+          },
+          "title": {
+            "zh": "薪資帶寬怎麼訂，才不會招不到又內部不公",
+            "en": "Setting salary bands that attract outside without breaking fairness inside"
+          },
+          "body": {
+            "zh": "從市場對標到內部相對公平，一份可執行的職級與薪酬設計檢查表。",
+            "en": "From market benchmarking to internal equity — a practical checklist for grading and pay design."
+          }
+        },
+        {
+          "date": {
+            "zh": "預定主題",
+            "en": "Planned"
+          },
+          "title": {
+            "zh": "派遣、承攬、約聘：三種用人方式的法律界線",
+            "en": "Dispatch, contracting, fixed-term: where the legal lines actually fall"
+          },
+          "body": {
+            "zh": "雇主責任在誰身上、什麼情況會被認定為假承攬，以及風險怎麼降。",
+            "en": "Who carries employer liability, when an arrangement gets reclassified, and how to lower the risk."
+          }
+        },
+        {
+          "date": {
+            "zh": "預定主題",
+            "en": "Planned"
+          },
+          "title": {
+            "zh": "台商在東南亞設廠，人資最常踩的五個坑",
+            "en": "Five HR mistakes Taiwanese manufacturers make in Southeast Asia"
+          },
+          "body": {
+            "zh": "從當地薪資結構、外派配套到工會與勞資關係的實務提醒。",
+            "en": "Local pay structures, expatriate packages, unions and labour relations — from the field."
+          }
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "soft": true,
+      "eyebrow": {
+        "zh": "常見問題",
+        "en": "FAQ"
+      },
+      "title": {
+        "zh": "企業最常問我們的問題",
+        "en": "What employers ask us most"
+      },
+      "items": [
+        {
+          "q": {
+            "zh": "你們是新成立的品牌，為什麼我該把關鍵職缺交給你們？",
+            "en": "You are a new brand - why would I trust you with a critical role?"
+          },
+          "a": {
+            "zh": "這是合理的問題，我們也不迴避：HRK365 台灣團隊確實是新設立的。但新的是品牌，不是人。台灣團隊的顧問全部來自台灣一線人力資源與獵才同業，過去經手的職缺與累積的產業人脈，在加入 HRK365 後直接延續。<br><br>另一半是制度：我們承襲新加坡總部的作業標準，人選查核、資料保護與利益迴避都有明文規範。實務上，新品牌反而有一個好處——我們沒有與你的競爭對手綁定的既有承諾，搜尋範圍不會因為舊客戶關係而被限縮。<br><br>如果你仍有疑慮，最合理的做法是先給我們一個職缺試跑，用結果判斷，而不是用成立年份判斷。",
+            "en": "A fair question, and we will not dodge it: the HRK365 Taiwan team is genuinely new. But what is new is the brand, not the people. Every consultant on the Taiwan team came from a leading Taiwanese recruitment or search firm, and the assignments they have run and the networks they have built came with them.<br><br>The other half is the framework: we operate on our Singapore parent's standards, with written rules for candidate vetting, data protection and conflict of interest. In practice a new brand carries one real advantage - we have no existing commitments to your competitors, so no part of the market is off-limits to our search.<br><br>If you are still unsure, the sensible test is to give us one role and judge us on the outcome rather than on our incorporation date."
+          }
+        },
+        {
+          "q": {
+            "zh": "收費方式是什麼？",
+            "en": "How do you charge?"
+          },
+          "a": {
+            "zh": "正職獵才採成功媒合計費，以人選年薪或月薪的一定比例計算，於人選到職後收取，並附保固期。派遣與薪資外包採月費或人頭計價。顧問案依專案範圍報價。實際費率會在需求訪談後以書面報價，不會有隱藏費用。",
+            "en": "Permanent placement is success-based: a percentage of the hire's salary, invoiced after the start date, with a replacement guarantee. Contract staffing and payroll are billed monthly or per head. Consulting is scoped and quoted per project. You always get the rate in writing after the briefing — no hidden fees."
+          }
+        },
+        {
+          "q": {
+            "zh": "保固期多久？人選提前離職怎麼辦？",
+            "en": "How long is the guarantee if the hire leaves early?"
+          },
+          "a": {
+            "zh": "保固期依職級與服務類型於合約中約定。保固期內若人選離職或不適任，我們免費啟動遞補搜尋。條件會在簽約前寫清楚，不用事後爭議。",
+            "en": "The guarantee period is set in the contract and varies by seniority and service type. If the hire leaves or does not work out within it, we run a replacement search at no additional fee. The terms are agreed in writing before we start."
+          }
+        },
+        {
+          "q": {
+            "zh": "多久可以看到第一批人選？",
+            "en": "How soon will I see the first candidates?"
+          },
+          "a": {
+            "zh": "一般職缺在需求訪談後數個工作天內提交第一批推薦；稀缺職與高階職需要較長的市場搜尋時間。我們會在訪談當下就給你一個誠實的時程判斷，而不是先接案再說。",
+            "en": "For standard roles, a first shortlist usually follows within days of the briefing. Scarce and senior roles take longer to map. We give you an honest timeline at the briefing rather than accepting the assignment and hoping."
+          }
+        },
+        {
+          "q": {
+            "zh": "新加坡總部與台灣團隊怎麼分工？",
+            "en": "How do the Singapore HQ and the Taiwan team divide the work?"
+          },
+          "a": {
+            "zh": "台灣的職缺由台灣團隊負責，從需求訪談、搜尋到 offer 協商全程在地執行——台灣市場的判斷不會外包給不在台灣的人。新加坡總部提供的是制度與跨境支援：作業標準、資料治理，以及客戶在新加坡、馬來西亞或越南有據點時的當地銜接。",
+            "en": "Taiwan roles are run by the Taiwan team - briefing, search and offer negotiation all happen locally, because judgement about this market should not be outsourced to people who are not in it. Singapore HQ provides the framework and the regional reach: operating standards, data governance, and local coverage when a client also has sites in Singapore, Malaysia or Vietnam."
+          }
+        },
+        {
+          "q": {
+            "zh": "我們規模不大，也適合找你們嗎？",
+            "en": "We are a small company — is this for us?"
+          },
+          "a": {
+            "zh": "適合。中小企業通常沒有專職 HR，正是最需要外部支援的一群。你可以只用單一職缺的獵才服務，也可以把薪資與勞健保實務整段外包，不必一次導入全部。",
+            "en": "Yes. Smaller companies often have no dedicated HR function, which is exactly when outside support pays off. You can start with a single search, or hand over payroll and statutory admin — you do not need to adopt everything at once."
+          }
+        },
+        {
+          "q": {
+            "zh": "求職者可以直接投履歷嗎？",
+            "en": "Can candidates apply directly?"
+          },
+          "a": {
+            "zh": "可以。我們歡迎人選建立人才檔案，但請理解：HRK365 是受企業委託尋才，能提供的機會取決於當期的委任職缺。有合適的職位時顧問會主動與你聯繫。",
+            "en": "Yes. You are welcome to register with us, but please note that HRK365 is engaged by employers to fill specific roles, so the opportunities we can offer depend on our current assignments. A consultant will contact you when there is a genuine fit."
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": {
+        "zh": "先聊聊，再決定要不要合作",
+        "en": "Start with a conversation, not a contract"
+      },
+      "body": {
+        "zh": "第一次諮詢不收費。把你現在卡住的職缺或制度問題講給我們聽，我們會直接告訴你可行的做法與大概的時程——即使結論是你不需要我們。",
+        "en": "The first conversation is free. Tell us about the role or the HR problem you are stuck on and we will tell you what is realistic and how long it takes — even if the answer is that you do not need us."
+      },
+      "ctas": [
+        {
+          "label": {
+            "zh": "預約諮詢",
+            "en": "Book a consultation"
+          },
+          "href": "/contact/"
+        },
+        {
+          "label": {
+            "zh": "了解合作流程",
+            "en": "How we work"
+          },
+          "href": "/about/"
+        }
+      ]
+    }
+  ]
+}

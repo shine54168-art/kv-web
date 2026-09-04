@@ -1,0 +1,60 @@
+{
+  "slug": "services/permanent",
+  "title": { "zh": "正職人才推薦（獵才）｜半導體與科技業關鍵職｜HRK365", "en": "Permanent Placement | Executive & Specialist Search in Taiwan | HRK365" },
+  "desc": { "zh": "HRK365 正職獵才服務：主動接觸被動人選、顧問親自面談、附書面評估與保固期，專攻半導體與科技業的關鍵職與主管職。", "en": "HRK365 permanent placement: direct approach to passive candidates, consultant-led interviews, written assessments and a replacement guarantee — focused on critical and leadership roles in semiconductor and technology." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [
+        { "label": { "zh": "招募服務", "en": "Recruitment" }, "href": "/services/" },
+        { "label": { "zh": "正職人才推薦", "en": "Permanent Placement" } }
+      ],
+      "eyebrow": { "zh": "招募服務", "en": "Service" },
+      "title": { "zh": "正職人才推薦（獵才）", "en": "Permanent placement" },
+      "sub": { "zh": "適合關鍵職、主管職，以及在人力銀行上刊登三個月也沒有結果的職缺。我們主動去找那些沒在找工作的人。", "en": "For critical roles, leadership hires, and the vacancy that has been advertised for three months with nothing to show. We go after the people who are not looking." },
+      "ctas": [{ "label": { "zh": "委任一個職缺", "en": "Start with one role" }, "href": "/contact/" }]
+    },
+    {
+      "type": "split",
+      "eyebrow": { "zh": "差別在哪", "en": "The difference" },
+      "title": { "zh": "刊登職缺，只會收到正在找工作的人", "en": "Advertising a role only reaches people already looking" },
+      "body": { "zh": "在半導體與科技業，真正符合條件的資深人才多半在職、被主管保護著、也沒在瀏覽求職網站。刊登職缺接觸不到他們，這不是文案寫得好不好的問題。<br><br>獵才做的是另一件事：從市場上鎖定目標公司與職稱，一個一個接觸，用具體的機會與職涯理由把人說動。這需要顧問懂技術內容、講得出你們公司值得去的原因，而且在對方沒有立即換工作念頭時，仍然願意接電話。", "en": "In semiconductor and technology, the genuinely qualified senior people are usually employed, actively protected by their managers, and not browsing job boards. No advertisement reaches them — and that is not a copywriting problem.<br><br>Search does something else: map target companies and titles, approach people one by one, and move them with a specific opportunity and a real career argument. That takes a consultant who understands the technical content, can articulate why your company is worth joining, and whom the candidate will still take a call from when they are not looking to move." },
+      "panel": {
+        "title": { "zh": "適合用獵才的職缺", "en": "Roles worth a search" },
+        "items": [
+          { "zh": "市場上符合條件者不多的稀缺專業職", "en": "Scarce specialist roles with a small qualified population" },
+          { "zh": "課級以上的管理職與接班佈局", "en": "Section-manager level and above, including succession planning" },
+          { "zh": "涉及機密、不方便公開刊登的職缺", "en": "Confidential roles that cannot be advertised openly" },
+          { "zh": "已經自行招募超過兩個月仍未補上的缺", "en": "Any role you have run yourself for two months without a hire" },
+          { "zh": "新設團隊的第一位關鍵成員", "en": "The first key hire into a brand-new team" }
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "soft": true,
+      "eyebrow": { "zh": "流程", "en": "Process" },
+      "title": { "zh": "一個獵才案怎麼跑", "en": "How a search runs" },
+      "items": [
+        { "title": { "zh": "需求訪談（約 60 分鐘）", "en": "Briefing (about 60 minutes)" }, "body": { "zh": "與用人主管直接談。釐清職缺背景、技術條件的優先順序、薪酬結構與面試流程。條件若不合理，我們會在這一關就說。", "en": "A direct conversation with the hiring manager: why the role exists, which technical requirements really matter, how the package is built, and how interviews will run. If the brief is unrealistic, we say so here." } },
+        { "title": { "zh": "人才地圖與搜尋", "en": "Mapping and search" }, "body": { "zh": "鎖定目標公司與職稱範圍，扣除利益迴避對象後開始接觸。過程中回報市場真實供給與薪資水準。", "en": "Target companies and titles are mapped, conflict-of-interest exclusions applied, and outreach begins. We report back what the market actually supplies and what it pays." } },
+        { "title": { "zh": "深度面談與書面評估", "en": "Interviews and written assessment" }, "body": { "zh": "顧問親自面談，確認技術深度、離職動機、薪酬期待、競業條款與到職可行性，附書面評估後推薦。", "en": "Each candidate is interviewed by a consultant — technical depth, motivation, expectations, non-compete exposure and real availability — and presented with a written assessment." } },
+        { "title": { "zh": "面試協調與回饋", "en": "Interview coordination and feedback" }, "body": { "zh": "安排面試、追蹤進度，雙向收集回饋。面試流程如果拖太久，我們會直說並建議調整。", "en": "We schedule, chase and collect feedback both ways. If the process is dragging and costing you candidates, we will say so and suggest changes." } },
+        { "title": { "zh": "offer 協商與到職", "en": "Offer and start" }, "body": { "zh": "處理薪酬結構、到職日、股票補償缺口與反挽留風險，直到人選正式報到。", "en": "We manage package structure, start date, equity buy-out gaps and counter-offer risk through to the first day." } },
+        { "title": { "zh": "保固期追蹤", "en": "Guarantee period follow-up" }, "body": { "zh": "到職後定期追蹤雙方適應狀況；保固期內若不適任或離職，依約免費啟動遞補搜尋。", "en": "We check in with both sides after the start date. If it does not work out within the guarantee period, the replacement search runs at no additional fee." } }
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": { "zh": "常見問題", "en": "FAQ" },
+      "title": { "zh": "關於獵才服務", "en": "About permanent placement" },
+      "items": [
+        { "q": { "zh": "怎麼收費？什麼時候付？", "en": "How is it charged, and when?" }, "a": { "zh": "成功媒合計費：以錄取人選的年薪或月薪的一定比例計算，於人選正式到職後開立發票。未成交不收費。實際費率視職級與稀缺度，在需求訪談後以書面報價，並在合約中載明。<br><br>依台灣《就業服務法》規定，私立就業服務機構的收費項目與金額須依主管機關規定辦理並公開揭示；我們的收費標準會完整列於合約與網站上。", "en": "Success-based: a percentage of the hire's salary, invoiced after they start. No placement, no fee. The rate depends on seniority and scarcity, is quoted in writing after the briefing, and is stated in the contract.<br><br>Under Taiwan's Employment Service Act, a licensed agency's fee items and amounts must follow the regulator's rules and be publicly displayed; our fee schedule is published in full in the contract and on this site." } },
+        { "q": { "zh": "保固期多久？", "en": "How long is the guarantee?" }, "a": { "zh": "依職級與職缺性質於合約中約定。保固期內人選離職或經評估不適任，我們免費啟動遞補搜尋。條件在簽約前寫清楚，不做事後解釋。", "en": "Set in the contract, varying by seniority and role type. If the hire leaves or is assessed as unsuitable within that period, we run a replacement search at no additional fee. The terms are in writing before we start." } },
+        { "q": { "zh": "需要簽獨家委任嗎？", "en": "Do you require an exclusive?" }, "a": { "zh": "不強制。但實務上，獨家委任的成交率明顯較高——顧問願意投入更多時間做市場搜尋，人選也不會同時收到三家獵頭談同一個職缺的電話（那會嚴重折損你的雇主形象）。要不要獨家，我們會說明利弊讓你決定。", "en": "Not mandatory. In practice exclusive assignments close at a noticeably higher rate: the consultant invests more time in real mapping, and candidates do not receive calls about the same role from three different firms — which damages how your company looks. We will lay out the trade-offs and let you decide." } },
+        { "q": { "zh": "推薦的人選我們自己也接觸過怎麼辦？", "en": "What if we had already been in contact with a candidate?" }, "a": { "zh": "合約中會約定人選重複的處理原則：若貴公司在委任前一定期間內已與該人選有實質接觸紀錄，可提出佐證排除。事先講清楚，就不會有爭議。", "en": "The contract sets out how duplicate candidates are handled: if you had substantive prior contact within a defined window and can evidence it, that candidate is excluded. Agreeing this up front prevents the argument later." } }
+      ]
+    },
+    { "type": "cta", "title": { "zh": "先從一個職缺開始", "en": "Start with one role" }, "body": { "zh": "不用整包委任，也不用簽長約。給我們一個最難的缺，用結果判斷。", "en": "No bundle, no long contract. Give us your hardest role and judge us on the result." } }
+  ]
+}

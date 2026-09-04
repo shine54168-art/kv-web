@@ -1,0 +1,31 @@
+{
+  "slug": "contact",
+  "title": { "zh": "聯絡 HRK365｜預約諮詢", "en": "Contact HRK365 | Book a consultation" },
+  "desc": { "zh": "與 HRK365 顧問聯繫。企業客戶可預約免費初步諮詢，求職者可留下人才資料。一個工作日內回覆。", "en": "Get in touch with HRK365. Employers can book a free initial consultation; candidates can register their details. We reply within one business day." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [{ "label": { "zh": "聯絡我們", "en": "Contact" } }],
+      "eyebrow": { "zh": "聯絡我們", "en": "Contact" },
+      "title": { "zh": "第一次諮詢不收費", "en": "The first conversation is free" },
+      "sub": { "zh": "把你現在卡住的職缺或制度問題講給我們聽。我們會告訴你可行的做法與大概的時程——即使結論是你不需要我們。", "en": "Tell us about the role or the HR problem you are stuck on, and we will tell you what is realistic and how long it takes — even if the answer is that you do not need us." }
+    },
+    {
+      "type": "contact",
+      "title": { "zh": "留下需求，我們一個工作日內回覆", "en": "Send us the details and we will reply within one business day" },
+      "body": { "zh": "企業客戶請盡量說明職缺內容或問題背景；求職者請註明目前的產業、職能與希望的方向。", "en": "Employers: tell us about the role or the problem. Candidates: let us know your sector, function and where you want to go." }
+    },
+    {
+      "type": "faq",
+      "soft": true,
+      "eyebrow": { "zh": "聯絡前", "en": "Before you write" },
+      "title": { "zh": "常見疑問", "en": "Common questions" },
+      "items": [
+        { "q": { "zh": "諮詢一定要付費或簽約嗎？", "en": "Does the consultation cost anything?" }, "a": { "zh": "不用。初步諮詢免費，也沒有簽約義務。我們會先了解需求，再判斷是否有合作的必要——如果你的問題自己就能解決，我們也會直說。", "en": "No. The initial consultation is free with no obligation. We understand the need first and then judge whether an engagement makes sense. If you can solve it yourself, we will say so." } },
+        { "q": { "zh": "我不確定該用哪一種服務。", "en": "I am not sure which service I need." }, "a": { "zh": "直接把情境講出來就好，剩下的我們判斷。實務上很多客戶一開始以為要獵才，談完發現真正該處理的是薪酬結構或面試流程。", "en": "Just describe the situation and let us work it out. Plenty of clients arrive thinking they need a search and leave understanding that the real issue is pay structure or interview process." } },
+        { "q": { "zh": "我是求職者，可以直接投履歷嗎？", "en": "I am a candidate — can I send my CV?" }, "a": { "zh": "可以。請透過表單或電子信箱寄給我們，並註明目前的產業與職能。我們是受企業委託尋才，有合適的委任職缺時，負責的顧問會主動與你聯繫。", "en": "Yes — through the form or by email, with your current sector and function noted. We are engaged by employers, so the consultant handling a matching assignment will contact you when there is a genuine fit." } },
+        { "q": { "zh": "我的資料會被怎麼使用？", "en": "How will my details be used?" }, "a": { "zh": "僅用於本次聯繫與後續的服務評估。人選資料依新加坡總部的資料治理規範管理，未經同意不會提供給第三方，你也可以隨時要求刪除。", "en": "Only for this enquiry and any service assessment that follows. Candidate data is handled under our Singapore parent's governance rules, is never given to a third party without consent, and can be deleted on request." } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "industries/semiconductor",
+  "title": { "zh": "半導體人才招募｜晶圓、封測、IC 設計與設備材料｜HRK365", "en": "Semiconductor Recruitment in Taiwan | Fab, OSAT, IC Design & Equipment | HRK365" },
+  "desc": { "zh": "HRK365 半導體獵才服務：晶圓製造、封裝測試、IC 設計與設備材料的製程、設備、整合、良率與主管職。顧問來自台灣一線同業，熟悉竹科、中科與南科市場。", "en": "HRK365's semiconductor search practice covers wafer fabrication, OSAT, IC design, and equipment and materials — process, equipment, integration, yield and leadership roles across Taiwan's science parks." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [
+        { "label": { "zh": "專注產業", "en": "Industries" }, "href": "/industries/" },
+        { "label": { "zh": "半導體", "en": "Semiconductor" } }
+      ],
+      "eyebrow": { "zh": "主力產業", "en": "Core practice" },
+      "title": { "zh": "半導體人才招募", "en": "Semiconductor recruitment" },
+      "sub": { "zh": "這是 HRK365 來台灣的原因。晶圓製造、封裝測試、IC 設計到設備材料，從資深工程師到廠級主管，我們把整條供應鏈當成一個人才市場來看。", "en": "This is why HRK365 came to Taiwan. Wafer fabrication, OSAT, IC design and equipment and materials — from senior engineers to plant leadership, we treat the whole supply chain as one talent market." },
+      "ctas": [{ "label": { "zh": "討論你的半導體職缺", "en": "Discuss your semiconductor roles" }, "href": "/contact/" }]
+    },
+    {
+      "type": "split",
+      "eyebrow": { "zh": "為什麼是半導體", "en": "Why semiconductor" },
+      "title": { "zh": "缺的不是產能，是人", "en": "The shortage is people, not capacity" },
+      "body": { "zh": "台灣握有全球最關鍵的一段半導體供應鏈。先進製程持續推進、封裝技術往 2.5D／3D 走、設備與材料的國產化需求上升——每一項都在同一批有限的人才池裡搶人。<br><br>這個市場的招募難度不在於「找不到履歷」，而在於：合適的人幾乎都在職、都有競業條款要處理、都有一批還沒到期的股票在綁著。要把人帶出來，靠的是對產業的理解與可信的關係，不是刊登職缺等人投遞。<br><br>這也是為什麼我們把半導體設為主力，而不是「我們也做半導體」。", "en": "Taiwan holds the most critical stretch of the global semiconductor supply chain. Advanced nodes keep moving, packaging shifts toward 2.5D and 3D, and localisation of equipment and materials keeps accelerating — all competing for the same limited talent pool.<br><br>The difficulty here is not a shortage of CVs. It is that the right people are almost always employed, usually have a non-compete to work through, and usually have unvested stock holding them in place. Moving them takes industry understanding and credible relationships, not a job posting and patience.<br><br>That is why semiconductor is our core practice rather than a line on a list." },
+      "panel": {
+        "title": { "zh": "我們涵蓋的據點", "en": "Where we recruit" },
+        "items": [
+          { "zh": "新竹科學園區與竹南、湖口一帶", "en": "Hsinchu Science Park, plus Zhunan and Hukou" },
+          { "zh": "中部科學園區與台中周邊廠區", "en": "Central Taiwan Science Park and surrounding sites" },
+          { "zh": "南部科學園區與台南、高雄擴廠區", "en": "Southern Taiwan Science Park, Tainan and Kaohsiung expansions" },
+          { "zh": "客戶在新加坡、馬來西亞（檳城）與越南的據點", "en": "Client sites in Singapore, Malaysia (Penang) and Vietnam" }
+        ]
+      }
+    },
+    {
+      "type": "cards",
+      "soft": true,
+      "eyebrow": { "zh": "涵蓋範圍", "en": "Coverage" },
+      "title": { "zh": "四個次產業，一套人才網絡", "en": "Four sub-sectors, one talent network" },
+      "body": { "zh": "人才在這四塊之間流動。同時看四塊，才判斷得出一個人選的市場價值與可挖角性。", "en": "Talent moves between these four. Covering all of them is what makes it possible to judge a candidate's market value and whether they can realistically be moved." },
+      "cols": 2,
+      "items": [
+        {
+          "icon": "chip",
+          "title": { "zh": "晶圓製造（Foundry／IDM）", "en": "Wafer Fabrication (Foundry / IDM)" },
+          "body": { "zh": "先進製程與成熟製程的量產與研發職缺。", "en": "Production and R&D roles across advanced and mature nodes." },
+          "bullets": [
+            { "zh": "製程整合、模組製程（薄膜、微影、蝕刻、擴散、CMP）", "en": "Process integration and module engineering — thin film, litho, etch, diffusion, CMP" },
+            { "zh": "設備工程、製程設備維護與提升", "en": "Equipment engineering, maintenance and enhancement" },
+            { "zh": "良率分析、缺陷檢測、可靠度與失效分析", "en": "Yield analysis, defect inspection, reliability and failure analysis" },
+            { "zh": "廠務、無塵室、環安衛與課級以上主管", "en": "Facilities, cleanroom, EHS and section-manager level upward" }
+          ]
+        },
+        {
+          "icon": "layers",
+          "title": { "zh": "封裝測試（OSAT）", "en": "Packaging & Test (OSAT)" },
+          "body": { "zh": "先進封裝需求快速成長，人才缺口最明顯的一塊。", "en": "Advanced packaging is growing fastest, and the talent gap here is the most visible." },
+          "bullets": [
+            { "zh": "封裝製程、先進封裝（2.5D／3D、扇出型）研發", "en": "Packaging process and advanced packaging R&D — 2.5D/3D, fan-out" },
+            { "zh": "測試工程、測試程式開發與 ATE 設備", "en": "Test engineering, test program development and ATE" },
+            { "zh": "材料工程、基板與載板技術", "en": "Materials engineering, substrate and carrier technology" },
+            { "zh": "品保、客戶端品質工程與量產導入", "en": "QA, customer quality engineering and NPI" }
+          ]
+        },
+        {
+          "icon": "search",
+          "title": { "zh": "IC 設計", "en": "IC Design" },
+          "body": { "zh": "數位、類比、韌體與驗證，含 EDA／IP 供應商。", "en": "Digital, analog, firmware and verification, including EDA and IP vendors." },
+          "bullets": [
+            { "zh": "數位 IC 設計、後端實體設計與時序收斂", "en": "Digital IC design, backend physical design and timing closure" },
+            { "zh": "類比／混合訊號、電源管理與射頻設計", "en": "Analog / mixed-signal, power management and RF design" },
+            { "zh": "驗證工程、DFT 與 SoC 系統整合", "en": "Verification, DFT and SoC integration" },
+            { "zh": "嵌入式韌體、驅動程式與應用工程（FAE）", "en": "Embedded firmware, drivers and field application engineering" }
+          ]
+        },
+        {
+          "icon": "shield",
+          "title": { "zh": "設備與材料", "en": "Equipment & Materials" },
+          "body": { "zh": "含國際設備商在台團隊與本土設備材料供應鏈。", "en": "Both international equipment vendors' Taiwan teams and the domestic supply chain." },
+          "bullets": [
+            { "zh": "設備研發、機構與自動化控制工程", "en": "Equipment R&D, mechanical design and automation control" },
+            { "zh": "客戶端支援、駐廠工程與技術服務", "en": "Customer support, on-site engineering and technical service" },
+            { "zh": "製程化學品、靶材、光阻與特用材料", "en": "Process chemicals, targets, photoresist and specialty materials" },
+            { "zh": "業務開發與產品行銷（技術背景）", "en": "Business development and product marketing with a technical background" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "reverse": true,
+      "eyebrow": { "zh": "難在哪裡", "en": "What makes it hard" },
+      "title": { "zh": "半導體招募的四個現實", "en": "Four realities of semiconductor hiring" },
+      "body": { "zh": "這些是每一個半導體職缺都會遇到的問題。顧問有沒有處理過，差別在成交與否。", "en": "Every semiconductor search runs into these. Whether your consultant has handled them before is the difference between an offer and a dead end." },
+      "bullets": [
+        { "zh": "<strong>競業禁止條款</strong>：適用範圍、補償是否給付、實務上的可執行性，必須在推薦前釐清，不能等到 offer 才發現。", "en": "<strong>Non-compete clauses</strong> — scope, whether compensation was actually paid, and real-world enforceability. This has to be clarified before shortlisting, not discovered at offer stage." },
+        { "zh": "<strong>股票與分紅綁定</strong>：未到期的股票獎酬往往是留任的真正原因。談 offer 時要算得出補償缺口，否則人選最後會留下。", "en": "<strong>Unvested equity and bonuses</strong> — often the real reason someone stays. If the offer cannot quantify and bridge the gap, the candidate stays put." },
+        { "zh": "<strong>輪班與駐廠型態</strong>：日夜班、四班二輪、駐廠支援的實際作息，講清楚才不會到職一個月就離職。", "en": "<strong>Shift and on-site patterns</strong> — day/night rotation, four-shift systems, on-site support. Spell out the real schedule or the hire quits within a month." },
+        { "zh": "<strong>保密與利益迴避</strong>：客戶名單、專案資訊與人選身分都必須受控。同時服務多家同業時，迴避規則要事先講明。", "en": "<strong>Confidentiality and conflicts</strong> — client lists, project information and candidate identities must all be controlled, and the conflict rules agreed in advance when we serve multiple firms in one segment." }
+      ],
+      "ctas": [{ "label": { "zh": "看我們的合作流程", "en": "See how we work" }, "href": "/about/", "style": "btn--dark" }],
+      "panel": {
+        "dark": false,
+        "title": { "zh": "我們會先問你的問題", "en": "What we ask you first" },
+        "items": [
+          { "zh": "這個職缺是新編制還是補人？上一任待多久、為什麼離開？", "en": "Is this a new headcount or a backfill? How long did the last person stay, and why did they leave?" },
+          { "zh": "薪酬結構怎麼組成——本薪、分紅、股票、輪班津貼各佔多少？", "en": "How is the package built — base, bonus, equity and shift allowance?" },
+          { "zh": "技術條件裡哪些是真的必要，哪些是「有更好」？", "en": "Which technical requirements are genuinely mandatory, and which are nice to have?" },
+          { "zh": "面試流程幾關、決策者是誰、最快多久能給 offer？", "en": "How many interview rounds, who decides, and how fast can an offer issue?" }
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "eyebrow": { "zh": "常見問題", "en": "FAQ" },
+      "title": { "zh": "半導體客戶常問", "en": "What semiconductor clients ask" },
+      "items": [
+        {
+          "q": { "zh": "你們會不會從我們公司挖角？", "en": "Will you poach from us?" },
+          "a": { "zh": "不會。合作期間你的公司列入利益迴避範圍，我們不會主動接觸貴公司的員工。迴避的範圍（是否含關係企業、海外據點）與存續期間，都會在簽約前明確寫入合約，而不是口頭保證。", "en": "No. While we are engaged, your company is off-limits and we will not approach your employees. The scope — whether it covers affiliates and overseas sites — and the duration are written into the contract before we begin, not promised verbally." }
+        },
+        {
+          "q": { "zh": "人選有競業條款，還能挖嗎？", "en": "Can you move a candidate who has a non-compete?" },
+          "a": { "zh": "要看條款的具體內容。台灣法院對競業禁止條款的審查有明確標準，包括是否有補償措施、限制期間與地域範圍是否合理。我們會在推薦前確認人選的條款狀況並如實告知你風險，必要時建議延後到職或調整職務範圍。我們不會為了成交而隱瞞這件事，也不提供法律意見——涉及爭議時建議雙方各自諮詢律師。", "en": "It depends on the clause. Taiwanese courts apply clear tests to non-competes, including whether compensation was provided and whether the duration and geographic scope are reasonable. We verify a candidate's situation before shortlisting and tell you the risk honestly — sometimes recommending a later start date or an adjusted scope. We will not hide this to close a deal, and we do not give legal advice; where a dispute is possible, both sides should take their own counsel." }
+        },
+        {
+          "q": { "zh": "急件多久能看到人選？", "en": "How fast can we see candidates on an urgent role?" },
+          "a": { "zh": "取決於稀缺度。成熟製程的資深工程師通常數個工作天內可提出第一批；先進封裝研發、特定製程整合或廠級主管這類職缺，市場上符合條件的人可能只有數十位，需要更長的接觸與說服時間。我們會在需求訪談當下給你一個誠實的時程判斷。", "en": "It depends on scarcity. For senior engineers on mature nodes, a first shortlist usually follows within days. For advanced packaging R&D, specific integration roles or plant leadership, the qualified population may be only a few dozen people and takes longer to approach and persuade. You get an honest timeline at the briefing." }
+        },
+        {
+          "q": { "zh": "海外廠的職缺你們也做嗎？", "en": "Do you cover our overseas sites?" },
+          "a": { "zh": "做。台灣半導體客戶在新加坡、馬來西亞檳城與越南設點的需求持續增加，這正是 HRK365 新加坡背景的用武之地：台灣端的幹部派駐與當地招募可以一起規劃，當地的雇用形式與薪酬結構我們也講得出來。", "en": "Yes. Taiwanese semiconductor clients keep expanding into Singapore, Penang and Vietnam, and this is where our Singapore background earns its keep: expatriate assignments from Taiwan and local hiring can be planned together, and we can explain local employment models and pay structures rather than guessing." }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": { "zh": "把最難的那個缺給我們", "en": "Give us the hardest role on your list" },
+      "body": { "zh": "好找的職缺誰都能做。真正能看出差別的，是那個開了半年還沒補上的位置。", "en": "Anyone can fill the easy ones. The role that tells you who is worth working with is the one that has been open for six months." },
+      "ctas": [
+        { "label": { "zh": "預約諮詢", "en": "Book a consultation" }, "href": "/contact/" },
+        { "label": { "zh": "看其他產業", "en": "Other industries" }, "href": "/industries/" }
+      ]
+    }
+  ]
+}

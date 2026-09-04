@@ -1,0 +1,112 @@
+{
+  "slug": "about",
+  "title": { "zh": "關於 HRK365｜新加坡獵頭品牌的台灣團隊", "en": "About HRK365 | A Singapore search firm's Taiwan team" },
+  "desc": { "zh": "HRK365 來自新加坡，在台灣設立專屬團隊聚焦半導體與科技製造。顧問來自台灣一線同業，作業與治理制度承襲新加坡總部。認識我們的組成、原則與做事方式。", "en": "HRK365 came from Singapore and built a dedicated Taiwan team focused on semiconductor and advanced manufacturing. Our consultants come from Taiwan's leading search firms; our standards come from our Singapore parent." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [{ "label": { "zh": "關於我們", "en": "About" } }],
+      "eyebrow": { "zh": "關於我們", "en": "About us" },
+      "title": { "zh": "新品牌，資深團隊", "en": "A new brand with a senior team" },
+      "sub": { "zh": "HRK365 台灣團隊成立不久，這件事我們不會藏。真正該問的不是公司幾歲，而是坐在你對面的顧問懂不懂你的產業、有沒有能力把人找出來。", "en": "The HRK365 Taiwan team is new, and we will not hide it. The question worth asking is not how old the company is, but whether the consultant across the table understands your industry and can actually find the people." }
+    },
+    {
+      "type": "split",
+      "eyebrow": { "zh": "來歷", "en": "Where we came from" },
+      "title": { "zh": "從新加坡來，為台灣而設", "en": "From Singapore, built for Taiwan" },
+      "body": { "zh": "HRK365 的根在新加坡。那是一個把獵頭當專業服務業經營的市場：流程要寫下來、人選資料要受管、利益迴避要有規範，客戶付的錢買的是可被檢驗的作業品質。<br><br>來台灣，是因為我們看好這裡的半導體。台灣掌握全球最關鍵的一段供應鏈，而這段供應鏈最缺的不是設備，是人。這個市場值得一支專門的團隊，而不是區域辦公室順便兼管。<br><br>所以我們沒有派新加坡的顧問來管台灣，而是在台灣組一支台灣人的團隊。", "en": "HRK365's roots are in Singapore — a market where executive search is run as a professional service. Process is written down, candidate data is governed, conflicts of interest are regulated, and what a client pays for is operating quality that can be audited.<br><br>We came to Taiwan because of semiconductor. Taiwan holds the most critical stretch of the global supply chain, and what that stretch is short of is not equipment — it is people. A market like that deserves a dedicated team, not a regional office covering it on the side.<br><br>So we did not send Singapore consultants to run Taiwan. We built a Taiwanese team in Taiwan." },
+      "panel": {
+        "title": { "zh": "兩邊各出什麼", "en": "What each side contributes" },
+        "items": [
+          { "zh": "<strong>新加坡總部</strong>：作業標準、人選查核規範、資料保護與利益迴避政策。", "en": "<strong>Singapore HQ</strong> — operating standards, candidate vetting protocol, data protection and conflict-of-interest policy." },
+          { "zh": "<strong>台灣團隊</strong>：本地產業網絡、薪酬行情判斷、職缺設計與 offer 協商。", "en": "<strong>Taiwan team</strong> — local industry network, pay benchmarking, role design and offer negotiation." },
+          { "zh": "<strong>共同</strong>：客戶在新加坡、馬來西亞或越南設點時的區域銜接。", "en": "<strong>Together</strong> — regional coverage when clients also operate in Singapore, Malaysia or Vietnam." }
+        ]
+      }
+    },
+    {
+      "type": "split",
+      "reverse": true,
+      "soft": true,
+      "eyebrow": { "zh": "團隊", "en": "The team" },
+      "title": { "zh": "顧問來自台灣一線同業", "en": "Our consultants came from Taiwan's leading firms" },
+      "body": { "zh": "HRK365 台灣團隊的顧問，全數來自台灣各大人力資源與獵才公司。他們不是轉行進來的新手，而是帶著既有的產業網絡、對薪酬行情的直覺，以及看過幾百場面試累積下來的判斷力。<br><br>我們刻意找的是同一類人：待過用人單位那一側、知道主管口中的「積極主動」到底指什麼，也知道一份職缺開得不合理時，找一年也不會有結果。<br><br>團隊成員的完整經歷與專長領域，我們會在此頁列出。", "en": "Every consultant on the HRK365 Taiwan team came from a major Taiwanese recruitment or search firm. They are not career-changers finding their feet — they arrive with an existing industry network, an instinct for what roles actually pay, and judgement built over hundreds of interviews.<br><br>We deliberately looked for one kind of person: someone who has sat on the hiring side of the table, who knows what a manager means by \"proactive\", and who knows that an unrealistic brief will not close in a year no matter how hard anyone works.<br><br>Full consultant profiles and areas of specialisation will be listed on this page." },
+      "panel": {
+        "dark": false,
+        "title": { "zh": "團隊資料待補", "en": "Team details to add" },
+        "items": [
+          { "zh": "顧問人數與各自負責的產業／職能領域 <span class=\"tbc\">待補</span>", "en": "Number of consultants and the sectors each covers <span class=\"tbc\">TBC</span>" },
+          { "zh": "主要顧問的姓名、職稱、專長與年資 <span class=\"tbc\">待補</span>", "en": "Names, titles, specialisations and tenure of lead consultants <span class=\"tbc\">TBC</span>" },
+          { "zh": "台灣公司登記全名、統編、成立日期 <span class=\"tbc\">待補</span>", "en": "Taiwan registered entity, tax ID and incorporation date <span class=\"tbc\">TBC</span>" },
+          { "zh": "私立就業服務機構許可證字號 <span class=\"tbc\">待補</span>", "en": "Employment agency licence number <span class=\"tbc\">TBC</span>" },
+          { "zh": "新加坡母公司名稱與成立年份 <span class=\"tbc\">待補</span>", "en": "Singapore parent entity and year founded <span class=\"tbc\">TBC</span>" }
+        ]
+      }
+    },
+    {
+      "type": "cards",
+      "eyebrow": { "zh": "我們的原則", "en": "Our principles" },
+      "title": { "zh": "四件我們不會退讓的事", "en": "Four things we will not trade away" },
+      "cols": 2,
+      "items": [
+        {
+          "icon": "compass",
+          "title": { "zh": "說實話，即使不利於成交", "en": "Say the true thing, even when it costs us the deal" },
+          "body": { "zh": "薪資開得低於市場、職缺條件互相矛盾、時程不可能達成——我們會在需求訪談當下直接說，而不是先接了案再慢慢拖。你需要的是可行的判斷，不是好聽的答覆。", "en": "If the salary is below market, the brief contradicts itself, or the timeline cannot happen, we say so at the briefing rather than taking the assignment and stalling. You need a usable judgement, not a pleasant answer." }
+        },
+        {
+          "icon": "handshake",
+          "title": { "zh": "每位人選都親自面談", "en": "Every candidate is interviewed by a consultant" },
+          "body": { "zh": "推薦給你的每一份履歷，背後都有一次顧問親自進行的深度面談。我們會附上動機、離職原因與我們看到的風險，包括對成交不利的部分。", "en": "Behind every CV we send is an interview we conducted ourselves. You get motivation, reasons for leaving and the risks we see — including the ones that argue against the hire." }
+        },
+        {
+          "icon": "shield",
+          "title": { "zh": "人選資料受管，不受託不外流", "en": "Candidate data is governed, not passed around" },
+          "body": { "zh": "依新加坡總部規範，人選個資的蒐集目的、使用範圍與保存期限都有明文規則。履歷不會在未經同意下轉給第三家公司，也不會存在顧問的私人裝置裡。", "en": "Under our Singapore parent's rules, the purpose, scope and retention period for candidate data are all defined. CVs are never forwarded to a third company without consent, and never live on a consultant's personal device." }
+        },
+        {
+          "icon": "globe",
+          "title": { "zh": "利益迴避事先講清楚", "en": "Conflicts of interest are settled up front" },
+          "body": { "zh": "我們不從服務中的客戶挖角。哪些公司在迴避範圍內、期間多長，簽約前就白紙黑字寫清楚，不留模糊空間。", "en": "We do not source from clients we are serving. Which companies are off-limits and for how long is written into the contract before we start — no grey areas." }
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "soft": true,
+      "eyebrow": { "zh": "做事方式", "en": "How we work" },
+      "title": { "zh": "一個委任案怎麼跑", "en": "How an assignment runs" },
+      "items": [
+        {
+          "title": { "zh": "需求訪談與職缺定義", "en": "Briefing and role definition" },
+          "body": { "zh": "不只拿 JD。這個職位為什麼開、上一任為什麼離開、主管的實際期待、可談的薪酬帶寬與加班輪班型態，全部問清楚。條件不合理我們會建議調整。", "en": "We do more than take the JD: why the role exists, why the last person left, what the hiring manager actually expects, the real salary band, and the shift or overtime pattern. If the brief is unrealistic we will say so." }
+        },
+        {
+          "title": { "zh": "人才地圖與搜尋策略", "en": "Talent mapping and search strategy" },
+          "body": { "zh": "鎖定目標公司與職稱範圍——在半導體業，這一步還包括釐清哪些公司在競業限制與利益迴避的範圍內。同時回報市場的真實供給與薪資水準。", "en": "We define target companies and titles — in semiconductor that also means clarifying which companies are off-limits under non-compete or conflict rules. And we report back what the market actually supplies and what it costs." }
+        },
+        {
+          "title": { "zh": "深度面談與推薦", "en": "In-depth interviews and shortlist" },
+          "body": { "zh": "顧問親自面談每位人選，確認技術深度、離職動機與到職可行性（含競業條款與股票分紅的綁定期），附書面評估後推薦。", "en": "Each candidate is interviewed by a consultant to verify technical depth, motivation and practical availability — including non-compete clauses and unvested stock — and presented with a written assessment." }
+        },
+        {
+          "title": { "zh": "面試安排與 offer 協商", "en": "Interviews and offer negotiation" },
+          "body": { "zh": "協助安排面試、雙向收集回饋，並在 offer 階段處理薪酬結構、到職日與反挽留風險。台灣市場的 counter-offer 很常見，這一關不能交給運氣。", "en": "We coordinate interviews, collect feedback both ways, and manage pay structure, start date and counter-offer risk. Counter-offers are common in this market; that stage cannot be left to luck." }
+        },
+        {
+          "title": { "zh": "到職追蹤與保固", "en": "Onboarding follow-up and guarantee" },
+          "body": { "zh": "到職後定期追蹤適應狀況，保固期內若不合適依約免費遞補。過程中看到的組織問題，我們也會一併回饋。", "en": "We check in after the start date, and replace the hire at no additional fee if it does not work out within the guarantee period. Anything we noticed about the organisation along the way, we tell you." }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": { "zh": "先給我們一個職缺試試", "en": "Start us on one role" },
+      "body": { "zh": "判斷一家獵頭公司最快的方法，是看他們第一次需求訪談問了什麼問題。花二十分鐘，你就知道我們是不是同一類人。", "en": "The fastest way to judge a search firm is to hear the questions they ask at the first briefing. Give us twenty minutes and you will know whether we are your kind of team." },
+      "ctas": [
+        { "label": { "zh": "預約諮詢", "en": "Book a consultation" }, "href": "/contact/" },
+        { "label": { "zh": "半導體人才服務", "en": "Semiconductor practice" }, "href": "/industries/semiconductor/" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "industries",
+  "title": { "zh": "專注產業｜半導體、科技製造、IT 與金融｜HRK365", "en": "Industries | Semiconductor, Manufacturing, Technology & Finance | HRK365" },
+  "desc": { "zh": "HRK365 專注半導體、科技製造與電子零組件、科技／IT 軟體與金融專業服務四個產業，顧問各自負責熟悉的領域。", "en": "HRK365 focuses on four markets — semiconductor, advanced manufacturing and electronics, technology and IT, and financial and professional services — with consultants dedicated to each." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [{ "label": { "zh": "專注產業", "en": "Industries" } }],
+      "eyebrow": { "zh": "專注產業", "en": "Industries" },
+      "title": { "zh": "四個市場，各有專責顧問", "en": "Four markets, each with its own consultants" },
+      "sub": { "zh": "我們不做全產業通吃。顧問只負責自己熟悉的領域——因為職缺描述的精準度與人選判斷的準確度，都建立在對產業的理解上。", "en": "We do not cover everything. Each consultant works only in the market they know, because the accuracy of a job brief and the judgement of a candidate both rest on understanding that industry." }
+    },
+    {
+      "type": "cards",
+      "cols": 2,
+      "center": false,
+      "items": [
+        {
+          "icon": "chip",
+          "title": { "zh": "半導體（主力）", "en": "Semiconductor (core practice)" },
+          "body": { "zh": "晶圓製造、封裝測試、IC 設計與設備材料。製程、設備、整合、良率、封裝、驗證與廠級主管職。這是 HRK365 來台灣的主要原因。", "en": "Wafer fabrication, OSAT, IC design, equipment and materials — process, equipment, integration, yield, packaging, verification and plant leadership. This is why HRK365 came to Taiwan." },
+          "link": { "label": { "zh": "半導體人才服務", "en": "Semiconductor practice" }, "href": "/industries/semiconductor/" }
+        },
+        {
+          "icon": "layers",
+          "title": { "zh": "科技製造／電子零組件", "en": "Advanced Manufacturing & Electronics" },
+          "body": { "zh": "面板、被動元件、PCB、光電、精密機械與系統組裝。製程、設備、品保、自動化與廠務幹部，含海外廠派駐與當地招募。", "en": "Display, passive components, PCB, optoelectronics, precision machinery and system assembly — process, equipment, QA, automation and plant leadership, including overseas assignments." },
+          "link": { "label": { "zh": "科技製造招募", "en": "Manufacturing recruitment" }, "href": "/industries/manufacturing/" }
+        },
+        {
+          "icon": "search",
+          "title": { "zh": "科技／IT 軟體", "en": "Technology & IT" },
+          "body": { "zh": "韌體、嵌入式、後端、前端、資料與資安工程師，以及產品經理、技術主管與 CTO 級人選。與半導體業的軟韌體需求高度重疊。", "en": "Firmware, embedded, backend, frontend, data and security engineers, plus product managers, engineering leads and CTO-level hires — overlapping heavily with semiconductor software demand." },
+          "link": { "label": { "zh": "科技產業招募", "en": "Technology recruitment" }, "href": "/industries/technology/" }
+        },
+        {
+          "icon": "bank",
+          "title": { "zh": "金融／專業服務", "en": "Financial & Professional Services" },
+          "body": { "zh": "會計、財務、法遵、風控、法務與顧問職。重視證照條件與背景查核，也支援科技與製造業內部的財會與法務團隊擴編。", "en": "Accounting, finance, compliance, risk, legal and advisory roles where credentials and background checks matter — including finance and legal build-outs inside technology and manufacturing firms." },
+          "link": { "label": { "zh": "金融業招募", "en": "Financial services recruitment" }, "href": "/industries/finance/" }
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "soft": true,
+      "eyebrow": { "zh": "為什麼是這四個", "en": "Why these four" },
+      "title": { "zh": "這四塊的人才是流動的", "en": "Talent moves between these four" },
+      "body": { "zh": "半導體廠的自動化工程師會流到系統廠；IC 設計的韌體工程師與科技業的嵌入式人才在同一個池子裡；擴編中的科技公司需要的財務與法遵人才，來自金融與四大會計師事務所。<br><br>把這四塊一起看，我們才判斷得出一個人選真正的市場價值，以及你的職缺實際上在跟誰競爭。<br><br>其他產業的委任案，若不在我們的能力範圍內，我們會直接告訴你，並在可能的情況下轉介給合適的同業。", "en": "An automation engineer in a fab moves to a systems maker. Firmware engineers in IC design sit in the same pool as embedded talent in technology. And the finance and compliance people a scaling technology company needs come from banking and the Big Four.<br><br>Covering all four is what lets us judge a candidate's real market value — and tell you who your vacancy is actually competing against.<br><br>If an assignment falls outside what we can genuinely do, we will say so, and refer you to a firm that can where we are able." }
+    },
+    { "type": "cta", "title": { "zh": "你的職缺在哪一塊？", "en": "Which market is your role in?" }, "body": { "zh": "不確定也沒關係，講給我們聽，我們會告訴你這個缺實際上在跟哪些公司搶人。", "en": "Not sure? Describe it and we will tell you which companies you are actually competing with for that person." } }
+  ]
+}

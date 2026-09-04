@@ -1,0 +1,107 @@
+{
+  "slug": "consulting",
+  "title": { "zh": "HR 顧問服務｜職級薪酬、勞動法遵與留任分析｜HRK365", "en": "HR Consulting | Job Architecture, Pay, Compliance and Retention | HRK365" },
+  "desc": { "zh": "HRK365 HR 顧問：組織與職級健檢、薪酬結構設計與市場對標、勞動法遵檢視、員工關係與離職分析，專為台灣科技與製造企業設計。", "en": "HRK365 HR consulting: organisation and job architecture reviews, pay structure design and benchmarking, labour compliance reviews, employee relations and attrition analysis for technology and manufacturing employers in Taiwan." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [{ "label": { "zh": "HR 顧問", "en": "HR Consulting" } }],
+      "eyebrow": { "zh": "HR 顧問", "en": "HR consulting" },
+      "title": { "zh": "招募解決缺人，顧問解決留不住", "en": "Recruitment fills the seat. Consulting keeps it filled." },
+      "sub": { "zh": "如果同一個位置一年換三個人，問題不在找人的速度。我們處理的是招募救不了的那一段。", "en": "If the same seat turns over three times a year, the problem is not how fast you hire. We work on the part that recruitment cannot fix." },
+      "ctas": [{ "label": { "zh": "討論顧問需求", "en": "Discuss a consulting project" }, "href": "/contact/" }]
+    },
+    {
+      "type": "split",
+      "eyebrow": { "zh": "為什麼我們做這一塊", "en": "Why we do this" },
+      "title": { "zh": "我們在招募現場看得到病灶", "en": "We see the cause from the hiring floor" },
+      "body": { "zh": "獵頭是一個很特別的位置：我們同時聽到你的說法，和離開你公司的人的說法。哪些主管留不住人、哪個職級的薪水偏離市場、哪個部門的人在市場上被貼了什麼標籤——這些事，人選在面談時會告訴我們，但不會告訴你。<br><br>顧問服務就是把這些觀察變成可以行動的建議。它不是另一套通用的管理理論，而是從你自己的人才流動裡長出來的診斷。", "en": "Search sits in an unusual position: we hear your account and we hear the account of the people who left you. Which managers cannot retain, which grade has drifted below market, what reputation a particular department carries — candidates tell us these things in interviews, and they do not tell you.<br><br>Consulting turns those observations into something you can act on. It is not another generic management framework; it is a diagnosis grown out of your own talent flow." },
+      "panel": {
+        "title": { "zh": "什麼時候該找顧問", "en": "When to bring in a consultant" },
+        "items": [
+          { "zh": "同一個職位一年換三個人。", "en": "The same seat has turned over three times this year." },
+          { "zh": "薪水給到市場水準，人還是走。", "en": "You pay at market and people still leave." },
+          { "zh": "職級混亂，加薪與升遷沒有依據。", "en": "Grades are ad hoc; raises and promotions have no defensible basis." },
+          { "zh": "勞檢、勞資爭議或加班費計算讓你不安。", "en": "Labour inspections, disputes or overtime calculations worry you." },
+          { "zh": "快速擴編，但制度還停在二十人的時候。", "en": "You are scaling fast on an HR system built for twenty people." }
+        ]
+      }
+    },
+    {
+      "type": "cards",
+      "soft": true,
+      "cols": 2,
+      "title": { "zh": "顧問模組", "en": "Consulting modules" },
+      "body": { "zh": "可單獨進行，也可組合成一個完整的組織健檢專案。", "en": "Each runs on its own, or combines into a full organisational review." },
+      "items": [
+        {
+          "icon": "compass",
+          "title": { "zh": "組織與職級健檢", "en": "Organisation and job architecture review" },
+          "body": { "zh": "把「誰在做什麼、值多少、怎麼往上走」重新盤清楚。", "en": "Re-establishing who does what, what it is worth, and how someone moves up." },
+          "bullets": [
+            { "zh": "職務盤點與職責重疊分析", "en": "Role inventory and overlap analysis" },
+            { "zh": "職級架構設計與職稱體系整理", "en": "Grading structure and title system design" },
+            { "zh": "升遷路徑與職涯地圖", "en": "Promotion paths and career maps" },
+            { "zh": "人力配置合理性檢視", "en": "Review of how headcount is actually allocated" }
+          ]
+        },
+        {
+          "icon": "chart",
+          "title": { "zh": "薪酬結構與市場對標", "en": "Pay structure and benchmarking" },
+          "body": { "zh": "讓加薪與 offer 有依據，對外有競爭力，對內說得出道理。", "en": "So that raises and offers have a basis — competitive outside, defensible inside." },
+          "bullets": [
+            { "zh": "各職級薪資帶寬設計", "en": "Salary band design by grade" },
+            { "zh": "與市場行情的對標分析", "en": "Benchmarking against market data" },
+            { "zh": "本薪、獎金、分紅與股票的結構配置", "en": "Mix of base, bonus, profit share and equity" },
+            { "zh": "內部相對公平性檢視", "en": "Internal equity review" }
+          ]
+        },
+        {
+          "icon": "shield",
+          "title": { "zh": "勞動法遵檢視", "en": "Labour compliance review" },
+          "body": { "zh": "在勞檢或爭議發生之前，先把風險盤出來。", "en": "Surfacing risk before an inspection or a dispute does it for you." },
+          "bullets": [
+            { "zh": "工時、輪班與加班費計算方式檢視", "en": "Working hours, shift patterns and overtime calculation" },
+            { "zh": "勞動契約與工作規則條款檢視", "en": "Employment contracts and work rules" },
+            { "zh": "請假、特休與各項假別管理", "en": "Leave management, including statutory annual leave" },
+            { "zh": "競業禁止與保密條款的合理性", "en": "Reasonableness of non-compete and confidentiality clauses" }
+          ]
+        },
+        {
+          "icon": "users",
+          "title": { "zh": "員工關係與離職分析", "en": "Employee relations and attrition analysis" },
+          "body": { "zh": "找出人真正離開的原因，而不是離職單上寫的那一行。", "en": "Finding the real reason people leave, not the line on the resignation form." },
+          "bullets": [
+            { "zh": "結構化離職訪談與資料分析", "en": "Structured exit interviews and analysis" },
+            { "zh": "留任風險評估與關鍵人才盤點", "en": "Retention risk assessment and key-talent mapping" },
+            { "zh": "部門別與主管別的流動率分析", "en": "Turnover analysis by department and by manager" },
+            { "zh": "員工關係事件的處理建議", "en": "Guidance on handling employee relations cases" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": { "zh": "專案怎麼跑", "en": "How a project runs" },
+      "title": { "zh": "四個階段，時程視範圍而定", "en": "Four phases; the timeline depends on scope" },
+      "items": [
+        { "title": { "zh": "現況訪談與資料蒐集", "en": "Discovery" }, "body": { "zh": "與經營層、主管與員工分層訪談，並取得現有的組織、薪資與流動率資料。", "en": "Interviews across leadership, managers and staff, plus your existing organisational, pay and turnover data." } },
+        { "title": { "zh": "診斷與分析", "en": "Diagnosis" }, "body": { "zh": "把訪談所得與資料交叉比對，指出問題的實際成因，而不是症狀。必要時進行市場對標。", "en": "Cross-referencing what we heard with what the data shows, to identify causes rather than symptoms — with market benchmarking where relevant." } },
+        { "title": { "zh": "方案設計與討論", "en": "Design" }, "body": { "zh": "提出可執行的方案，包含成本估算與導入順序。我們會標明哪些是必要的、哪些可以之後再做。", "en": "Workable proposals with cost estimates and a sequence for implementation, marking clearly what is essential and what can wait." } },
+        { "title": { "zh": "導入支援", "en": "Implementation support" }, "body": { "zh": "協助制度上線、主管溝通與文件修訂。制度沒有人願意用，寫得再好也沒有意義。", "en": "Helping roll it out — manager communication and document revisions included. A system nobody uses is worth nothing, however well written." } }
+      ]
+    },
+    {
+      "type": "faq",
+      "soft": true,
+      "eyebrow": { "zh": "常見問題", "en": "FAQ" },
+      "title": { "zh": "關於顧問服務", "en": "About consulting" },
+      "items": [
+        { "q": { "zh": "你們提供法律意見嗎？", "en": "Do you provide legal advice?" }, "a": { "zh": "不提供。我們做的是人資實務上的風險檢視與制度建議；涉及具體法律解釋、爭議處理或訴訟時，應由律師提供意見。必要時我們可協助你與外部律師對接，把人資面的事實整理清楚。", "en": "No. We provide HR practice risk reviews and system recommendations. Specific legal interpretation, disputes and litigation are for a qualified lawyer. Where needed we help you brief external counsel by organising the HR facts clearly." } },
+        { "q": { "zh": "一定要做整包嗎？", "en": "Do we have to take the whole package?" }, "a": { "zh": "不用。多數客戶從單一模組開始，最常見的入口是薪酬對標或離職分析——因為這兩件事最快看得到具體結論。", "en": "No. Most clients start with one module. The two most common entry points are pay benchmarking and attrition analysis, because both produce a concrete conclusion quickly." } },
+        { "q": { "zh": "顧問案跟招募案會不會有利益衝突？", "en": "Is there a conflict between consulting and search work?" }, "a": { "zh": "有可能，所以我們把規則寫在前面：擔任顧問期間，你的公司列入獵才的利益迴避範圍。我們不會一邊幫你設計留任制度，一邊接觸你的員工。", "en": "There can be, so we set the rule up front: while we are your consultant, your company is off-limits for search. We will not design your retention system and approach your employees at the same time." } }
+      ]
+    },
+    { "type": "cta", "title": { "zh": "先做一次免費的初步診斷", "en": "Start with a free initial read" }, "body": { "zh": "把你觀察到的現象講給我們聽——流動率、離職原因、加薪爭議。我們會告訴你這是制度問題還是管理問題，以及值不值得做一個專案。", "en": "Describe what you are seeing — turnover, exit reasons, arguments about pay — and we will tell you whether it is a systems problem or a management problem, and whether a project is worth it." } }
+  ]
+}

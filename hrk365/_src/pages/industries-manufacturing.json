@@ -1,0 +1,89 @@
+{
+  "slug": "industries/manufacturing",
+  "title": { "zh": "科技製造與電子零組件招募｜製程、設備、品保與廠務主管｜HRK365", "en": "Manufacturing & Electronics Recruitment in Taiwan | Process, Equipment, QA & Plant Leadership | HRK365" },
+  "desc": { "zh": "HRK365 科技製造獵才：面板、被動元件、PCB、光電與精密機械的製程、設備、品保、自動化與廠務主管職，含海外廠派駐與當地招募。", "en": "HRK365's manufacturing practice covers display, passive components, PCB, optoelectronics and precision machinery — process, equipment, QA, automation and plant leadership, including overseas assignments." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [
+        { "label": { "zh": "專注產業", "en": "Industries" }, "href": "/industries/" },
+        { "label": { "zh": "科技製造／電子零組件", "en": "Manufacturing & Electronics" } }
+      ],
+      "eyebrow": { "zh": "專注產業", "en": "Industry" },
+      "title": { "zh": "科技製造與電子零組件", "en": "Advanced manufacturing and electronics" },
+      "sub": { "zh": "與半導體共用同一批人才的相鄰市場。從單一廠區的製程工程師，到整廠建置的幹部團隊，我們一起看。", "en": "The market next door to semiconductor, drawing on the same talent pool. From a single process engineer to the leadership team for a whole new plant." },
+      "ctas": [{ "label": { "zh": "討論你的廠區職缺", "en": "Discuss your plant hiring" }, "href": "/contact/" }]
+    },
+    {
+      "type": "cards",
+      "soft": true,
+      "cols": 2,
+      "title": { "zh": "涵蓋範圍", "en": "Coverage" },
+      "items": [
+        {
+          "icon": "layers",
+          "title": { "zh": "製程與研發", "en": "Process & R&D" },
+          "bullets": [
+            { "zh": "製程工程、產品工程與量產導入（NPI）", "en": "Process engineering, product engineering and NPI" },
+            { "zh": "材料研發、鍍膜與表面處理", "en": "Materials R&D, coating and surface treatment" },
+            { "zh": "光學設計、機構設計與熱流分析", "en": "Optical design, mechanical design and thermal analysis" },
+            { "zh": "試產、良率提升與失效分析", "en": "Pilot runs, yield improvement and failure analysis" }
+          ]
+        },
+        {
+          "icon": "chip",
+          "title": { "zh": "設備與自動化", "en": "Equipment & Automation" },
+          "bullets": [
+            { "zh": "設備工程、保養維護與稼動率提升", "en": "Equipment engineering, maintenance and uptime improvement" },
+            { "zh": "自動化控制、PLC 與機器手臂整合", "en": "Automation control, PLC and robotics integration" },
+            { "zh": "智慧製造、MES 與生產資訊系統", "en": "Smart manufacturing, MES and production systems" },
+            { "zh": "AOI 檢測與影像辨識應用", "en": "AOI inspection and machine-vision applications" }
+          ]
+        },
+        {
+          "icon": "shield",
+          "title": { "zh": "品保與供應鏈", "en": "Quality & Supply Chain" },
+          "bullets": [
+            { "zh": "品保工程、客戶品質與供應商稽核", "en": "Quality engineering, customer quality and supplier audit" },
+            { "zh": "可靠度測試與驗證", "en": "Reliability testing and validation" },
+            { "zh": "採購、物料規劃與生管排程", "en": "Sourcing, materials planning and production scheduling" },
+            { "zh": "環安衛與 ISO／IATF 體系維運", "en": "EHS and ISO / IATF systems" }
+          ]
+        },
+        {
+          "icon": "users",
+          "title": { "zh": "廠務與管理職", "en": "Plant & Leadership" },
+          "bullets": [
+            { "zh": "課長、經理到廠長的各級管理職", "en": "Section manager through to plant director" },
+            { "zh": "廠務、公用系統與擴廠專案", "en": "Facilities, utilities and expansion projects" },
+            { "zh": "海外廠幹部派駐（越南、馬來西亞、泰國）", "en": "Expatriate plant leadership in Vietnam, Malaysia and Thailand" },
+            { "zh": "海外廠當地幹部招募與接班培養", "en": "Local leadership hiring and succession for overseas sites" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "eyebrow": { "zh": "我們的做法", "en": "How we approach it" },
+      "title": { "zh": "製造業招募，細節決定留任", "en": "In manufacturing, the details decide retention" },
+      "body": { "zh": "製造業職缺最常見的失敗，不是找不到人，而是人來了三個月就走。原因幾乎都一樣：輪班型態、通勤距離、駐廠頻率或加班強度，在面試時沒有講清楚。<br><br>我們在推薦人選前會把這些條件逐項確認，並在面談時主動跟人選核對。寧可在推薦階段少掉幾位，也不要在到職後才發現彼此期待落差。", "en": "Manufacturing searches rarely fail because nobody could be found. They fail when the hire leaves after three months — and the reason is almost always the same: shift pattern, commute, on-site frequency or overtime intensity was never made explicit at interview.<br><br>We confirm every one of those before shortlisting and raise them with candidates directly. Better to lose a few from the shortlist than to discover the mismatch after the start date." },
+      "panel": {
+        "title": { "zh": "我們一定會問清楚的條件", "en": "Conditions we always pin down" },
+        "items": [
+          { "zh": "班別型態：常日班、輪三班或四班二輪，以及輪班津貼", "en": "Shift pattern — regular day, three-shift or four-shift rotation, and the allowance attached" },
+          { "zh": "廠區位置與交通：是否提供交通車、宿舍或租屋補助", "en": "Site location and commute — shuttle bus, dormitory or housing allowance" },
+          { "zh": "加班型態與實際工時，以及加班費計算方式", "en": "Overtime pattern, real working hours and how overtime is calculated" },
+          { "zh": "海外派駐的期間、輪調頻率與外派配套", "en": "For overseas assignments: duration, rotation frequency and the expatriate package" }
+        ]
+      }
+    },
+    {
+      "type": "cta", "title": { "zh": "新廠要開線？", "en": "Standing up a new line?" },
+      "body": { "zh": "整廠建置的人力規劃，越早開始越省成本。可以只做諮詢，不一定要委任。", "en": "Workforce planning for a new plant costs less the earlier it starts. We are happy to advise without an assignment attached." },
+      "ctas": [
+        { "label": { "zh": "預約諮詢", "en": "Book a consultation" }, "href": "/contact/" },
+        { "label": { "zh": "了解大量招募服務", "en": "Volume hiring & RPO" }, "href": "/services/rpo/" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "industries/finance",
+  "title": { "zh": "金融與專業服務人才招募｜財會、法遵、風控與法務｜HRK365", "en": "Financial & Professional Services Recruitment | Finance, Compliance, Risk & Legal | HRK365" },
+  "desc": { "zh": "HRK365 金融與專業服務獵才：會計、財務、法遵、風控、法務與顧問職，重視證照條件與背景查核，並支援科技與製造業的財會法務團隊擴編。", "en": "HRK365 recruits across accounting, finance, compliance, risk, legal and advisory roles — with proper attention to credentials and background checks, including finance and legal build-outs inside technology and manufacturing firms." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [
+        { "label": { "zh": "專注產業", "en": "Industries" }, "href": "/industries/" },
+        { "label": { "zh": "金融／專業服務", "en": "Financial & Professional Services" } }
+      ],
+      "eyebrow": { "zh": "專注產業", "en": "Industry" },
+      "title": { "zh": "金融與專業服務", "en": "Financial and professional services" },
+      "sub": { "zh": "證照、資歷與背景查核在這個領域不是形式。我們逐項確認，因為錯一次的代價由你承擔。", "en": "Credentials, track record and background checks are not a formality here. We verify them item by item, because you carry the cost of getting it wrong." },
+      "ctas": [{ "label": { "zh": "討論職缺", "en": "Discuss your roles" }, "href": "/contact/" }]
+    },
+    {
+      "type": "cards",
+      "soft": true,
+      "cols": 3,
+      "title": { "zh": "我們負責的職能", "en": "Functions we cover" },
+      "items": [
+        {
+          "icon": "bank",
+          "title": { "zh": "財務與會計", "en": "Finance & Accounting" },
+          "bullets": [
+            { "zh": "財務長、財務經理與財會主管", "en": "CFO, finance managers and controllers" },
+            { "zh": "財務分析、預算與管理會計", "en": "FP&A, budgeting and management accounting" },
+            { "zh": "合併報表、IFRS 與集團財務", "en": "Consolidation, IFRS and group finance" },
+            { "zh": "稅務規劃與移轉訂價", "en": "Tax planning and transfer pricing" }
+          ]
+        },
+        {
+          "icon": "shield",
+          "title": { "zh": "法遵與風控", "en": "Compliance & Risk" },
+          "bullets": [
+            { "zh": "法令遵循、洗錢防制與 KYC", "en": "Compliance, AML and KYC" },
+            { "zh": "風險管理與信用風險分析", "en": "Risk management and credit risk analysis" },
+            { "zh": "內部稽核與內控制度", "en": "Internal audit and internal control" },
+            { "zh": "個資保護與資安治理", "en": "Data privacy and security governance" }
+          ]
+        },
+        {
+          "icon": "doc",
+          "title": { "zh": "法務與智財", "en": "Legal & IP" },
+          "bullets": [
+            { "zh": "企業法務、合約審閱與商務談判", "en": "In-house counsel, contract review and commercial negotiation" },
+            { "zh": "智慧財產、專利佈局與訴訟支援", "en": "IP, patent strategy and litigation support" },
+            { "zh": "公司治理與股務", "en": "Corporate governance and shareholder affairs" },
+            { "zh": "跨境投資與併購法務", "en": "Cross-border investment and M&A legal" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "eyebrow": { "zh": "跨界需求", "en": "Where this crosses over" },
+      "title": { "zh": "科技公司也在搶這批人", "en": "Technology firms are competing for these people too" },
+      "body": { "zh": "半導體與科技製造公司在擴張期，最常見的隱形瓶頸不是工程師，是財會與法遵團隊跟不上。上市櫃申報、跨國移轉訂價、海外據點的稅務與合約——這些職缺的人選來源是金融業與會計師事務所，不是同業。<br><br>我們同時看這兩塊，所以能把四大出身的財會人才、金融業的法遵專才，接到科技公司的職缺上，並且講得清楚兩邊在工作型態與薪酬結構上的差異。", "en": "In semiconductor and manufacturing firms that are scaling, the hidden bottleneck is rarely engineers — it is that finance and compliance cannot keep up. Listing requirements, cross-border transfer pricing, tax and contracts for overseas sites: the people who do this come from banking and the accounting firms, not from your competitors.<br><br>Because we cover both markets, we can bring Big Four finance talent and banking compliance specialists into technology roles — and explain honestly how the work and the pay structure differ on each side." },
+      "panel": {
+        "title": { "zh": "背景查核我們做到哪裡", "en": "How far our checks go" },
+        "items": [
+          { "zh": "證照真實性與有效期間確認（會計師、律師、CIA、CFA 等）", "en": "Verifying licences and their validity — CPA, bar admission, CIA, CFA and others" },
+          { "zh": "學歷與任職經歷的逐項核對", "en": "Item-by-item verification of education and employment history" },
+          { "zh": "離職原因與可揭露的前雇主評價（經人選同意）", "en": "Reasons for leaving and referenceable feedback from previous employers, with the candidate's consent" },
+          { "zh": "競業與保密義務的存續狀況", "en": "Any live non-compete or confidentiality obligations" }
+        ]
+      }
+    },
+    {
+      "type": "cta", "title": { "zh": "要找的是能扛責任的人", "en": "You need someone who can carry the responsibility" },
+      "body": { "zh": "這類職缺找錯人的成本不只是重招，而是實質的合規風險。我們寧可多花兩週，也不推不確定的人選。", "en": "A bad hire here costs more than a re-run of the search — it is real compliance exposure. We would rather take two more weeks than present a candidate we are unsure about." }
+    }
+  ]
+}

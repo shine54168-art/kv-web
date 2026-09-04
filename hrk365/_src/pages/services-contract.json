@@ -1,0 +1,56 @@
+{
+  "slug": "services/contract",
+  "title": { "zh": "人力派遣與約聘｜專案人力、旺季補位與代理職缺｜HRK365", "en": "Contract & Temporary Staffing in Taiwan | Project, Peak and Cover Roles | HRK365" },
+  "desc": { "zh": "HRK365 人力派遣與約聘服務：由我方擔任雇主處理勞健保與薪資，人力隨專案彈性增減，並可事先約定轉正機制。", "en": "HRK365 contract and temporary staffing: we act as the employer of record for payroll and statutory insurance, headcount flexes with the project, and conversion terms can be agreed up front." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [
+        { "label": { "zh": "招募服務", "en": "Recruitment" }, "href": "/services/" },
+        { "label": { "zh": "人力派遣／約聘", "en": "Contract & Temporary Staffing" } }
+      ],
+      "eyebrow": { "zh": "招募服務", "en": "Service" },
+      "title": { "zh": "人力派遣與約聘", "en": "Contract and temporary staffing" },
+      "sub": { "zh": "專案期、旺季、育嬰代理與人力凍結期的彈性補位。雇主責任、薪資作業與勞健保由我們承擔，你專心派工。", "en": "Flexible cover for projects, peak seasons, parental leave and headcount freezes. Employer duties, payroll and statutory insurance sit with us; you manage the work." },
+      "ctas": [{ "label": { "zh": "討論派遣需求", "en": "Discuss your staffing needs" }, "href": "/contact/" }]
+    },
+    {
+      "type": "cards",
+      "cols": 3,
+      "title": { "zh": "什麼情況適合", "en": "When it fits" },
+      "items": [
+        { "icon": "clock", "title": { "zh": "專案期人力", "en": "Project headcount" }, "body": { "zh": "新產品導入、系統上線、擴廠專案等有明確期間的人力需求，專案結束即結束，不必背長期編制。", "en": "New product introductions, system rollouts, expansion projects — a defined period of work without adding permanent headcount." } },
+        { "icon": "chart", "title": { "zh": "旺季與波動需求", "en": "Peaks and fluctuation" }, "body": { "zh": "出貨旺季、盤點期或訂單暴增時的短期補位，人力可依實際需求逐月增減。", "en": "Shipping peaks, stocktakes or order surges — headcount adjusts month by month with actual demand." } },
+        { "icon": "users", "title": { "zh": "代理與凍結期", "en": "Cover and freezes" }, "body": { "zh": "育嬰留停、長期病假代理，或總部凍結正式編制但工作仍必須有人做的情況。", "en": "Parental leave, long-term sick cover, or a headcount freeze from HQ while the work still has to get done." } }
+      ]
+    },
+    {
+      "type": "split",
+      "soft": true,
+      "eyebrow": { "zh": "責任歸屬", "en": "Where liability sits" },
+      "title": { "zh": "雇主是我們，指揮是你", "en": "We are the employer; you direct the work" },
+      "body": { "zh": "派遣關係中，派遣勞工與我方成立僱傭契約，由我方負責投保勞健保、提繳勞退、計算薪資與處理請假；貴公司則在現場進行工作指揮。<br><br>這個界線必須清楚，因為它牽涉到台灣勞動法規對派遣的規範，包括不得對派遣勞工有差別待遇、要派單位在特定情況下的連帶責任，以及派遣期間的職業安全衛生責任分擔。我們會在合約中逐項寫明，不留模糊地帶。<br><br>如果你的需求實際上更接近承攬或委任，我們也會直說——用錯形式的風險，最後會落在你身上。", "en": "In a dispatch arrangement, the worker is employed by us: we handle labour and health insurance, pension contributions, payroll and leave. Your team directs the work on site.<br><br>That line has to be explicit, because Taiwanese labour law attaches consequences to it — no discriminatory treatment of dispatched workers, joint liability for the client firm in defined circumstances, and a shared duty for occupational safety during the assignment. We write each point into the contract rather than leaving it to interpretation.<br><br>And if what you actually need is closer to a contracting or service arrangement, we will say so. Using the wrong structure is a risk that ultimately lands on you." },
+      "panel": {
+        "title": { "zh": "我們負責的事項", "en": "What sits with us" },
+        "items": [
+          { "zh": "勞健保與勞退投保、異動與申報", "en": "Labour and health insurance, pension enrolment, changes and filings" },
+          { "zh": "薪資計算、加班費、請假扣減與薪資單發放", "en": "Payroll, overtime, leave deductions and payslip delivery" },
+          { "zh": "勞動契約簽訂與工作規則說明", "en": "Employment contracts and explanation of work rules" },
+          { "zh": "到職、離職手續與相關證明文件", "en": "Onboarding, offboarding and employment documentation" },
+          { "zh": "職災通報與相關保險事宜", "en": "Occupational injury reporting and related insurance" }
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "eyebrow": { "zh": "常見問題", "en": "FAQ" },
+      "title": { "zh": "關於派遣與約聘", "en": "About contract staffing" },
+      "items": [
+        { "q": { "zh": "派遣人員可以轉正職嗎？", "en": "Can a dispatched worker convert to permanent?" }, "a": { "zh": "可以，而且建議事先在合約中約定轉正條件與費用計算方式。實務上不少客戶把派遣期間當成長期任用前的實際觀察，對雙方都比一場面試準確。", "en": "Yes — and the conversion terms and any fee should be agreed in the contract up front. Many clients treat the assignment as a real-world assessment before committing, which tells both sides more than an interview does." } },
+        { "q": { "zh": "怎麼計價？", "en": "How is it priced?" }, "a": { "zh": "以每人每月的服務費計算，內容包含派遣人員薪資、雇主應負擔的勞健保與勞退提繳，以及我方的服務費。報價會逐項列出，你看得到每一塊錢的組成。", "en": "A monthly fee per person, covering the worker's pay, the employer's share of statutory insurance and pension, and our service fee. The quote itemises each component so you can see exactly what you are paying for." } },
+        { "q": { "zh": "最短可以派多久？", "en": "What is the shortest assignment?" }, "a": { "zh": "依需求而定，短期專案與長期常態性支援都可以承接。期間越短，前置的招募成本佔比越高，這一點我們會在報價時說明。", "en": "It depends on the need — we take both short projects and long-term ongoing support. The shorter the assignment, the larger the share of upfront recruitment cost, and we make that visible in the quote." } }
+      ]
+    },
+    { "type": "cta", "title": { "zh": "先算給你看", "en": "Let us cost it first" }, "body": { "zh": "把人數、期間與職務內容告訴我們，我們提供逐項拆解的報價，你再決定划不划算。", "en": "Tell us the headcount, the duration and the work, and we will send an itemised quote. Then you decide whether it makes sense." } }
+  ]
+}

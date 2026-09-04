@@ -1,0 +1,75 @@
+{
+  "slug": "services/rpo",
+  "title": { "zh": "大量招募與 RPO｜新廠開線、據點擴張與招募流程外包｜HRK365", "en": "Volume Hiring & RPO in Taiwan | New Sites, Expansion and Embedded Recruitment | HRK365" },
+  "desc": { "zh": "HRK365 大量招募與 RPO：新廠開線、據點擴張與季節性進人的批次招募，或整段招募流程外包並內嵌你的 HR 團隊。", "en": "HRK365 volume hiring and RPO: batch recruitment for new plants, site expansion and seasonal intakes — or an embedded team taking over your hiring process end to end." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [
+        { "label": { "zh": "招募服務", "en": "Recruitment" }, "href": "/services/" },
+        { "label": { "zh": "大量招募／RPO", "en": "Volume Hiring & RPO" } }
+      ],
+      "eyebrow": { "zh": "招募服務", "en": "Service" },
+      "title": { "zh": "大量招募與 RPO", "en": "Volume hiring and RPO" },
+      "sub": { "zh": "同時要補二十個人，跟補一個人是完全不同的工程。前者要的是流程、批次與現場執行力，不是更多顧問。", "en": "Filling twenty seats at once is a different engineering problem from filling one. It calls for process, batching and on-the-ground execution — not simply more consultants." },
+      "ctas": [{ "label": { "zh": "討論擴編計畫", "en": "Discuss your hiring plan" }, "href": "/contact/" }]
+    },
+    {
+      "type": "cards",
+      "cols": 2,
+      "title": { "zh": "兩種合作模式", "en": "Two ways to engage" },
+      "items": [
+        {
+          "icon": "users",
+          "title": { "zh": "大量招募專案", "en": "Volume hiring project" },
+          "body": { "zh": "針對單一批次需求執行，有明確的人數目標與完成期限。", "en": "A single batch with a defined headcount target and completion date." },
+          "bullets": [
+            { "zh": "新廠開線、產線擴編或季節性進人", "en": "New plants, line expansions or seasonal intakes" },
+            { "zh": "統一的職缺說明、篩選標準與面談腳本", "en": "One standardised brief, screening bar and interview script" },
+            { "zh": "集體面談日與現場作業安排", "en": "Assessment days and on-site logistics" },
+            { "zh": "每週回報進度、到缺率與流失原因", "en": "Weekly reporting on progress, fill rate and drop-off reasons" }
+          ]
+        },
+        {
+          "icon": "layers",
+          "title": { "zh": "RPO 招募流程外包", "en": "RPO — recruitment process outsourcing" },
+          "body": { "zh": "長期承接你整段或部分招募流程，等同你的外部招募團隊。", "en": "A longer engagement taking over all or part of your hiring process, working as your external recruitment team." },
+          "bullets": [
+            { "zh": "從職缺開立、履歷篩選到面試安排全段承接", "en": "From requisition and CV screening through to interview scheduling" },
+            { "zh": "使用你的雇主品牌與招募系統作業", "en": "Working under your employer brand and inside your ATS" },
+            { "zh": "定期提供招募數據與流程改善建議", "en": "Regular hiring metrics and process improvement recommendations" },
+            { "zh": "可依人數規模與期間彈性調整投入", "en": "Resourcing flexes with volume and duration" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "soft": true,
+      "eyebrow": { "zh": "關鍵", "en": "What matters" },
+      "title": { "zh": "大量招募的成敗在到職率，不在面試人數", "en": "Volume hiring is won on show-up rate, not interview count" },
+      "body": { "zh": "很多大量招募案的報表很好看——邀約多少人、面試多少人——但真正決定成敗的只有兩個數字：實際到職人數，以及三個月後還在的人數。<br><br>面試爽約、錄取後不報到、報到一週就離職，這些流失發生在哪個環節、原因是什麼，必須追蹤到底才改得動。我們的專案回報以到職與留任為核心指標，而不是活動量。", "en": "Volume hiring reports often look busy — how many invited, how many interviewed — but only two numbers decide the outcome: how many actually started, and how many are still there after three months.<br><br>No-shows, accepted offers that never begin, hires who leave in week one — where those losses happen and why has to be tracked before anything can be fixed. Our reporting is built around starts and retention, not activity volume." },
+      "panel": {
+        "title": { "zh": "我們追蹤的指標", "en": "The metrics we track" },
+        "items": [
+          { "zh": "邀約到面試的出席率", "en": "Invitation-to-interview attendance rate" },
+          { "zh": "錄取到實際報到的轉換率", "en": "Offer-to-start conversion" },
+          { "zh": "到職後 30／90 天的留任率", "en": "Retention at 30 and 90 days" },
+          { "zh": "各招募管道的成本與品質比較", "en": "Cost and quality by sourcing channel" },
+          { "zh": "流失原因分類（薪資、班別、通勤、其他機會）", "en": "Drop-off reasons — pay, shift, commute, competing offers" }
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "eyebrow": { "zh": "常見問題", "en": "FAQ" },
+      "title": { "zh": "關於大量招募", "en": "About volume hiring" },
+      "items": [
+        { "q": { "zh": "多少人以上才算大量招募？", "en": "How many roles make it a volume project?" }, "a": { "zh": "沒有硬性門檻。判斷標準是「同質職缺是否多到值得用批次流程處理」——同一種職務同時要補十人以上，通常用專案制比逐一委任更有效率也更便宜。", "en": "There is no fixed threshold. The test is whether there are enough similar roles to justify a batch process: ten or more of the same job at once is usually cheaper and faster as a project than as individual assignments." } },
+        { "q": { "zh": "RPO 期間我們自己的 HR 要做什麼？", "en": "What does our own HR do during an RPO?" }, "a": { "zh": "你的 HR 保留決策權與雇主品牌的主導權，我們承接執行。實務上最有效的分工是：你決定用人標準與 offer 條件，我們負責把流程跑順並提供數據。", "en": "Your HR keeps the decisions and ownership of the employer brand; we take the execution. The split that works best in practice: you set the hiring bar and offer terms, we run the process and supply the data." } },
+        { "q": { "zh": "可以在海外廠執行嗎？", "en": "Can you run this at an overseas site?" }, "a": { "zh": "可以。台灣客戶在越南、馬來西亞設廠時的當地招募，我們可透過新加坡總部的區域資源支援，並提供當地的雇用形式與薪資結構建議。", "en": "Yes. For Taiwanese clients standing up plants in Vietnam or Malaysia, we support local hiring through our Singapore parent's regional resources, and advise on local employment models and pay structures." } }
+      ]
+    },
+    { "type": "cta", "title": { "zh": "擴編計畫越早談越省", "en": "The earlier we plan, the less it costs" }, "body": { "zh": "在確定要開線之前就可以先談人力規劃。市場上有沒有這麼多人、要花多久、大概多少成本，我們先給你一個現實的評估。", "en": "Workforce planning can start before the line is even confirmed. Whether the market has that many people, how long it takes and roughly what it costs — we will give you a realistic read first." } }
+  ]
+}

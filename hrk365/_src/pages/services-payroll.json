@@ -1,0 +1,83 @@
+{
+  "slug": "services/payroll",
+  "title": { "zh": "薪資外包與勞健保實務｜薪資計算、投保申報與扣繳｜HRK365", "en": "Payroll & Statutory Outsourcing in Taiwan | Payroll, Insurance and Withholding | HRK365" },
+  "desc": { "zh": "HRK365 薪資外包服務：薪資計算、加班費與請假扣減、勞健保與勞退投保異動、二代健保與扣繳申報，適合沒有專職 HR 的公司。", "en": "HRK365 payroll outsourcing: payroll runs, overtime and leave, labour and health insurance, pension enrolment, supplementary premiums and withholding filings — for companies without a dedicated HR function." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [
+        { "label": { "zh": "招募服務", "en": "Recruitment" }, "href": "/services/" },
+        { "label": { "zh": "薪資外包／勞健保實務", "en": "Payroll & Statutory Outsourcing" } }
+      ],
+      "eyebrow": { "zh": "招募服務", "en": "Service" },
+      "title": { "zh": "薪資外包與勞健保實務", "en": "Payroll and statutory outsourcing" },
+      "sub": { "zh": "薪資算錯一次，信任就掉一次。這件事重複、瑣碎、又不容出錯，正是最值得外包的一段。", "en": "Get payroll wrong once and trust takes the hit. It is repetitive, fiddly and unforgiving — which makes it the single best thing to hand over." },
+      "ctas": [{ "label": { "zh": "詢問報價", "en": "Ask for a quote" }, "href": "/contact/" }]
+    },
+    {
+      "type": "cards",
+      "cols": 3,
+      "title": { "zh": "服務內容", "en": "What is included" },
+      "items": [
+        {
+          "icon": "doc",
+          "title": { "zh": "薪資作業", "en": "Payroll" },
+          "bullets": [
+            { "zh": "月薪、時薪與獎金計算", "en": "Monthly, hourly and bonus calculations" },
+            { "zh": "加班費、輪班津貼與各項加給", "en": "Overtime, shift allowances and additional payments" },
+            { "zh": "請假、遲到早退與各類扣減", "en": "Leave, lateness and deductions" },
+            { "zh": "薪資單製作與發送", "en": "Payslip production and delivery" }
+          ]
+        },
+        {
+          "icon": "shield",
+          "title": { "zh": "勞健保與勞退", "en": "Statutory insurance & pension" },
+          "bullets": [
+            { "zh": "勞保、健保、就業保險的加保與退保", "en": "Enrolment and withdrawal for labour, health and employment insurance" },
+            { "zh": "投保級距調整與異動申報", "en": "Bracket adjustments and change filings" },
+            { "zh": "勞退 6% 提繳與自提作業", "en": "Employer 6% pension contributions and voluntary contributions" },
+            { "zh": "二代健保補充保費計算與申報", "en": "Supplementary health premium calculation and filing" }
+          ]
+        },
+        {
+          "icon": "chart",
+          "title": { "zh": "申報與報表", "en": "Filings & reporting" },
+          "bullets": [
+            { "zh": "各類所得扣繳與年度扣繳憑單", "en": "Withholding on payments and annual withholding statements" },
+            { "zh": "薪資成本分析與部門別報表", "en": "Payroll cost analysis and reporting by department" },
+            { "zh": "年終獎金與特休未休折算", "en": "Year-end bonuses and payment in lieu of unused annual leave" },
+            { "zh": "勞檢所需資料的整理與備查", "en": "Preparing records for labour inspections" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "soft": true,
+      "eyebrow": { "zh": "為什麼值得外包", "en": "Why hand it over" },
+      "title": { "zh": "省的不只是時間，是罰款風險", "en": "What you save is not only time — it is exposure" },
+      "body": { "zh": "台灣的薪資與勞健保實務有大量細節：投保級距的調整時點、加班費的計算基礎、特休未休的折算方式、二代健保的扣費門檻。這些規則會變，而漏一項的代價可能是補繳加罰鍰，還要面對員工的信任損失。<br><br>對沒有專職 HR 的公司來說，這些工作通常落在會計或行政人員身上，變成一個沒有人真正有把握、又不能出錯的角落。把它交出去，是最容易評估投資報酬的一種外包。", "en": "Payroll and statutory administration in Taiwan is full of detail: when insurance brackets must be adjusted, what counts as the base for overtime, how unused annual leave is converted, the threshold for supplementary health premiums. The rules change, and missing one can mean back-payments, fines and a loss of trust with staff.<br><br>In companies without dedicated HR this work usually lands on someone in accounting or admin — a corner of the business nobody is confident about and nobody is allowed to get wrong. Handing it over is one of the easiest outsourcing decisions to justify." },
+      "panel": {
+        "title": { "zh": "適合的情況", "en": "When this fits" },
+        "items": [
+          { "zh": "公司規模在成長，但還沒有專職 HR", "en": "You are growing but do not yet have dedicated HR" },
+          { "zh": "薪資作業目前由會計或老闆本人處理", "en": "Payroll currently sits with accounting — or with you" },
+          { "zh": "有輪班、加班或多種薪資結構要處理", "en": "You run shifts, overtime or several different pay structures" },
+          { "zh": "曾經被員工質疑薪資計算或被要求補算", "en": "Staff have queried their pay, or you have had to recalculate" },
+          { "zh": "外商在台設立分支，需要熟悉當地法規的作業窗口", "en": "You are a foreign company setting up in Taiwan and need local compliance handled" }
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "eyebrow": { "zh": "常見問題", "en": "FAQ" },
+      "title": { "zh": "關於薪資外包", "en": "About payroll outsourcing" },
+      "items": [
+        { "q": { "zh": "薪資資料的保密怎麼處理？", "en": "How is payroll data protected?" }, "a": { "zh": "薪資資料屬高敏感個資，依新加坡總部的資料治理規範作業：存取權限受限、傳輸加密、保存期限明確，並於合約中約定保密義務與違反時的責任。", "en": "Payroll data is highly sensitive and handled under our Singapore parent's data governance rules: restricted access, encrypted transfer, defined retention periods, with confidentiality obligations and consequences written into the contract." } },
+        { "q": { "zh": "交接要多久？", "en": "How long does handover take?" }, "a": { "zh": "取決於現有資料的完整度。一般而言，資料備齊後可於次月薪資週期正式上線。第一個月我們會與你的現有作業並行核對，確認金額無誤再完全接手。", "en": "It depends on how complete your current records are. Typically we go live in the following payroll cycle once data is in hand — running the first month in parallel with your existing process and reconciling before taking over fully." } },
+        { "q": { "zh": "怎麼計價？", "en": "How is it priced?" }, "a": { "zh": "依人數與作業範圍計算月費。人數少、結構單純的公司費用相對低；有輪班、多班別或複雜獎金制度的會另計。報價會逐項列出。", "en": "A monthly fee based on headcount and scope. Small companies with simple structures cost less; shift patterns, multiple pay groups and complex bonus schemes are priced separately. Quotes are itemised." } }
+      ]
+    },
+    { "type": "cta", "title": { "zh": "先算一下你現在花多少時間", "en": "Start by counting the hours you spend now" }, "body": { "zh": "把人數與薪資結構告訴我們，我們給你報價，你自己比較划不划算。", "en": "Tell us your headcount and pay structure and we will quote it. You can do the comparison yourself." } }
+  ]
+}

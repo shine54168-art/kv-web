@@ -1,0 +1,43 @@
+{
+  "slug": "candidates",
+  "title": { "zh": "給求職者｜半導體與科技人才職涯諮詢｜HRK365", "en": "For Candidates | Semiconductor and Technology Careers | HRK365" },
+  "desc": { "zh": "HRK365 受企業委託尋才。了解我們怎麼對待人選：顧問親自面談、資料受管、不未經同意轉出履歷，以及如何與我們保持聯繫。", "en": "HRK365 is engaged by employers to fill specific roles. How we work with candidates: consultant-led interviews, governed data, no CV sent anywhere without consent." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [{ "label": { "zh": "求職者", "en": "Candidates" } }],
+      "eyebrow": { "zh": "給求職者", "en": "For candidates" },
+      "title": { "zh": "我們不會把你的履歷亂丟", "en": "Your CV does not go anywhere without you" },
+      "sub": { "zh": "先說清楚：HRK365 是受企業委託尋才，能提供的機會取決於當期的委任職缺。我們不做履歷轉手，也不會在未經你同意的情況下把資料送出去。", "en": "To be clear: HRK365 is engaged by employers to fill specific roles, so the opportunities we can offer depend on our current assignments. We do not forward CVs, and nothing is sent anywhere without your agreement." }
+    },
+    {
+      "type": "cards",
+      "soft": true,
+      "cols": 2,
+      "title": { "zh": "與我們合作，你可以期待什麼", "en": "What you can expect from us" },
+      "items": [
+        { "icon": "shield", "title": { "zh": "資料受管，去向透明", "en": "Your data is governed, and you know where it goes" }, "body": { "zh": "每一次要把你的資料送給哪一家公司、什麼職缺，我們都會先問過你。依新加坡總部規範，個資的蒐集目的、使用範圍與保存期限都有明文規則，你也隨時可以要求我們刪除。", "en": "We ask you before your details go to any company, for any role. Under our Singapore parent's rules, the purpose, scope and retention period for your data are defined — and you can ask us to delete it at any time." } },
+        { "icon": "handshake", "title": { "zh": "顧問親自跟你談", "en": "You talk to a consultant, not a database" }, "body": { "zh": "我們的顧問來自台灣一線同業，懂你的技術背景。談的是你的職涯方向與這個機會合不合，而不是照著職缺條件念一遍。", "en": "Our consultants came from Taiwan's leading search firms and understand your technical background. The conversation is about whether the move makes sense for you — not a recital of the job requirements." } },
+        { "icon": "doc", "title": { "zh": "職缺資訊講實話", "en": "Straight information about the role" }, "body": { "zh": "輪班型態、加班強度、團隊狀況與這個職位為什麼開，我們知道多少講多少。到職後才發現落差，對你我都不是好結果。", "en": "Shift patterns, overtime intensity, the state of the team and why the role is open — we tell you what we know. A surprise after you start serves neither of us." } },
+        { "icon": "compass", "title": { "zh": "不合適就直說", "en": "We will tell you when it is not a fit" }, "body": { "zh": "如果你的條件與職缺有明顯落差，我們會直接說明原因，而不是讓你去面試碰運氣、浪費你的假。", "en": "If there is a real gap between your profile and the role, we say so and explain why — rather than sending you to an interview and spending your leave on a long shot." } }
+      ]
+    },
+    {
+      "type": "split",
+      "eyebrow": { "zh": "實話", "en": "Straight talk" },
+      "title": { "zh": "我們能幫你什麼，不能幫你什麼", "en": "What we can and cannot do for you" },
+      "body": { "zh": "獵頭不是求職代辦。我們的委任來自企業，所以能提供的機會就是那些職缺——如果當期沒有適合你的委任案，再好的履歷我們也變不出工作。<br><br>但這不代表聯絡我們沒有意義。我們會把你的資料留在人才庫，有適合的職缺時主動聯繫；同時，你也可以從我們這裡得到一個誠實的市場判斷：你目前的條件在市場上值多少、哪些技能組合最搶手、下一步該往哪個方向補強。這一段不收費。", "en": "A search firm is not a job-application service. Our assignments come from employers, so the opportunities we have are those roles — and if nothing current fits you, no CV, however strong, changes that.<br><br>That does not make it pointless to talk to us. We keep your details on file and get in touch when something fits. And you can get an honest market read from us in the meantime: what your profile is worth right now, which skill combinations are in demand, and where to strengthen next. That conversation is free." },
+      "panel": {
+        "title": { "zh": "怎麼與我們聯繫", "en": "How to reach us" },
+        "items": [
+          { "zh": "透過聯絡表單留下基本資料與專長領域", "en": "Use the contact form with your background and specialisation" },
+          { "zh": "直接寄履歷到我們的電子信箱", "en": "Email your CV to us directly" },
+          { "zh": "註明你目前的產業、職能與希望的方向", "en": "Tell us your current sector, function and where you want to go" },
+          { "zh": "有適合職缺時，負責該職缺的顧問會與你聯繫", "en": "The consultant handling a matching role will contact you" }
+        ]
+      },
+      "ctas": [{ "label": { "zh": "留下你的資料", "en": "Send us your details" }, "href": "/contact/", "style": "btn--dark" }]
+    },
+    { "type": "cta", "title": { "zh": "現在沒有要換工作也可以聊", "en": "You do not have to be looking to talk to us" }, "body": { "zh": "半導體與科技業的機會來得快。先認識一個懂你領域的顧問，等到真的要動的時候，你手上會多一條路。", "en": "Opportunities in semiconductor and technology move fast. Knowing a consultant who understands your field means one more option on the day you decide to move." } }
+  ]
+}

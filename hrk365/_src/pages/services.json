@@ -1,0 +1,159 @@
+{
+  "slug": "services",
+  "title": { "zh": "招募與人力服務｜HRK365", "en": "Recruitment & Workforce Services | HRK365" },
+  "desc": { "zh": "正職人才推薦、人力派遣與約聘、大量招募 RPO、薪資外包與勞健保實務。四種進人方式的差異、適用情境與計費方式一次看懂。", "en": "Permanent placement, contract staffing, volume hiring and RPO, payroll and statutory outsourcing — how the four models differ, when to use each, and how they are priced." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [{ "label": { "zh": "招募服務", "en": "Recruitment" } }],
+      "eyebrow": { "zh": "招募與人力服務", "en": "Recruitment & workforce services" },
+      "title": { "zh": "四種進人方式，先選對再開始", "en": "Four hiring models — pick the right one first" },
+      "sub": { "zh": "同樣是缺人，用獵才、派遣、RPO 或外包，成本結構、雇主責任與上線速度完全不同。這一頁先幫你分清楚。", "en": "A vacancy can be filled by search, by dispatch, by RPO or by outsourcing — and the cost structure, employer liability and speed are nothing alike. This page sorts them out." },
+      "ctas": [{ "label": { "zh": "直接跟顧問討論", "en": "Talk it through with a consultant" }, "href": "/contact/" }]
+    },
+    {
+      "type": "cards",
+      "cols": 2,
+      "title": { "zh": "服務項目", "en": "What we do" },
+      "center": false,
+      "items": [
+        {
+          "icon": "search",
+          "title": { "zh": "正職人才推薦（獵才）", "en": "Permanent Placement" },
+          "body": { "zh": "適合關鍵職、主管職與市場上難找的專業職。以成功媒合計費，附保固期。", "en": "For key roles, leadership hires and scarce specialists. Success-based fee with a replacement guarantee." },
+          "bullets": [
+            { "zh": "主動接觸被動人選，不只等投遞", "en": "Direct approach to passive candidates, not just inbound applications" },
+            { "zh": "顧問親訪，附風險評估", "en": "Consultant-led interviews with a written risk assessment" },
+            { "zh": "offer 協商與反挽留處理", "en": "Offer negotiation and counter-offer management" }
+          ],
+          "link": { "label": { "zh": "詳細了解", "en": "Learn more" }, "href": "/services/permanent/" }
+        },
+        {
+          "icon": "clock",
+          "title": { "zh": "人力派遣／約聘", "en": "Contract & Temporary Staffing" },
+          "body": { "zh": "適合專案期、旺季、育嬰代理與人力凍結期。雇主責任與薪資作業由我們承擔。", "en": "For projects, peak seasons, parental cover and headcount freezes. Employer duties and payroll sit with us." },
+          "bullets": [
+            { "zh": "我方為雇主，負責投保與薪資", "en": "We are the employer of record for insurance and payroll" },
+            { "zh": "人力可依專案期間彈性增減", "en": "Headcount flexes with the project" },
+            { "zh": "轉正機制可事先約定", "en": "Conversion to permanent can be agreed up front" }
+          ],
+          "link": { "label": { "zh": "詳細了解", "en": "Learn more" }, "href": "/services/contract/" }
+        },
+        {
+          "icon": "users",
+          "title": { "zh": "大量招募／RPO", "en": "Volume Hiring & RPO" },
+          "body": { "zh": "適合新廠開線、據點擴張與季節性進人，或整段招募流程外包。", "en": "For new lines, new sites, seasonal intakes — or handing over the hiring process end to end." },
+          "bullets": [
+            { "zh": "單案專案制或長期內嵌團隊", "en": "Project-based or an embedded long-term team" },
+            { "zh": "集體面談與到職作業一併處理", "en": "Group assessment days and onboarding handled together" },
+            { "zh": "每週回報進度與到缺率", "en": "Weekly reporting on progress and fill rate" }
+          ],
+          "link": { "label": { "zh": "詳細了解", "en": "Learn more" }, "href": "/services/rpo/" }
+        },
+        {
+          "icon": "doc",
+          "title": { "zh": "薪資外包／勞健保實務", "en": "Payroll & Statutory Outsourcing" },
+          "body": { "zh": "適合沒有專職 HR、或想把重複性行政與法遵風險移出去的公司。", "en": "For companies without dedicated HR, or those moving repetitive admin and compliance risk off their plate." },
+          "bullets": [
+            { "zh": "薪資計算、加班費與請假扣減", "en": "Payroll runs, overtime and leave deductions" },
+            { "zh": "勞健保、勞退與二代健保申報", "en": "Labour and health insurance, pension and supplementary premium filings" },
+            { "zh": "薪資單發送與年度扣繳憑單", "en": "Payslip delivery and annual withholding statements" }
+          ],
+          "link": { "label": { "zh": "詳細了解", "en": "Learn more" }, "href": "/services/payroll/" }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "soft": true,
+      "eyebrow": { "zh": "怎麼選", "en": "Choosing" },
+      "title": { "zh": "四種服務怎麼比", "en": "How the four compare" },
+      "body": { "zh": "拿不定主意時，從「雇主責任要放在誰身上」開始想，通常最快。", "en": "When in doubt, start from where you want employer liability to sit. That question usually settles it." },
+      "columns": [
+        { "zh": "比較項目", "en": "" },
+        { "zh": "正職獵才", "en": "Permanent" },
+        { "zh": "派遣／約聘", "en": "Contract" },
+        { "zh": "大量招募／RPO", "en": "Volume / RPO" },
+        { "zh": "薪資外包", "en": "Payroll" }
+      ],
+      "rows": [
+        [
+          { "zh": "適用情境", "en": "Best for" },
+          { "zh": "關鍵職、主管職、稀缺專業職", "en": "Key, leadership and scarce specialist roles" },
+          { "zh": "專案期、旺季、代理職缺", "en": "Projects, peaks, cover roles" },
+          { "zh": "同時開出大量同質職缺", "en": "Many similar roles at once" },
+          { "zh": "已有人，但行政與法遵吃不消", "en": "You have the people; the admin is the problem" }
+        ],
+        [
+          { "zh": "雇主是誰", "en": "Who employs" },
+          { "zh": "你（人選直接受僱於貴公司）", "en": "You — the hire joins your payroll" },
+          { "zh": "我方（派遣事業單位）", "en": "Us, as the dispatching employer" },
+          { "zh": "你", "en": "You" },
+          { "zh": "你（我方僅代辦作業）", "en": "You — we administer only" }
+        ],
+        [
+          { "zh": "計費方式", "en": "Pricing" },
+          { "zh": "成功媒合，依人選薪資比例", "en": "Success fee, a share of the hire's salary" },
+          { "zh": "月費／人頭計價", "en": "Monthly or per head" },
+          { "zh": "專案報價或月費制", "en": "Project fee or monthly retainer" },
+          { "zh": "依人數與作業範圍月費", "en": "Monthly, by headcount and scope" }
+        ],
+        [
+          { "zh": "上線速度", "en": "Speed" },
+          { "zh": "數週至數月，視職缺稀缺度", "en": "Weeks to months, depending on scarcity" },
+          { "zh": "最快，可短期補位", "en": "Fastest — short-term cover" },
+          { "zh": "依批次規劃，可並行推進", "en": "Batched and run in parallel" },
+          { "zh": "交接後次月即可上線", "en": "Live from the month after handover" }
+        ],
+        [
+          { "zh": "保固／彈性", "en": "Guarantee / flexibility" },
+          { "zh": "保固期內免費遞補", "en": "Free replacement within the guarantee" },
+          { "zh": "人力可隨專案增減", "en": "Headcount flexes with demand" },
+          { "zh": "未達到缺率依約調整", "en": "Adjusted by contract if fill targets are missed" },
+          { "zh": "服務範圍可分階段擴增", "en": "Scope can expand in stages" }
+        ]
+      ]
+    },
+    {
+      "type": "split",
+      "reverse": true,
+      "eyebrow": { "zh": "加值", "en": "The difference" },
+      "title": { "zh": "每一種服務背後，都接著顧問視角", "en": "Every service comes with the consulting view attached" },
+      "body": { "zh": "我們在執行招募時看到的東西——薪資帶寬偏離市場、面試流程過長導致人選流失、職級混亂讓 offer 難談——都會回饋給你，而不是默默吞下去交差。這也是為什麼很多客戶最後把顧問案也交給我們。", "en": "Whatever we see while running your search — pay bands drifting from market, an interview process so long candidates drop out, grading so unclear that offers are hard to defend — we report back rather than quietly working around it. It is why many clients end up handing us the consulting work too." },
+      "ctas": [{ "label": { "zh": "了解 HR 顧問服務", "en": "Explore HR consulting" }, "href": "/consulting/", "style": "btn--dark" }],
+      "panel": {
+        "dark": false,
+        "title": { "zh": "常見的回饋", "en": "What we typically report back" },
+        "items": [
+          { "zh": "「這個職級的薪資帶寬比市場低 15%，所以只收得到轉職動機不強的人選。」", "en": "\"This band sits roughly 15% below market, so you are only attracting candidates without strong motivation to move.\"" },
+          { "zh": "「三關面試拉了六週，前兩位人選都在第五週接了別家。」", "en": "\"Three interview rounds took six weeks; the first two candidates accepted elsewhere in week five.\"" },
+          { "zh": "「同樣的工作內容在你們公司有三個不同職稱，人選看不懂升遷路徑。」", "en": "\"The same work carries three different titles here, so candidates cannot see a career path.\"" }
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "eyebrow": { "zh": "常見問題", "en": "FAQ" },
+      "title": { "zh": "關於服務與收費", "en": "Services and fees" },
+      "items": [
+        {
+          "q": { "zh": "可以只用一種服務嗎？", "en": "Can I use just one service?" },
+          "a": { "zh": "可以。多數客戶從單一職缺的獵才開始，之後才視需要擴大到派遣或薪資外包。我們不做綁約式的整包銷售。", "en": "Yes. Most clients start with a single search and expand into contract staffing or payroll only if it makes sense later. We do not bundle services into a lock-in contract." }
+        },
+        {
+          "q": { "zh": "派遣人員可以轉為正職嗎？", "en": "Can a contract worker convert to permanent?" },
+          "a": { "zh": "可以，轉正條件與費用建議在合約中先約定，避免日後爭議。實務上不少客戶會用派遣期間作為長期任用前的實際觀察。", "en": "Yes. Agree the conversion terms and any fee in the contract up front to avoid disputes. In practice many clients use the contract period as a real-world assessment before committing." }
+        },
+        {
+          "q": { "zh": "跨境職缺也是同一套流程嗎？", "en": "Do cross-border roles follow the same process?" },
+          "a": { "zh": "流程相同，但當地的雇用形式、薪資結構與法規差異會在提案階段先說明。台灣的做法不能直接套到越南或馬來西亞的據點。", "en": "The process is the same, but local employment models, pay structures and regulations are set out at proposal stage. What works in Taiwan does not transfer unchanged to a site in Vietnam or Malaysia." }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": { "zh": "不確定該用哪一種？", "en": "Not sure which model fits?" },
+      "body": { "zh": "把情境講給我們聽，我們會建議最合適的做法——包括建議你先不要外包的情況。", "en": "Describe the situation and we will recommend the right model — including the cases where you should not outsource at all." }
+    }
+  ]
+}

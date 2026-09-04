@@ -1,0 +1,106 @@
+{
+  "slug": "industries/technology",
+  "title": { "zh": "科技／IT 軟體人才招募｜韌體、後端、資料與資安｜HRK365", "en": "Technology & IT Recruitment in Taiwan | Firmware, Backend, Data & Security | HRK365" },
+  "desc": { "zh": "HRK365 科技與 IT 軟體獵才：韌體、嵌入式、後端、前端、資料、雲端與資安工程師，以及產品經理與技術主管職。", "en": "HRK365's technology practice covers firmware, embedded, backend, frontend, data, cloud and security engineers, plus product managers and engineering leadership." },
+  "blocks": [
+    {
+      "type": "pagehero",
+      "crumbs": [
+        { "label": { "zh": "專注產業", "en": "Industries" }, "href": "/industries/" },
+        { "label": { "zh": "科技／IT 軟體", "en": "Technology & IT" } }
+      ],
+      "eyebrow": { "zh": "專注產業", "en": "Industry" },
+      "title": { "zh": "科技與 IT 軟體人才", "en": "Technology and IT talent" },
+      "sub": { "zh": "從半導體公司的韌體團隊、系統廠的軟體部門，到純軟體與 SaaS 公司。工程師市場的行情變動快，我們每一季都在重新校正。", "en": "From firmware teams inside semiconductor companies to software groups in system makers and pure software or SaaS firms. Engineering pay moves fast in this market, and we recalibrate every quarter." },
+      "ctas": [{ "label": { "zh": "討論技術職缺", "en": "Discuss your engineering roles" }, "href": "/contact/" }]
+    },
+    {
+      "type": "cards",
+      "soft": true,
+      "cols": 3,
+      "title": { "zh": "我們負責的職能", "en": "Functions we cover" },
+      "items": [
+        {
+          "icon": "chip",
+          "title": { "zh": "韌體與嵌入式", "en": "Firmware & Embedded" },
+          "bullets": [
+            { "zh": "驅動程式、BSP 與 RTOS 開發", "en": "Drivers, BSP and RTOS development" },
+            { "zh": "Linux 核心與系統軟體", "en": "Linux kernel and system software" },
+            { "zh": "硬體整合與 bring-up 工程", "en": "Hardware integration and bring-up" },
+            { "zh": "車用、工控與消費電子應用", "en": "Automotive, industrial and consumer applications" }
+          ]
+        },
+        {
+          "icon": "layers",
+          "title": { "zh": "後端與雲端", "en": "Backend & Cloud" },
+          "bullets": [
+            { "zh": "Java、Go、Python 與 Node.js 後端", "en": "Java, Go, Python and Node.js backend" },
+            { "zh": "微服務架構與 API 設計", "en": "Microservice architecture and API design" },
+            { "zh": "DevOps、SRE 與雲端基礎架構", "en": "DevOps, SRE and cloud infrastructure" },
+            { "zh": "資料庫與系統效能調校", "en": "Databases and performance tuning" }
+          ]
+        },
+        {
+          "icon": "chart",
+          "title": { "zh": "資料與 AI", "en": "Data & AI" },
+          "bullets": [
+            { "zh": "資料工程與資料平台建置", "en": "Data engineering and platform build-out" },
+            { "zh": "機器學習與模型部署", "en": "Machine learning and model deployment" },
+            { "zh": "製造現場的資料分析與 AOI 應用", "en": "Shop-floor analytics and AOI applications" },
+            { "zh": "BI 與商業分析", "en": "BI and business analysis" }
+          ]
+        },
+        {
+          "icon": "shield",
+          "title": { "zh": "資安", "en": "Security" },
+          "bullets": [
+            { "zh": "資安架構與滲透測試", "en": "Security architecture and penetration testing" },
+            { "zh": "SOC 監控與事件應變", "en": "SOC monitoring and incident response" },
+            { "zh": "產品安全與韌體安全", "en": "Product and firmware security" },
+            { "zh": "資安治理、稽核與合規", "en": "Security governance, audit and compliance" }
+          ]
+        },
+        {
+          "icon": "compass",
+          "title": { "zh": "產品與專案", "en": "Product & Programme" },
+          "bullets": [
+            { "zh": "產品經理與產品負責人", "en": "Product managers and product owners" },
+            { "zh": "技術專案經理與 PMO", "en": "Technical programme managers and PMO" },
+            { "zh": "UX 設計與研究", "en": "UX design and research" },
+            { "zh": "解決方案架構與售前技術", "en": "Solution architecture and pre-sales engineering" }
+          ]
+        },
+        {
+          "icon": "users",
+          "title": { "zh": "技術管理職", "en": "Engineering Leadership" },
+          "bullets": [
+            { "zh": "技術主管、工程經理與研發處長", "en": "Team leads, engineering managers and R&D directors" },
+            { "zh": "架構師與技術長（CTO）", "en": "Architects and CTOs" },
+            { "zh": "新團隊從零建立的建制型職缺", "en": "Roles that stand up a new team from zero" },
+            { "zh": "跨國團隊的技術管理職", "en": "Engineering leadership across multi-site teams" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "eyebrow": { "zh": "市場現實", "en": "Market reality" },
+      "title": { "zh": "工程師不缺工作，缺的是理由", "en": "Engineers are not short of jobs — they are short of reasons" },
+      "body": { "zh": "在台灣，有能力的資深工程師手上通常同時有兩到三個機會。決定他要不要動的，很少是薪水多五千，而是技術題目夠不夠有意思、主管會不會帶人、團隊的技術債有多深。<br><br>所以我們在推薦職缺時，會要求你講清楚這個團隊實際在做什麼、技術決策由誰主導、上線節奏與 on-call 負擔。這些問題人選一定會問，含糊帶過只會讓面試白跑一趟。", "en": "A capable senior engineer in Taiwan usually has two or three live options. What decides a move is rarely a few thousand more per month — it is whether the technical problem is interesting, whether the manager can actually lead, and how deep the team's technical debt runs.<br><br>So when we present your role we will ask you to be specific: what the team really builds, who makes the technical calls, the release cadence and the on-call load. Candidates will ask all of it, and vagueness just wastes an interview slot." },
+      "panel": {
+        "title": { "zh": "我們會替你準備的", "en": "What we prepare for you" },
+        "items": [
+          { "zh": "同職級的市場薪資區間與近期成交行情", "en": "Market salary ranges for the level, and what offers have actually closed recently" },
+          { "zh": "競爭對手正在開的相似職缺與其條件", "en": "Comparable roles your competitors have open, and what they are offering" },
+          { "zh": "人選對這個職缺提出的疑慮（含婉拒原因）", "en": "The concerns candidates raise about your role, including why some decline" },
+          { "zh": "面試流程過長導致流失的具體案例回饋", "en": "Concrete feedback where a long interview process cost you a candidate" }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "title": { "zh": "技術職缺卡住了？", "en": "Stuck on an engineering role?" },
+      "body": { "zh": "把職缺與目前的困難講給我們聽，我們會先告訴你市場行情，再決定要不要合作。", "en": "Describe the role and where it is stuck. We will give you the market read first, and you can decide about working together afterwards." }
+    }
+  ]
+}

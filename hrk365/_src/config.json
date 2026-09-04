@@ -1,0 +1,268 @@
+{
+  "brand": {
+    "name": "HRK365",
+    "domain": "hrk365.com",
+    "base_url": "https://hrk365.com",
+    "tagline": {
+      "zh": "新加坡標準，台灣戰場",
+      "en": "Singapore standards. Taiwan focus."
+    },
+    "legal_name": {
+      "zh": "「台灣公司登記全名待補」",
+      "en": "\"Taiwan registered entity name TBC\""
+    },
+    "licence": {
+      "zh": "私立就業服務機構許可證號：待補",
+      "en": "Employment Agency Licence No.: TBC"
+    },
+    "parent": {
+      "zh": "新加坡總部名稱待補",
+      "en": "Singapore HQ entity name TBC"
+    }
+  },
+  "contact": {
+    "email": "hello@hrk365.com",
+    "phone_display": "+886 2 0000 0000",
+    "phone_href": "+88620000000",
+    "line_id": "@hrk365",
+    "address": {
+      "zh": "台北市（完整地址待補）",
+      "en": "Taipei, Taiwan (full address TBC)"
+    },
+    "hours": {
+      "zh": "週一至週五 09:00–18:00",
+      "en": "Mon–Fri, 9am–6pm (GMT+8)"
+    },
+    "form_endpoint": "https://formspree.io/f/REPLACE_ME"
+  },
+  "nav": [
+    {
+      "label": {
+        "zh": "關於我們",
+        "en": "About"
+      },
+      "href": "/about/"
+    },
+    {
+      "label": {
+        "zh": "招募服務",
+        "en": "Recruitment"
+      },
+      "href": "/services/",
+      "children": [
+        {
+          "label": {
+            "zh": "正職人才推薦（獵才）",
+            "en": "Permanent Placement"
+          },
+          "href": "/services/permanent/"
+        },
+        {
+          "label": {
+            "zh": "人力派遣／約聘",
+            "en": "Contract & Temporary Staffing"
+          },
+          "href": "/services/contract/"
+        },
+        {
+          "label": {
+            "zh": "大量招募／RPO",
+            "en": "Volume Hiring & RPO"
+          },
+          "href": "/services/rpo/"
+        },
+        {
+          "label": {
+            "zh": "薪資外包／勞健保實務",
+            "en": "Payroll & Statutory Outsourcing"
+          },
+          "href": "/services/payroll/"
+        }
+      ]
+    },
+    {
+      "label": {
+        "zh": "HR 顧問",
+        "en": "HR Consulting"
+      },
+      "href": "/consulting/"
+    },
+    {
+      "label": {
+        "zh": "專注產業",
+        "en": "Industries"
+      },
+      "href": "/industries/",
+      "children": [
+        {
+          "label": {
+            "zh": "半導體",
+            "en": "Semiconductor"
+          },
+          "href": "/industries/semiconductor/"
+        },
+        {
+          "label": {
+            "zh": "科技／IT 軟體",
+            "en": "Technology & IT"
+          },
+          "href": "/industries/technology/"
+        },
+        {
+          "label": {
+            "zh": "製造／電子零組件",
+            "en": "Manufacturing & Electronics"
+          },
+          "href": "/industries/manufacturing/"
+        },
+        {
+          "label": {
+            "zh": "金融／專業服務",
+            "en": "Financial & Professional Services"
+          },
+          "href": "/industries/finance/"
+        }
+      ]
+    },
+    {
+      "label": {
+        "zh": "求職者",
+        "en": "Candidates"
+      },
+      "href": "/candidates/"
+    },
+    {
+      "label": {
+        "zh": "洞察",
+        "en": "Insights"
+      },
+      "href": "/insights/"
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "title": {
+          "zh": "招募服務",
+          "en": "Recruitment"
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "正職人才推薦",
+              "en": "Permanent Placement"
+            },
+            "href": "/services/permanent/"
+          },
+          {
+            "label": {
+              "zh": "人力派遣／約聘",
+              "en": "Contract Staffing"
+            },
+            "href": "/services/contract/"
+          },
+          {
+            "label": {
+              "zh": "大量招募／RPO",
+              "en": "Volume Hiring & RPO"
+            },
+            "href": "/services/rpo/"
+          },
+          {
+            "label": {
+              "zh": "薪資外包／勞健保",
+              "en": "Payroll Outsourcing"
+            },
+            "href": "/services/payroll/"
+          }
+        ]
+      },
+      {
+        "title": {
+          "zh": "專注產業",
+          "en": "Industries"
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "半導體",
+              "en": "Semiconductor"
+            },
+            "href": "/industries/semiconductor/"
+          },
+          {
+            "label": {
+              "zh": "科技／IT 軟體",
+              "en": "Technology & IT"
+            },
+            "href": "/industries/technology/"
+          },
+          {
+            "label": {
+              "zh": "製造／電子零組件",
+              "en": "Manufacturing & Electronics"
+            },
+            "href": "/industries/manufacturing/"
+          },
+          {
+            "label": {
+              "zh": "金融／專業服務",
+              "en": "Financial & Professional Services"
+            },
+            "href": "/industries/finance/"
+          }
+        ]
+      },
+      {
+        "title": {
+          "zh": "公司",
+          "en": "Company"
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "關於我們",
+              "en": "About us"
+            },
+            "href": "/about/"
+          },
+          {
+            "label": {
+              "zh": "HR 顧問",
+              "en": "HR Consulting"
+            },
+            "href": "/consulting/"
+          },
+          {
+            "label": {
+              "zh": "求職者",
+              "en": "For Candidates"
+            },
+            "href": "/candidates/"
+          },
+          {
+            "label": {
+              "zh": "聯絡我們",
+              "en": "Contact"
+            },
+            "href": "/contact/"
+          }
+        ]
+      }
+    ]
+  },
+  "markets": {
+    "zh": [
+      "台灣（主要市場）",
+      "新加坡（總部）",
+      "馬來西亞",
+      "越南"
+    ],
+    "en": [
+      "Taiwan (primary market)",
+      "Singapore (HQ)",
+      "Malaysia",
+      "Vietnam"
+    ]
+  }
+}
